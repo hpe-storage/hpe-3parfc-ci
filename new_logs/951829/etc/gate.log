@@ -1,21 +1,21 @@
-12:13:43 RT program started
+15:24:41 RT program started
 SHELL=/bin/sh
 PWD=/home/ubuntu
 LOGNAME=ubuntu
 XDG_SESSION_TYPE=tty
 HOME=/home/ubuntu
 LANG=C.UTF-8
-SSH_CONNECTION=10.132.44.229 44964 10.132.44.209 22
+SSH_CONNECTION=10.132.44.229 50704 10.132.44.209 22
 XDG_SESSION_CLASS=user
 USER=ubuntu
 SHLVL=1
-XDG_SESSION_ID=2
+XDG_SESSION_ID=8
 XDG_RUNTIME_DIR=/run/user/1000
-SSH_CLIENT=10.132.44.229 44964 22
+SSH_CLIENT=10.132.44.229 50704 22
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 _=/usr/bin/env
-12:13:43 RT We are inside agent gate
+15:24:41 RT We are inside agent gate
 Reading package lists...
 Building dependency tree...
 Reading state information...
@@ -25,7 +25,7 @@ The following NEW packages will be installed:
 Need to get 204 kB of archives.
 After this operation, 811 kB of additional disk space will be used.
 Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 net-tools amd64 2.10-0.1ubuntu4.4 [204 kB]
-Fetched 204 kB in 2s (104 kB/s)
+Fetched 204 kB in 1s (155 kB/s)
 Selecting previously unselected package net-tools.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 52666 files and directories currently installed.)
 Preparing to unpack .../net-tools_2.10-0.1ubuntu4.4_amd64.deb ...
@@ -34,39 +34,39 @@ Setting up net-tools (2.10-0.1ubuntu4.4) ...
 Processing triggers for man-db (2.12.0-4build2) ...
 Disabling Ubuntu mode, explicit restart mode configured To check what array_ip_var_name is printing
 SSA02_IP
-12:13:54 RT Below Functions are created to manage CPG
-12:13:54 RT Calling various functions. Line 288
-12:13:54 RT Inside install_packages
+15:24:52 RT Below Functions are created to manage CPG
+15:24:52 RT Calling various functions. Line 288
+15:24:52 RT Inside install_packages
 Hit:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble InRelease
 Get:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
 Get:3 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
-Get:4 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
-Get:5 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1805 kB]
+Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1805 kB]
+Get:5 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
 Get:6 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [178 kB]
-Get:7 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1504 kB]
-Get:8 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 c-n-f Metadata [16.7 kB]
-Get:9 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [21.5 kB]
-Get:10 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1564 kB]
-Get:11 http://security.ubuntu.com/ubuntu noble-security/main amd64 c-n-f Metadata [10.1 kB]
-Get:12 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [975 kB]
-Get:13 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [386 kB]
-Get:14 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [74.3 kB]
-Get:15 http://security.ubuntu.com/ubuntu noble-security/universe amd64 c-n-f Metadata [20.6 kB]
-Get:16 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [2599 kB]
-Get:17 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 c-n-f Metadata [32.9 kB]
-Get:18 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [212 B]
-Get:19 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 c-n-f Metadata [536 B]
-Get:20 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Packages [28.8 kB]
-Get:21 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [2747 kB]
-Get:22 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [212 B]
-Get:23 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 c-n-f Metadata [396 B]
-Get:24 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
-Get:25 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
-Get:26 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [7300 B]
-Get:27 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [10.5 kB]
-Get:28 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Components [216 B]
-Get:29 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Components [212 B]
-Fetched 12.4 MB in 15s (807 kB/s)
+Get:7 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 c-n-f Metadata [16.7 kB]
+Get:8 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1564 kB]
+Get:9 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [386 kB]
+Get:10 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 c-n-f Metadata [32.9 kB]
+Get:11 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [2747 kB]
+Get:12 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1504 kB]
+Get:13 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [21.5 kB]
+Get:14 http://security.ubuntu.com/ubuntu noble-security/main amd64 c-n-f Metadata [10.1 kB]
+Get:15 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
+Get:16 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+Get:17 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [7296 B]
+Get:18 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [10.5 kB]
+Get:19 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Components [216 B]
+Get:20 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Components [212 B]
+Get:21 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [975 kB]
+Get:22 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [74.3 kB]
+Get:23 http://security.ubuntu.com/ubuntu noble-security/universe amd64 c-n-f Metadata [20.6 kB]
+Get:24 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [2599 kB]
+Get:25 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [212 B]
+Get:26 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 c-n-f Metadata [536 B]
+Get:27 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Packages [28.8 kB]
+Get:28 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [212 B]
+Get:29 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 c-n-f Metadata [396 B]
+Fetched 12.4 MB in 13s (949 kB/s)
 Reading package lists...
 Building dependency tree...
 Reading state information...
@@ -85,7 +85,7 @@ Need to get 1373 kB of archives.
 After this operation, 7270 kB of additional disk space will be used.
 Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-wheel all 0.42.0-2 [53.1 kB]
 Get:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 python3-pip all 24.0+dfsg-1ubuntu1.3 [1320 kB]
-Fetched 1373 kB in 2s (865 kB/s)
+Fetched 1373 kB in 1s (1606 kB/s)
 Selecting previously unselected package python3-wheel.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 52714 files and directories currently installed.)
 Preparing to unpack .../python3-wheel_0.42.0-2_all.deb ...
@@ -115,7 +115,7 @@ Get:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libevent-2.1
 Get:3 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libunbound8 amd64 1.19.2-1ubuntu3.7 [443 kB]
 Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgnutls-dane0t64 amd64 3.8.3-1.1ubuntu3.5 [23.5 kB]
 Get:5 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 gnutls-bin amd64 3.8.3-1.1ubuntu3.5 [270 kB]
-Fetched 1882 kB in 7s (281 kB/s)
+Fetched 1882 kB in 2s (1127 kB/s)
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 53431 files and directories currently installed.)
 Preparing to unpack .../libgnutls30t64_3.8.3-1.1ubuntu3.5_amd64.deb ...
 Unpacking libgnutls30t64:amd64 (3.8.3-1.1ubuntu3.5) over (3.8.3-1.1ubuntu3.4) ...
@@ -142,7 +142,7 @@ Processing triggers for libc-bin (2.39-0ubuntu8.7) ...
 Disabling Ubuntu mode, explicit restart mode configuredCollecting python-3parclient
   Downloading python_3parclient-4.4-py2.py3-none-any.whl.metadata (6.4 kB)
 Downloading python_3parclient-4.4-py2.py3-none-any.whl (74 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 74.6/74.6 kB 2.8 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 74.6/74.6 kB 1.7 MB/s eta 0:00:00
 Installing collected packages: python-3parclient
 Successfully installed python-3parclient-4.4
 Reading package lists...
@@ -167,7 +167,7 @@ Get:5 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 
 Get:6 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-wheel-whl all 0.42.0-2 [67.8 kB]
 Get:7 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-virtualenv all 20.25.0+ds-2 [70.8 kB]
 Get:8 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 virtualenv all 20.25.0+ds-2 [1978 B]
-Fetched 2909 kB in 11s (269 kB/s)
+Fetched 2909 kB in 2s (1207 kB/s)
 Selecting previously unselected package python3-distlib.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 53470 files and directories currently installed.)
 Preparing to unpack .../0-python3-distlib_0.3.8-1_all.deb ...
@@ -211,7 +211,7 @@ The following NEW packages will be installed:
 Need to get 10.4 kB of archives.
 After this operation, 51.2 kB of additional disk space will be used.
 Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 vlan all 2.0.5ubuntu5 [10.4 kB]
-Fetched 10.4 kB in 0s (32.3 kB/s)
+Fetched 10.4 kB in 0s (53.9 kB/s)
 Selecting previously unselected package vlan.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 53690 files and directories currently installed.)
 Preparing to unpack .../vlan_2.0.5ubuntu5_all.deb ...
@@ -223,12 +223,12 @@ Building dependency tree...
 Reading state information...
 net-tools is already the newest version (2.10-0.1ubuntu4.4).
 0 upgraded, 0 newly installed, 0 to remove and 34 not upgraded.
-12:15:07 RT Inside clone_projects
-12:15:07 RT git clone master
-12:15:11 RT Inside configure_interface
-12:16:22 RT Inside run_stack
+15:25:48 RT Inside clone_projects
+15:25:48 RT git clone master
+15:25:52 RT Inside configure_interface
+15:27:03 RT Inside run_stack
 10.132.44.209
-12:16:22 RT Run stack.sh
+15:27:03 RT Run stack.sh
 #includedir /etc/sudoers.d
 Reading package lists...
 Building dependency tree...
@@ -239,21 +239,21 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++./stack.sh:main:485                       /opt/stack/devstack/tools/outfilter.py -o /tmp/devstack_logs/devstacklog.txt.2026-03-05-121628.summary.2026-03-05-121628
 tput: No value for $TERM and no -T specified
-+./stack.sh:main:493                       echo_summary 'stack.sh log /tmp/devstack_logs/devstacklog.txt.2026-03-05-121628'
++./stack.sh:main:493                       echo_summary 'stack.sh log /tmp/devstack_logs/devstacklog.txt.2026-03-05-152708'
+++./stack.sh:main:485                       /opt/stack/devstack/tools/outfilter.py -o /tmp/devstack_logs/devstacklog.txt.2026-03-05-152708.summary.2026-03-05-152708
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +./stack.sh:echo_summary:438               [[ -t 3 ]]
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+./stack.sh:echo_summary:444               echo -e stack.sh log /tmp/devstack_logs/devstacklog.txt.2026-03-05-121628
++./stack.sh:echo_summary:444               echo -e stack.sh log /tmp/devstack_logs/devstacklog.txt.2026-03-05-152708
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+./stack.sh:main:495                       ln -sf /tmp/devstack_logs/devstacklog.txt.2026-03-05-121628 /tmp/devstack_logs/devstacklog.txt
++./stack.sh:main:495                       ln -sf /tmp/devstack_logs/devstacklog.txt.2026-03-05-152708 /tmp/devstack_logs/devstacklog.txt
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+./stack.sh:main:496                       ln -sf /tmp/devstack_logs/devstacklog.txt.2026-03-05-121628.summary.2026-03-05-121628 /tmp/devstack_logs/devstacklog.txt.summary
++./stack.sh:main:496                       ln -sf /tmp/devstack_logs/devstacklog.txt.2026-03-05-152708.summary.2026-03-05-152708 /tmp/devstack_logs/devstacklog.txt.summary
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +./stack.sh:main:511                       check_path_perm_sanity /opt/stack
@@ -332,8 +332,8 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +./stack.sh:main:582                       source /opt/stack/devstack/lib/rpc_backend
-tput: tput: No value for $TERM and no -T specified
-No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -348,10 +348,10 @@ tput: No value for $TERM and no -T specified
 +++lib/host:source:12                        trueorfalse True ENABLE_KSM
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specifiedtput: No value for $TERM and no -T specified
+
+tput: tput: No value for $TERM and no -T specifiedNo value for $TERM and no -T specified
+
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -380,8 +380,8 @@ tput: No value for $TERM and no -T specified
 +++lib/host:source:34                        trueorfalse False ENABLE_ZSWAP
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specifiedtput: No value for $TERM and no -T specified
-
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -402,8 +402,8 @@ tput: No value for $TERM and no -T specified
 +++lib/host:source:53                        trueorfalse False ENABLE_SYSCTL_MEM_TUNING
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specifiedtput: No value for $TERM and no -T specified
+
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -509,7 +509,7 @@ tput: No value for $TERM and no -T specified
 ++functions-common:time_start:2403          date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_start:2403          _TIME_START[$name]=1772712989461
++functions-common:time_start:2403          _TIME_START[$name]=1772724429819
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:apt_get_update:1171      local 'proxies=http_proxy=http://proxy-in.its.hpecorp.net:80 https_proxy=http://proxy-in.its.hpecorp.net:443 no_proxy=10.201.5.87,10.201.4.29,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,localhost,127.0.0.1,10.201.4.30,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.3.86,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208 '
@@ -520,9 +520,12 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:apt_get_update:1173      timeout 300 sh -c 'while ! sudo http_proxy=http://proxy-in.its.hpecorp.net:80 https_proxy=http://proxy-in.its.hpecorp.net:443 no_proxy=10.201.5.87,10.201.4.29,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,localhost,127.0.0.1,10.201.4.30,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.3.86,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208  apt-get update; do sleep 30; done'
 Hit:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble InRelease
-Hit:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates InRelease
+Get:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
 Hit:3 http://security.ubuntu.com/ubuntu noble-security InRelease
 Hit:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports InRelease
+Get:5 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1,805 kB]
+Get:6 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1,564 kB]
+Fetched 3,495 kB in 3s (1,234 kB/s)
 Reading package lists...
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -550,19 +553,19 @@ tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2418           name=apt-get-update
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2419           start_time=1772712989461
++functions-common:time_stop:2419           start_time=1772724429819
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2421           [[ -z 1772712989461 ]]
++functions-common:time_stop:2421           [[ -z 1772724429819 ]]
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++functions-common:time_stop:2424           date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2424           end_time=1772712993934
++functions-common:time_stop:2424           end_time=1772724436540
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2425           elapsed_time=4473
++functions-common:time_stop:2425           elapsed_time=6721
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2426           total=0
@@ -571,7 +574,7 @@ tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2428           _TIME_START[$name]=
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2429           _TIME_TOTAL[$name]=4473
++functions-common:time_stop:2429           _TIME_TOTAL[$name]=6721
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:install_package:1431     real_install_package ksmtuned
@@ -611,7 +614,7 @@ The following NEW packages will be installed:
 Need to get 7,444 B of archives.
 After this operation, 44.0 kB of additional disk space will be used.
 Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 ksmtuned amd64 4.20150326 [7,444 B]
-Fetched 7,444 B in 0s (35.2 kB/s)
+Fetched 7,444 B in 0s (37.1 kB/s)
 Selecting previously unselected package ksmtuned.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 53705 files and directories currently installed.)
 Preparing to unpack .../ksmtuned_4.20150326_amd64.deb ...
@@ -655,28 +658,28 @@ tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2418           name=apt-get
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2419           start_time=1772712994098
++functions-common:time_stop:2419           start_time=1772724436685
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2421           [[ -z 1772712994098 ]]
++functions-common:time_stop:2421           [[ -z 1772724436685 ]]
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++functions-common:time_stop:2424           date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2424           end_time=1772712999169
++functions-common:time_stop:2424           end_time=1772724441916
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2425           elapsed_time=5071
++functions-common:time_stop:2425           elapsed_time=5231
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2426           total=818
++functions-common:time_stop:2426           total=811
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2428           _TIME_START[$name]=
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2429           _TIME_TOTAL[$name]=5889
++functions-common:time_stop:2429           _TIME_TOTAL[$name]=6042
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:apt_get:1207             return 0
@@ -686,9 +689,9 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++lib/host:configure_ksm:19                 bool_to_int ENABLE_KSM
-tput: No value for $TERM and no -T specified
 +lib/host:configure_ksm:19                 sudo tee /sys/kernel/mm/ksm/run
+tput: No value for $TERM and no -T specified
+++lib/host:configure_ksm:19                 bool_to_int ENABLE_KSM
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -943,8 +946,8 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +./stack.sh:main:611                       source /opt/stack/devstack/lib/keystone
-tput: tput: No value for $TERM and no -T specified
-No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -998,8 +1001,8 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +./stack.sh:main:616                       source /opt/stack/devstack/lib/swift
-tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specifiedtput: 
+No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -1042,8 +1045,8 @@ tput: No value for $TERM and no -T specified
 +++lib/neutron:source:75                     get_python_exec_prefix
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-tput: tput: No value for $TERM and no -T specifiedNo value for $TERM and no -T specified
-
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -1141,9 +1144,9 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+++functions-common:ipv6_unquote:2210        tr -d '[]'
-tput: No value for $TERM and no -T specified
 +++functions-common:ipv6_unquote:2210        echo 0.0.0.0
+tput: No value for $TERM and no -T specified
++++functions-common:ipv6_unquote:2210        tr -d '[]'
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++lib/neutron:source:122                    Q_LISTEN_ADDRESS=0.0.0.0
@@ -1403,14 +1406,14 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++++lib/neutron_plugins/services/l3:source:76  sed -e 's/\(..\)\(....\)\(....\)/\1:\2:\3/'
 tput: No value for $TERM and no -T specified
-++++lib/neutron_plugins/services/l3:source:76  uuidgen
-tput: No value for $TERM and no -T specified
 ++++lib/neutron_plugins/services/l3:source:76  cut -c 23-
 tput: No value for $TERM and no -T specified
 ++++lib/neutron_plugins/services/l3:source:76  sed s/-//g
 tput: No value for $TERM and no -T specified
+++++lib/neutron_plugins/services/l3:source:76  uuidgen
 tput: No value for $TERM and no -T specified
-+++lib/neutron_plugins/services/l3:source:76  IPV6_GLOBAL_ID=3b:a5de:99fe
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:76  IPV6_GLOBAL_ID=24:25c2:44a9
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +++lib/neutron_plugins/services/l3:source:79  IPV6_RA_MODE=slaac
@@ -1425,16 +1428,16 @@ tput: No value for $TERM and no -T specified
 +++lib/neutron_plugins/services/l3:source:82  IPV6_PRIVATE_SUBNET_NAME=ipv6-private-subnet
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+++lib/neutron_plugins/services/l3:source:83  IPV6_ADDRS_SAFE_TO_USE=fd3b:a5de:99fe::/56
++++lib/neutron_plugins/services/l3:source:83  IPV6_ADDRS_SAFE_TO_USE=fd24:25c2:44a9::/56
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
+++++lib/neutron_plugins/services/l3:source:86  echo fd24:25c2:44a9::/56
 tput: No value for $TERM and no -T specified
 ++++lib/neutron_plugins/services/l3:source:86  awk -F / '{ print $1"/"($2>63 ? $2 : 64) }'
-++++lib/neutron_plugins/services/l3:source:86  echo fd3b:a5de:99fe::/56
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+++lib/neutron_plugins/services/l3:source:86  FIXED_RANGE_V6=fd3b:a5de:99fe::/64
++++lib/neutron_plugins/services/l3:source:86  FIXED_RANGE_V6=fd24:25c2:44a9::/64
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +++lib/neutron_plugins/services/l3:source:87  IPV6_PRIVATE_NETWORK_GATEWAY=
@@ -1473,7 +1476,7 @@ tput: No value for $TERM and no -T specified
 +++lib/neutron_plugins/services/l3:source:103  SUBNETPOOL_PREFIX_V4=10.0.0.0/22
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+++lib/neutron_plugins/services/l3:source:104  SUBNETPOOL_PREFIX_V6=fd3b:a5de:99fe::/56
++++lib/neutron_plugins/services/l3:source:104  SUBNETPOOL_PREFIX_V6=fd24:25c2:44a9::/56
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +++lib/neutron_plugins/services/l3:source:106  SUBNETPOOL_SIZE_V4=26
@@ -1484,11 +1487,11 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++++lib/neutron_plugins/services/l3:source:109  grep '^default'
 tput: No value for $TERM and no -T specified
+++++lib/neutron_plugins/services/l3:source:109  grep '^default'
+++++lib/neutron_plugins/services/l3:source:109  ip -4 route
 tput: No value for $TERM and no -T specified
 ++++lib/neutron_plugins/services/l3:source:109  awk '{print $5}'
-++++lib/neutron_plugins/services/l3:source:109  ip -4 route
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +++lib/neutron_plugins/services/l3:source:109  default_v4_route_devs=ens3
@@ -1498,9 +1501,9 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++++lib/neutron_plugins/services/l3:source:111  ip -6 route list match default table all
 tput: No value for $TERM and no -T specified
+++++lib/neutron_plugins/services/l3:source:111  awk '{print $5}'
 tput: No value for $TERM and no -T specified
 ++++lib/neutron_plugins/services/l3:source:111  grep via
-++++lib/neutron_plugins/services/l3:source:111  awk '{print $5}'
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +++lib/neutron_plugins/services/l3:source:111  default_v6_route_devs=
@@ -2071,8 +2074,8 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specifiedtput: No value for $TERM and no -T specified
+
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -2091,10 +2094,10 @@ tput: No value for $TERM and no -T specified
 ++functions-common:save_stackenv:65         date +%F-%H%M%S
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:save_stackenv:65         time_stamp=2026-03-05-121644
++functions-common:save_stackenv:65         time_stamp=2026-03-05-152727
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:save_stackenv:66         echo '# 2026-03-05-121644 762'
++functions-common:save_stackenv:66         echo '# 2026-03-05-152727 762'
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:save_stackenv:67         for i in $STACK_ENV_VARS
@@ -2136,7 +2139,7 @@ tput: No value for $TERM and no -T specified
 +functions-common:save_stackenv:67         for i in $STACK_ENV_VARS
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:save_stackenv:68         echo LOGFILE=/tmp/devstack_logs/devstacklog.txt.2026-03-05-121628
++functions-common:save_stackenv:68         echo LOGFILE=/tmp/devstack_logs/devstacklog.txt.2026-03-05-152708
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:save_stackenv:67         for i in $STACK_ENV_VARS
@@ -2278,7 +2281,7 @@ tput: No value for $TERM and no -T specified
 ++functions-common:time_start:2403          date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_start:2403          _TIME_START[$name]=1772713005715
++functions-common:time_start:2403          _TIME_START[$name]=1772724448515
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:git_timed:697            timeout -s SIGINT 0 git clone --no-checkout http://github.com/openstack/requirements.git /opt/stack/requirements
@@ -2307,19 +2310,19 @@ tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2418           name=git_timed
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2419           start_time=1772713005715
++functions-common:time_stop:2419           start_time=1772724448515
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2421           [[ -z 1772713005715 ]]
++functions-common:time_stop:2421           [[ -z 1772724448515 ]]
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++functions-common:time_stop:2424           date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2424           end_time=1772713009868
++functions-common:time_stop:2424           end_time=1772724452347
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2425           elapsed_time=4153
++functions-common:time_stop:2425           elapsed_time=3832
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2426           total=0
@@ -2328,7 +2331,7 @@ tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2428           _TIME_START[$name]=
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2429           _TIME_TOTAL[$name]=4153
++functions-common:time_stop:2429           _TIME_TOTAL[$name]=3832
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:git_clone:623            cd /opt/stack/requirements
@@ -2364,7 +2367,7 @@ tput: No value for $TERM and no -T specified
 ++functions-common:time_start:2403          date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_start:2403          _TIME_START[$name]=1772713010016
++functions-common:time_start:2403          _TIME_START[$name]=1772724452543
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:git_timed:697            timeout -s SIGINT 0 git fetch origin master
@@ -2394,28 +2397,28 @@ tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2418           name=git_timed
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2419           start_time=1772713010016
++functions-common:time_stop:2419           start_time=1772724452543
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2421           [[ -z 1772713010016 ]]
++functions-common:time_stop:2421           [[ -z 1772724452543 ]]
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++functions-common:time_stop:2424           date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2424           end_time=1772713011052
++functions-common:time_stop:2424           end_time=1772724453736
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2425           elapsed_time=1036
++functions-common:time_stop:2425           elapsed_time=1193
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2426           total=4153
++functions-common:time_stop:2426           total=3832
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2428           _TIME_START[$name]=
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2429           _TIME_TOTAL[$name]=5189
++functions-common:time_stop:2429           _TIME_TOTAL[$name]=5025
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:git_clone:625            git_timed checkout FETCH_HEAD
@@ -2448,7 +2451,7 @@ tput: No value for $TERM and no -T specified
 ++functions-common:time_start:2403          date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_start:2403          _TIME_START[$name]=1772713011199
++functions-common:time_start:2403          _TIME_START[$name]=1772724453918
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:git_timed:697            timeout -s SIGINT 0 git checkout FETCH_HEAD
@@ -2493,28 +2496,28 @@ tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2418           name=git_timed
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2419           start_time=1772713011199
++functions-common:time_stop:2419           start_time=1772724453918
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2421           [[ -z 1772713011199 ]]
++functions-common:time_stop:2421           [[ -z 1772724453918 ]]
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++functions-common:time_stop:2424           date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2424           end_time=1772713011339
++functions-common:time_stop:2424           end_time=1772724454086
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2425           elapsed_time=140
++functions-common:time_stop:2425           elapsed_time=168
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2426           total=5189
++functions-common:time_stop:2426           total=5025
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2428           _TIME_START[$name]=
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2429           _TIME_TOTAL[$name]=5329
++functions-common:time_stop:2429           _TIME_TOTAL[$name]=5193
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:git_clone:661            sudo git config --system --add safe.directory /opt/stack/requirements
@@ -2524,9 +2527,9 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:git_clone:665            head -1
-tput: No value for $TERM and no -T specified
 +functions-common:git_clone:665            git show --oneline
+tput: No value for $TERM and no -T specified
++functions-common:git_clone:665            head -1
 1c86c2ef Merge "Bump XStatic-Font-Awesome to 6.2.1.2 and unpin it"
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -2566,7 +2569,7 @@ tput: No value for $TERM and no -T specified
 +++tools/install_prereqs.sh:source:47        date +%s
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++tools/install_prereqs.sh:source:47        NOW=1772713011
+++tools/install_prereqs.sh:source:47        NOW=1772724454
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +++tools/install_prereqs.sh:source:48        head -1 /opt/stack/devstack/.prereqs
@@ -2578,10 +2581,10 @@ tput: No value for $TERM and no -T specified
 ++tools/install_prereqs.sh:source:48        LAST_RUN=0
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++tools/install_prereqs.sh:source:49        DELTA=1772713011
+++tools/install_prereqs.sh:source:49        DELTA=1772724454
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++tools/install_prereqs.sh:source:50        [[ 1772713011 -lt 7200 ]]
+++tools/install_prereqs.sh:source:50        [[ 1772724454 -lt 7200 ]]
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++tools/install_prereqs.sh:source:57        export_proxy_variables
@@ -2837,9 +2840,9 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++tools/install_prereqs.sh:source:67        grep -q dkms
-tput: No value for $TERM and no -T specified
 ++tools/install_prereqs.sh:source:67        echo apache2 apache2-dev bc bsdmainutils curl g++ gawk gcc gettext git graphviz iputils-ping libffi-dev libjpeg-dev libpq-dev libssl-dev libsystemd-dev libxml2-dev libxslt1-dev libyaml-dev lsof openssh-server openssl pkg-config psmisc python3-dev python3-pip python3-systemd python3-venv tar tcpdump unzip uuid-runtime wget zlib1g-dev libkrb5-dev libldap2-dev libsasl2-dev memcached python3-mysqldb sqlite3 conntrack curl ebtables genisoimage iptables iputils-arping kpartx libjs-jquery-tablesorter parted pm-utils python3-mysqldb socat sqlite3 sudo vlan lsscsi open-iscsi cryptsetup dosfstools genisoimage gir1.2-libosinfo-1.0 netcat-openbsd open-iscsi qemu-utils sg3-utils sysfsutils lvm2 qemu-utils thin-provisioning-tools acl dnsmasq-base dnsmasq-utils ebtables haproxy iptables iputils-arping iputils-ping postgresql-server-dev-all python3-mysqldb sqlite3 sudo vlan pcp lvm2 qemu-utils thin-provisioning-tools
+tput: No value for $TERM and no -T specified
+++tools/install_prereqs.sh:source:67        grep -q dkms
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++tools/install_prereqs.sh:source:72        install_package apache2 apache2-dev bc bsdmainutils curl g++ gawk gcc gettext git graphviz iputils-ping libffi-dev libjpeg-dev libpq-dev libssl-dev libsystemd-dev libxml2-dev libxslt1-dev libyaml-dev lsof openssh-server openssl pkg-config psmisc python3-dev python3-pip python3-systemd python3-venv tar tcpdump unzip uuid-runtime wget zlib1g-dev libkrb5-dev libldap2-dev libsasl2-dev memcached python3-mysqldb sqlite3 conntrack curl ebtables genisoimage iptables iputils-arping kpartx libjs-jquery-tablesorter parted pm-utils python3-mysqldb socat sqlite3 sudo vlan lsscsi open-iscsi cryptsetup dosfstools genisoimage gir1.2-libosinfo-1.0 netcat-openbsd open-iscsi qemu-utils sg3-utils sysfsutils lvm2 qemu-utils thin-provisioning-tools acl dnsmasq-base dnsmasq-utils ebtables haproxy iptables iputils-arping iputils-ping postgresql-server-dev-all python3-mysqldb sqlite3 sudo vlan pcp lvm2 qemu-utils thin-provisioning-tools
@@ -3303,7 +3306,7 @@ Get:232 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python
 Get:233 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 pcp amd64 6.2.0-1.1build4 [2,946 kB]
 Get:234 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 socat amd64 1.8.0.0-4build3 [374 kB]
 Preconfiguring packages ...
-Fetched 252 MB in 2min 17s (1,838 kB/s)
+Fetched 252 MB in 3min 44s (1,124 kB/s)
 Selecting previously unselected package libapr1t64:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 53714 files and directories currently installed.)
 Preparing to unpack .../00-libapr1t64_1.7.2-3.1ubuntu0.1_amd64.deb ...
@@ -4292,7 +4295,7 @@ Service restarts being deferred:
 No containers need to be restarted.
 
 User sessions running outdated binaries:
- ubuntu @ session #2: bash[3077], sh[1744]
+ ubuntu @ session #8: bash[3030], sh[1697]
 
 No VM guests are running outdated hypervisor (qemu) binaries on this host.
 tput: No value for $TERM and no -T specified
@@ -4321,28 +4324,28 @@ tput: No value for $TERM and no -T specified
 ++functions-common:time_stop:2418           name=apt-get
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++functions-common:time_stop:2419           start_time=1772713012184
+++functions-common:time_stop:2419           start_time=1772724455041
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++functions-common:time_stop:2421           [[ -z 1772713012184 ]]
+++functions-common:time_stop:2421           [[ -z 1772724455041 ]]
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +++functions-common:time_stop:2424           date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++functions-common:time_stop:2424           end_time=1772713204793
+++functions-common:time_stop:2424           end_time=1772724735426
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++functions-common:time_stop:2425           elapsed_time=192609
+++functions-common:time_stop:2425           elapsed_time=280385
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++functions-common:time_stop:2426           total=5889
+++functions-common:time_stop:2426           total=6042
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++functions-common:time_stop:2428           _TIME_START[$name]=
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++functions-common:time_stop:2429           _TIME_TOTAL[$name]=198498
+++functions-common:time_stop:2429           _TIME_TOTAL[$name]=286427
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++functions-common:apt_get:1207             return 0
@@ -4512,9 +4515,9 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++tools/install_pip.sh:get_versions:50      /usr/bin/pip --version
 tput: No value for $TERM and no -T specified
 ++tools/install_pip.sh:get_versions:50      awk '{ print $2}'
+++tools/install_pip.sh:get_versions:50      /usr/bin/pip --version
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +tools/install_pip.sh:get_versions:50      PIP_VERSION=24.0
@@ -4594,11 +4597,11 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +tools/install_pip.sh:get_versions:49      [[ -n /usr/bin/pip ]]
-tput: tput: No value for $TERM and no -T specifiedNo value for $TERM and no -T specified
-
 tput: No value for $TERM and no -T specified
-tput: ++tools/install_pip.sh:get_versions:50      /usr/bin/pip --version
-No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++tools/install_pip.sh:get_versions:50      /usr/bin/pip --version
+tput: No value for $TERM and no -T specified
 ++tools/install_pip.sh:get_versions:50      awk '{ print $2}'
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -4729,7 +4732,7 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
+
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -4776,31 +4779,31 @@ Collecting pygments<3.0.0,>=2.13.0 (from rich>=12.3.0->typer>=0.24.0->typer-slim
   Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
 Requirement already satisfied: mdurl~=0.1 in /usr/lib/python3/dist-packages (from markdown-it-py>=2.2.0->rich>=12.3.0->typer>=0.24.0->typer-slim->jaraco.text>=3.7->setuptools[core]) (0.1.2)
 Downloading pip-26.0.1-py3-none-any.whl (1.8 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 11.0 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 10.9 MB/s eta 0:00:00
 Downloading jaraco_functools-4.4.0-py3-none-any.whl (10 kB)
 Downloading jaraco_text-4.2.0-py3-none-any.whl (13 kB)
 Downloading more_itertools-10.8.0-py3-none-any.whl (69 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 69.7/69.7 kB 5.9 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 69.7/69.7 kB 6.3 MB/s eta 0:00:00
 Downloading packaging-26.0-py3-none-any.whl (74 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 74.4/74.4 kB 7.2 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 74.4/74.4 kB 6.3 MB/s eta 0:00:00
 Downloading platformdirs-4.9.2-py3-none-any.whl (21 kB)
 Downloading wheel-0.46.3-py3-none-any.whl (30 kB)
 Downloading setuptools-82.0.0-py3-none-any.whl (1.0 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 11.6 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 11.4 MB/s eta 0:00:00
 Downloading jaraco_context-6.1.0-py3-none-any.whl (7.1 kB)
 Downloading typer_slim-0.24.0-py3-none-any.whl (3.4 kB)
 Downloading typer-0.24.1-py3-none-any.whl (56 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.1/56.1 kB 5.3 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.1/56.1 kB 6.0 MB/s eta 0:00:00
 Downloading annotated_doc-0.0.4-py3-none-any.whl (5.3 kB)
 Downloading click-8.3.1-py3-none-any.whl (108 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 108.3/108.3 kB 7.9 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 108.3/108.3 kB 9.8 MB/s eta 0:00:00
 Downloading rich-14.3.3-py3-none-any.whl (310 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 310.5/310.5 kB 11.3 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 310.5/310.5 kB 11.0 MB/s eta 0:00:00
 Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
 Downloading markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.3/87.3 kB 7.7 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.3/87.3 kB 8.4 MB/s eta 0:00:00
 Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 2.6 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 1.7 MB/s eta 0:00:00
 Installing collected packages: shellingham, setuptools, pygments, platformdirs, pip, packaging, more_itertools, markdown-it-py, jaraco.context, click, annotated-doc, wheel, rich, jaraco.functools, typer, typer-slim, jaraco.text
   Attempting uninstall: setuptools
     Found existing installation: setuptools 68.1.2
@@ -4865,19 +4868,19 @@ tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2418           name=pip_install
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2419           start_time=1772713211750
++functions-common:time_stop:2419           start_time=1772724742445
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2421           [[ -z 1772713211750 ]]
++functions-common:time_stop:2421           [[ -z 1772724742445 ]]
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++functions-common:time_stop:2424           date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2424           end_time=1772713221447
++functions-common:time_stop:2424           end_time=1772724752539
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2425           elapsed_time=9697
++functions-common:time_stop:2425           elapsed_time=10094
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2426           total=0
@@ -4886,7 +4889,7 @@ tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2428           _TIME_START[$name]=
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2429           _TIME_TOTAL[$name]=9697
++functions-common:time_stop:2429           _TIME_TOTAL[$name]=10094
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +inc/python:pip_install:219                return 0
@@ -4913,7 +4916,7 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -4967,28 +4970,28 @@ tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2418           name=pip_install
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2419           start_time=1772713221628
++functions-common:time_stop:2419           start_time=1772724752700
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2421           [[ -z 1772713221628 ]]
++functions-common:time_stop:2421           [[ -z 1772724752700 ]]
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++functions-common:time_stop:2424           date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2424           end_time=1772713224607
++functions-common:time_stop:2424           end_time=1772724755810
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2425           elapsed_time=2979
++functions-common:time_stop:2425           elapsed_time=3110
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2426           total=9697
++functions-common:time_stop:2426           total=10094
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2428           _TIME_START[$name]=
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2429           _TIME_TOTAL[$name]=12676
++functions-common:time_stop:2429           _TIME_TOTAL[$name]=13204
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +inc/python:pip_install:219                return 0
@@ -5057,7 +5060,7 @@ tput: No value for $TERM and no -T specified
 +./stack.sh:exit_trap:539                  type -p generate-subunit
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+./stack.sh:exit_trap:540                  generate-subunit 1772712982 243 fail
++./stack.sh:exit_trap:540                  generate-subunit 1772724423 333 fail
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +./stack.sh:exit_trap:542                  [[ -z /tmp/devstack_logs ]]
