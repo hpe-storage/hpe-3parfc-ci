@@ -1,82 +1,0 @@
-14:23:16 RT program started
-SHELL=/bin/sh
-PWD=/home/ubuntu
-LOGNAME=ubuntu
-XDG_SESSION_TYPE=tty
-HOME=/home/ubuntu
-LANG=C.UTF-8
-SSH_CONNECTION=10.132.44.229 42184 10.132.44.209 22
-XDG_SESSION_CLASS=user
-USER=ubuntu
-SHLVL=1
-XDG_SESSION_ID=1
-XDG_RUNTIME_DIR=/run/user/1000
-SSH_CLIENT=10.132.44.229 42184 22
-PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
-_=/usr/bin/env
-14:23:16 RT We are inside agent gate
-Reading package lists...
-Building dependency tree...
-Reading state information...
-The following NEW packages will be installed:
-  net-tools
-0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
-Need to get 204 kB of archives.
-After this operation, 811 kB of additional disk space will be used.
-Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 net-tools amd64 2.10-0.1ubuntu4.4 [204 kB]
-Fetched 204 kB in 2s (101 kB/s)
-Selecting previously unselected package net-tools.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 52666 files and directories currently installed.)
-Preparing to unpack .../net-tools_2.10-0.1ubuntu4.4_amd64.deb ...
-Unpacking net-tools (2.10-0.1ubuntu4.4) ...
-Setting up net-tools (2.10-0.1ubuntu4.4) ...
-Processing triggers for man-db (2.12.0-4build2) ...
-Disabling Ubuntu mode, explicit restart mode configured To check what array_ip_var_name is printing
-SSA02_IP
-14:23:25 RT Below Functions are created to manage CPG
-14:23:25 RT Calling various functions. Line 288
-14:23:25 RT Inside install_packages
-Hit:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble InRelease
-Get:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
-Get:3 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
-Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1800 kB]
-Get:5 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
-Get:6 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [175 kB]
-Get:7 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 c-n-f Metadata [16.5 kB]
-Get:8 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1558 kB]
-Get:9 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [386 kB]
-Get:10 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1494 kB]
-Get:11 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 c-n-f Metadata [32.7 kB]
-Get:12 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [21.5 kB]
-Get:13 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [2735 kB]
-Get:14 http://security.ubuntu.com/ubuntu noble-security/main amd64 c-n-f Metadata [9932 B]
-Ign:15 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages
-Get:16 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [74.2 kB]
-Get:17 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
-Get:18 http://security.ubuntu.com/ubuntu noble-security/universe amd64 c-n-f Metadata [20.1 kB]
-Get:19 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
-Ign:20 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages
-Get:21 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [7284 B]
-Get:22 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [212 B]
-Get:23 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [10.5 kB]
-Get:24 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Components [216 B]
-Get:25 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Components [212 B]
-Get:26 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 c-n-f Metadata [536 B]
-Get:27 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Packages [28.8 kB]
-Get:28 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [208 B]
-Get:29 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 c-n-f Metadata [396 B]
-Get:15 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [937 kB]
-Err:15 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages
-  File has unexpected size (936832 != 937024). Mirror sync in progress? [IP: 10.120.125.146 80]
-  Hashes of expected file:
-   - Filesize:937024 [weak]
-   - SHA256:9906d1007acb66b22f34b016487d9f36bec775e141da3ce50450f9e5f5b7c415
-   - SHA1:c528a75e577f1bf0479ac3ee3a34dae89b7e1608 [weak]
-   - MD5Sum:6f28daccc56d8b25467f50b637d75cc1 [weak]
-  Release file created at: Thu, 26 Feb 2026 13:38:57 +0000
-Get:20 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [2568 kB]
-Err:20 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages
-  
-Fetched 8751 kB in 50s (175 kB/s)
-Reading package lists...
