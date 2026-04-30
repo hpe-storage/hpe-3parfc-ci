@@ -1,0 +1,2159 @@
+2026-04-30 07:21:17.935 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.935 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.935 | +./stack.sh:main:485                       exec
+2026-04-30 07:21:17.935 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.935 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.935 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.935 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.935 | ++./stack.sh:main:485                       /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -o /tmp/devstack_logs/devstacklog.txt.2026-04-30-072117.summary.2026-04-30-072117
+2026-04-30 07:21:17.935 | +./stack.sh:main:493                       echo_summary 'stack.sh log /tmp/devstack_logs/devstacklog.txt.2026-04-30-072117'
+2026-04-30 07:21:17.935 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.935 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.935 | +./stack.sh:echo_summary:438               [[ -t 3 ]]
+2026-04-30 07:21:17.935 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.935 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.935 | +./stack.sh:echo_summary:444               echo -e stack.sh log /tmp/devstack_logs/devstacklog.txt.2026-04-30-072117
+2026-04-30 07:21:17.935 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.935 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.935 | +./stack.sh:main:495                       ln -sf /tmp/devstack_logs/devstacklog.txt.2026-04-30-072117 /tmp/devstack_logs/devstacklog.txt
+2026-04-30 07:21:17.935 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.935 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.935 | +./stack.sh:main:496                       ln -sf /tmp/devstack_logs/devstacklog.txt.2026-04-30-072117.summary.2026-04-30-072117 /tmp/devstack_logs/devstacklog.txt.summary
+2026-04-30 07:21:17.935 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.935 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.935 | +./stack.sh:main:511                       check_path_perm_sanity /opt/stack
+2026-04-30 07:21:17.935 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.937 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.937 | +functions:check_path_perm_sanity:615      local real_path
+2026-04-30 07:21:17.940 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.944 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.944 | ++functions:check_path_perm_sanity:616      readlink -f /opt/stack
+2026-04-30 07:21:17.947 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.951 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.951 | +functions:check_path_perm_sanity:616      real_path=/opt/stack
+2026-04-30 07:21:17.953 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.957 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.957 | +functions:check_path_perm_sanity:617      local rebuilt_path=
+2026-04-30 07:21:17.960 | tput: No value for $TERM and no -T specifiedtput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.960 | 
+2026-04-30 07:21:17.964 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.964 | ++functions:check_path_perm_sanity:618      echo /opt/stack
+2026-04-30 07:21:17.965 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.966 | ++functions:check_path_perm_sanity:618      tr / ' '
+2026-04-30 07:21:17.970 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.975 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.975 | +functions:check_path_perm_sanity:618      for i in $(echo ${real_path} | tr "/" " ")
+2026-04-30 07:21:17.977 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.984 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.984 | +functions:check_path_perm_sanity:619      rebuilt_path=/opt
+2026-04-30 07:21:17.990 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.997 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:17.997 | ++functions:check_path_perm_sanity:621      stat -c %a /opt
+2026-04-30 07:21:18.002 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.007 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.007 | +functions:check_path_perm_sanity:621      [[ 755 = 700 ]]
+2026-04-30 07:21:18.009 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.015 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.016 | +functions:check_path_perm_sanity:618      for i in $(echo ${real_path} | tr "/" " ")
+2026-04-30 07:21:18.018 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.025 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.025 | +functions:check_path_perm_sanity:619      rebuilt_path=/opt/stack
+2026-04-30 07:21:18.028 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.034 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.035 | ++functions:check_path_perm_sanity:621      stat -c %a /opt/stack
+2026-04-30 07:21:18.040 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.047 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.048 | +functions:check_path_perm_sanity:621      [[ 777 = 700 ]]
+2026-04-30 07:21:18.050 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.057 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.057 | +./stack.sh:main:517                       trap exit_trap EXIT
+2026-04-30 07:21:18.060 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.068 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.068 | +./stack.sh:main:558                       trap err_trap ERR
+2026-04-30 07:21:18.071 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.078 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.078 | +./stack.sh:main:571                       set -o errexit
+2026-04-30 07:21:18.080 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.086 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.086 | +./stack.sh:main:574                       uname -a
+2026-04-30 07:21:18.089 | Linux ubuntu 6.8.0-110-generic #110-Ubuntu SMP PREEMPT_DYNAMIC Thu Mar 19 15:09:20 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+2026-04-30 07:21:18.092 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.099 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.100 | +./stack.sh:main:577                       SSL_BUNDLE_FILE=/opt/stack/data/ca-bundle.pem
+2026-04-30 07:21:18.102 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.109 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.109 | +./stack.sh:main:578                       rm -f /opt/stack/data/ca-bundle.pem
+2026-04-30 07:21:18.114 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.121 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.121 | +./stack.sh:main:581                       source /opt/stack/devstack/lib/database
+2026-04-30 07:21:18.127 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.127 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.134 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.135 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.140 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.145 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.147 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.152 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.189 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.195 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.196 | +./stack.sh:main:582                       source /opt/stack/devstack/lib/rpc_backend
+2026-04-30 07:21:18.200 | tput: No value for $TERM and no -T specifiedtput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.200 | 
+2026-04-30 07:21:18.205 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.205 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.209 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.213 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.216 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.221 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.228 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.233 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.233 | +./stack.sh:main:585                       source /opt/stack/devstack/lib/host
+2026-04-30 07:21:18.236 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.242 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.243 | +++lib/host:source:12                        trueorfalse True ENABLE_KSM
+2026-04-30 07:21:18.244 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.250 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.253 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.254 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.258 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.259 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.264 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.268 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.271 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.275 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.278 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.283 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.283 | ++lib/host:source:12                        ENABLE_KSM=True
+2026-04-30 07:21:18.286 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.292 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.293 | +++lib/host:source:13                        trueorfalse True ENABLE_KSMTUNED
+2026-04-30 07:21:18.294 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.300 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.303 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.304 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.308 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.309 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.314 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.318 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.320 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.324 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.327 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.332 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.332 | ++lib/host:source:13                        ENABLE_KSMTUNED=True
+2026-04-30 07:21:18.335 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.340 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.340 | +++lib/host:source:34                        trueorfalse False ENABLE_ZSWAP
+2026-04-30 07:21:18.342 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.347 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.351 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.352 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.355 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.356 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.359 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.363 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.365 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.370 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.372 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.377 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.377 | ++lib/host:source:34                        ENABLE_ZSWAP=False
+2026-04-30 07:21:18.379 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.384 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.384 | ++lib/host:source:37                        ZSWAP_COMPRESSOR=lz4
+2026-04-30 07:21:18.386 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.391 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.391 | ++lib/host:source:38                        ZSWAP_ZPOOL=zsmalloc
+2026-04-30 07:21:18.394 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.399 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.399 | +++lib/host:source:53                        trueorfalse False ENABLE_SYSCTL_MEM_TUNING
+2026-04-30 07:21:18.402 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.408 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.412 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.412 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.417 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.419 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.423 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.427 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.429 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.436 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.440 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.448 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.448 | ++lib/host:source:53                        ENABLE_SYSCTL_MEM_TUNING=False
+2026-04-30 07:21:18.452 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.458 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.459 | +++lib/host:source:75                        trueorfalse False ENABLE_SYSCTL_NET_TUNING
+2026-04-30 07:21:18.462 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.468 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.472 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.473 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.479 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.479 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.484 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.489 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.491 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.495 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.498 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.503 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.503 | ++lib/host:source:75                        ENABLE_SYSCTL_NET_TUNING=False
+2026-04-30 07:21:18.505 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.511 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.512 | +./stack.sh:main:588                       tune_host
+2026-04-30 07:21:18.513 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.519 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.520 | +lib/host:tune_host:96                     configure_host_mem
+2026-04-30 07:21:18.522 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.527 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.528 | +lib/host:configure_host_mem:70            configure_zswap
+2026-04-30 07:21:18.530 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.536 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.536 | +lib/host:configure_zswap:40               [[ False == \T\r\u\e ]]
+2026-04-30 07:21:18.538 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.545 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.545 | +lib/host:configure_host_mem:71            configure_ksm
+2026-04-30 07:21:18.547 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.557 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.558 | +lib/host:configure_ksm:15                 [[ True == \T\r\u\e ]]
+2026-04-30 07:21:18.560 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.569 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.569 | +lib/host:configure_ksm:16                 install_package ksmtuned
+2026-04-30 07:21:18.572 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.579 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.579 | +functions-common:install_package:1432     update_package_repo
+2026-04-30 07:21:18.583 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.590 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.590 | +functions-common:update_package_repo:1406  NO_UPDATE_REPOS=False
+2026-04-30 07:21:18.593 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.600 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.600 | +functions-common:update_package_repo:1407  REPOS_UPDATED=False
+2026-04-30 07:21:18.605 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.614 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.615 | +functions-common:update_package_repo:1408  RETRY_UPDATE=False
+2026-04-30 07:21:18.618 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.624 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.624 | +functions-common:update_package_repo:1410  [[ False = \T\r\u\e ]]
+2026-04-30 07:21:18.626 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.631 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.632 | +functions-common:update_package_repo:1414  is_ubuntu
+2026-04-30 07:21:18.635 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.640 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.640 | +functions-common:is_ubuntu:546            [[ -z deb ]]
+2026-04-30 07:21:18.642 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.646 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.647 | +functions-common:is_ubuntu:549            '[' deb = deb ']'
+2026-04-30 07:21:18.649 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.654 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.654 | +functions-common:update_package_repo:1415  apt_get_update
+2026-04-30 07:21:18.657 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.663 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.663 | +functions-common:apt_get_update:1160      [[ False == \T\r\u\e ]]
+2026-04-30 07:21:18.665 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.670 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.670 | +functions-common:apt_get_update:1165      [[ False = \T\r\u\e ]]
+2026-04-30 07:21:18.672 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.678 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.678 | +functions-common:apt_get_update:1167      local sudo=sudo
+2026-04-30 07:21:18.681 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.686 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.686 | ++functions-common:apt_get_update:1168      id -u
+2026-04-30 07:21:18.691 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.697 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.697 | +functions-common:apt_get_update:1168      [[ 1000 = \0 ]]
+2026-04-30 07:21:18.700 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.705 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.706 | +functions-common:apt_get_update:1171      time_start apt-get-update
+2026-04-30 07:21:18.708 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.714 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.714 | +functions-common:time_start:2400          local name=apt-get-update
+2026-04-30 07:21:18.716 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.722 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.722 | +functions-common:time_start:2401          local start_time=
+2026-04-30 07:21:18.725 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.731 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.731 | +functions-common:time_start:2402          [[ -n '' ]]
+2026-04-30 07:21:18.736 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.742 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.743 | ++functions-common:time_start:2405          date +%s%3N
+2026-04-30 07:21:18.746 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.751 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.751 | +functions-common:time_start:2405          _TIME_START[$name]=1777533678744
+2026-04-30 07:21:18.753 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.759 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.759 | +functions-common:apt_get_update:1173      local 'proxies=http_proxy=http://proxy-in.its.hpecorp.net:80 https_proxy=http://proxy-in.its.hpecorp.net:443 no_proxy=10.201.5.87,10.201.4.29,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,localhost,127.0.0.1,10.201.4.30,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.3.86,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208 '
+2026-04-30 07:21:18.761 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.765 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.765 | +functions-common:apt_get_update:1174      local 'update_cmd=sudo http_proxy=http://proxy-in.its.hpecorp.net:80 https_proxy=http://proxy-in.its.hpecorp.net:443 no_proxy=10.201.5.87,10.201.4.29,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,localhost,127.0.0.1,10.201.4.30,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.3.86,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208  apt-get update'
+2026-04-30 07:21:18.768 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.773 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:18.774 | +functions-common:apt_get_update:1175      timeout 300 sh -c 'while ! sudo http_proxy=http://proxy-in.its.hpecorp.net:80 https_proxy=http://proxy-in.its.hpecorp.net:443 no_proxy=10.201.5.87,10.201.4.29,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,localhost,127.0.0.1,10.201.4.30,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.3.86,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208  apt-get update; do sleep 30; done'
+2026-04-30 07:21:19.109 | Hit:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble InRelease
+2026-04-30 07:21:19.256 | Hit:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates InRelease
+2026-04-30 07:21:19.317 | Hit:3 http://security.ubuntu.com/ubuntu noble-security InRelease
+2026-04-30 07:21:19.417 | Hit:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports InRelease
+2026-04-30 07:21:23.442 | Reading package lists...
+2026-04-30 07:21:23.477 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.483 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.484 | +functions-common:apt_get_update:1179      REPOS_UPDATED=True
+2026-04-30 07:21:23.486 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.492 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.492 | +functions-common:apt_get_update:1181      time_stop apt-get-update
+2026-04-30 07:21:23.495 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.500 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.501 | +functions-common:time_stop:2414           local name
+2026-04-30 07:21:23.503 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.507 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.507 | +functions-common:time_stop:2415           local end_time
+2026-04-30 07:21:23.509 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.515 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.515 | +functions-common:time_stop:2416           local elapsed_time
+2026-04-30 07:21:23.518 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.524 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.524 | +functions-common:time_stop:2417           local total
+2026-04-30 07:21:23.526 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.532 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.532 | +functions-common:time_stop:2418           local start_time
+2026-04-30 07:21:23.534 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.539 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.539 | +functions-common:time_stop:2420           name=apt-get-update
+2026-04-30 07:21:23.541 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.546 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.546 | +functions-common:time_stop:2421           start_time=1777533678744
+2026-04-30 07:21:23.548 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.553 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.553 | +functions-common:time_stop:2423           [[ -z 1777533678744 ]]
+2026-04-30 07:21:23.557 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.562 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.563 | ++functions-common:time_stop:2426           date +%s%3N
+2026-04-30 07:21:23.566 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.571 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.571 | +functions-common:time_stop:2426           end_time=1777533683563
+2026-04-30 07:21:23.573 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.578 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.578 | +functions-common:time_stop:2427           elapsed_time=4819
+2026-04-30 07:21:23.580 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.585 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.585 | +functions-common:time_stop:2428           total=0
+2026-04-30 07:21:23.590 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.596 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.596 | +functions-common:time_stop:2430           _TIME_START[$name]=
+2026-04-30 07:21:23.600 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.608 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.609 | +functions-common:time_stop:2431           _TIME_TOTAL[$name]=4819
+2026-04-30 07:21:23.615 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.622 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.622 | +functions-common:install_package:1433     real_install_package ksmtuned
+2026-04-30 07:21:23.625 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.630 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.630 | +functions-common:real_install_package:1420  is_ubuntu
+2026-04-30 07:21:23.632 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.636 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.637 | +functions-common:is_ubuntu:546            [[ -z deb ]]
+2026-04-30 07:21:23.639 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.645 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.645 | +functions-common:is_ubuntu:549            '[' deb = deb ']'
+2026-04-30 07:21:23.647 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.651 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.652 | +functions-common:real_install_package:1421  apt_get install ksmtuned
+2026-04-30 07:21:23.654 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.658 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.661 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.662 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.666 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.666 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.670 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.674 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.676 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.680 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.687 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.691 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:23.691 | +functions-common:apt_get:1201             sudo DEBIAN_FRONTEND=noninteractive http_proxy=http://proxy-in.its.hpecorp.net:80 https_proxy=http://proxy-in.its.hpecorp.net:443 no_proxy=10.201.5.87,10.201.4.29,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,localhost,127.0.0.1,10.201.4.30,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.3.86,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208 apt-get --option Dpkg::Options::=--force-confold --assume-yes install ksmtuned
+2026-04-30 07:21:23.730 | Reading package lists...
+2026-04-30 07:21:24.027 | Building dependency tree...
+2026-04-30 07:21:24.028 | Reading state information...
+2026-04-30 07:21:24.399 | Recommended packages:
+2026-04-30 07:21:24.400 |   qemu-kvm
+2026-04-30 07:21:24.437 | The following NEW packages will be installed:
+2026-04-30 07:21:24.440 |   ksmtuned
+2026-04-30 07:21:24.656 | 0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
+2026-04-30 07:21:24.656 | Need to get 7,444 B of archives.
+2026-04-30 07:21:24.656 | After this operation, 44.0 kB of additional disk space will be used.
+2026-04-30 07:21:24.657 | Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 ksmtuned amd64 4.20150326 [7,444 B]
+2026-04-30 07:21:25.119 | Fetched 7,444 B in 0s (35.0 kB/s)
+2026-04-30 07:21:25.164 | Selecting previously unselected package ksmtuned.
+2026-04-30 07:21:25.198 | (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 56156 files and directories currently installed.)
+2026-04-30 07:21:25.200 | Preparing to unpack .../ksmtuned_4.20150326_amd64.deb ...
+2026-04-30 07:21:25.204 | Unpacking ksmtuned (4.20150326) ...
+2026-04-30 07:21:25.267 | Setting up ksmtuned (4.20150326) ...
+2026-04-30 07:21:25.634 | Created symlink /etc/systemd/system/multi-user.target.wants/ksm.service → /usr/lib/systemd/system/ksm.service.
+2026-04-30 07:21:25.820 | Created symlink /etc/systemd/system/multi-user.target.wants/ksmtuned.service → /usr/lib/systemd/system/ksmtuned.service.
+2026-04-30 07:21:27.331 | Disabling Ubuntu mode, explicit restart mode configured
+2026-04-30 07:21:27.331 | Running kernel seems to be up-to-date.
+2026-04-30 07:21:27.331 | 
+2026-04-30 07:21:27.331 | No services need to be restarted.
+2026-04-30 07:21:27.331 | 
+2026-04-30 07:21:27.331 | No containers need to be restarted.
+2026-04-30 07:21:27.331 | 
+2026-04-30 07:21:27.331 | No user sessions are running outdated binaries.
+2026-04-30 07:21:27.331 | 
+2026-04-30 07:21:27.331 | No VM guests are running outdated hypervisor (qemu) binaries on this host.
+2026-04-30 07:21:28.973 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:28.979 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:28.979 | +functions-common:apt_get:1205             result=0
+2026-04-30 07:21:28.983 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:28.988 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:28.988 | +functions-common:apt_get:1208             time_stop apt-get
+2026-04-30 07:21:28.990 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:28.997 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:28.997 | +functions-common:time_stop:2414           local name
+2026-04-30 07:21:29.000 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.006 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.007 | +functions-common:time_stop:2415           local end_time
+2026-04-30 07:21:29.009 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.013 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.014 | +functions-common:time_stop:2416           local elapsed_time
+2026-04-30 07:21:29.016 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.021 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.022 | +functions-common:time_stop:2417           local total
+2026-04-30 07:21:29.024 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.030 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.030 | +functions-common:time_stop:2418           local start_time
+2026-04-30 07:21:29.034 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.042 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.042 | +functions-common:time_stop:2420           name=apt-get
+2026-04-30 07:21:29.044 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.050 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.050 | +functions-common:time_stop:2421           start_time=1777533683685
+2026-04-30 07:21:29.053 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.058 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.058 | +functions-common:time_stop:2423           [[ -z 1777533683685 ]]
+2026-04-30 07:21:29.063 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.069 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.069 | ++functions-common:time_stop:2426           date +%s%3N
+2026-04-30 07:21:29.073 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.079 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.079 | +functions-common:time_stop:2426           end_time=1777533689071
+2026-04-30 07:21:29.081 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.087 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.087 | +functions-common:time_stop:2427           elapsed_time=5386
+2026-04-30 07:21:29.089 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.096 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.097 | +functions-common:time_stop:2428           total=15046
+2026-04-30 07:21:29.100 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.106 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.106 | +functions-common:time_stop:2430           _TIME_START[$name]=
+2026-04-30 07:21:29.109 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.115 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.116 | +functions-common:time_stop:2431           _TIME_TOTAL[$name]=20432
+2026-04-30 07:21:29.118 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.124 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.124 | +functions-common:apt_get:1209             return 0
+2026-04-30 07:21:29.131 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.142 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.142 | +lib/host:configure_ksm:18                 [[ -f /sys/kernel/mm/ksm/run ]]
+2026-04-30 07:21:29.148 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.148 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.156 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.156 | ++lib/host:configure_ksm:19                 bool_to_int ENABLE_KSM
+2026-04-30 07:21:29.157 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.157 | +lib/host:configure_ksm:19                 sudo tee /sys/kernel/mm/ksm/run
+2026-04-30 07:21:29.158 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.162 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.166 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.166 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.170 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.170 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.174 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.178 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.182 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.188 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.191 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.197 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.197 | +lib/host:configure_ksm:19                 echo 0
+2026-04-30 07:21:29.197 | 0
+2026-04-30 07:21:29.203 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.209 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.209 | +lib/host:configure_host_mem:72            configure_sysctl_mem_parmaters
+2026-04-30 07:21:29.211 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.216 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.216 | +lib/host:configure_sysctl_mem_parmaters:55  [[ False == \T\r\u\e ]]
+2026-04-30 07:21:29.219 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.224 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.224 | +lib/host:tune_host:97                     configure_host_net
+2026-04-30 07:21:29.227 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.233 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.233 | +lib/host:configure_host_net:92            configure_sysctl_net_parmaters
+2026-04-30 07:21:29.236 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.243 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.244 | +lib/host:configure_sysctl_net_parmaters:77  [[ False == \T\r\u\e ]]
+2026-04-30 07:21:29.247 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.257 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.257 | +./stack.sh:main:594                       fetch_plugins
+2026-04-30 07:21:29.261 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.268 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.269 | +functions-common:fetch_plugins:1760       local plugins=
+2026-04-30 07:21:29.271 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.279 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.279 | +functions-common:fetch_plugins:1761       local plugin
+2026-04-30 07:21:29.282 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.288 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.289 | +functions-common:fetch_plugins:1764       [[ -z '' ]]
+2026-04-30 07:21:29.291 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.298 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.299 | +functions-common:fetch_plugins:1765       return
+2026-04-30 07:21:29.301 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.310 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.310 | +./stack.sh:main:598                       run_phase override_defaults
+2026-04-30 07:21:29.313 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.322 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.322 | +functions-common:run_phase:1842           local mode=override_defaults
+2026-04-30 07:21:29.325 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.331 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.332 | +functions-common:run_phase:1843           local phase=
+2026-04-30 07:21:29.335 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.340 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.341 | +functions-common:run_phase:1844           [[ -d /opt/stack/devstack/extras.d ]]
+2026-04-30 07:21:29.343 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.349 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.350 | +functions-common:run_phase:1845           local extra_plugin_file_name
+2026-04-30 07:21:29.352 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.358 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.358 | +functions-common:run_phase:1846           for extra_plugin_file_name in $TOP_DIR/extras.d/*.sh
+2026-04-30 07:21:29.360 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.367 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.368 | +functions-common:run_phase:1851           local exceptions=80-tempest.sh
+2026-04-30 07:21:29.370 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.375 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.376 | +functions-common:run_phase:1852           local extra
+2026-04-30 07:21:29.381 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.389 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.390 | ++functions-common:run_phase:1853           basename /opt/stack/devstack/extras.d/80-tempest.sh
+2026-04-30 07:21:29.394 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.403 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.403 | +functions-common:run_phase:1853           extra=80-tempest.sh
+2026-04-30 07:21:29.406 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.413 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.414 | +functions-common:run_phase:1854           [[ 80-tempest.sh =~ 80-tempest\.sh ]]
+2026-04-30 07:21:29.417 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.425 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.425 | +functions-common:run_phase:1858           [[ -r /opt/stack/devstack/extras.d/80-tempest.sh ]]
+2026-04-30 07:21:29.428 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.438 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.438 | +functions-common:run_phase:1858           source /opt/stack/devstack/extras.d/80-tempest.sh override_defaults
+2026-04-30 07:21:29.440 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.446 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.446 | ++extras.d/80-tempest.sh:source:3           is_service_enabled tempest
+2026-04-30 07:21:29.449 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.454 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.458 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.459 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.465 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.467 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.470 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.475 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.477 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.482 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.484 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.489 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.489 | ++functions-common:is_service_enabled:2070  return 0
+2026-04-30 07:21:29.491 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.496 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.496 | ++extras.d/80-tempest.sh:source:4           [[ override_defaults == \s\o\u\r\c\e ]]
+2026-04-30 07:21:29.498 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.503 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.503 | ++extras.d/80-tempest.sh:source:7           [[ override_defaults == \s\t\a\c\k ]]
+2026-04-30 07:21:29.505 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.510 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.510 | ++extras.d/80-tempest.sh:source:10          [[ override_defaults == \s\t\a\c\k ]]
+2026-04-30 07:21:29.512 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.517 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.518 | ++extras.d/80-tempest.sh:source:13          [[ override_defaults == \s\t\a\c\k ]]
+2026-04-30 07:21:29.519 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.524 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.525 | ++extras.d/80-tempest.sh:source:16          [[ override_defaults == \s\t\a\c\k ]]
+2026-04-30 07:21:29.526 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.531 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.532 | ++extras.d/80-tempest.sh:source:19          [[ override_defaults == \s\t\a\c\k ]]
+2026-04-30 07:21:29.533 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.538 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.539 | ++extras.d/80-tempest.sh:source:27          [[ override_defaults == \u\n\s\t\a\c\k ]]
+2026-04-30 07:21:29.540 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.545 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.546 | ++extras.d/80-tempest.sh:source:32          [[ override_defaults == \c\l\e\a\n ]]
+2026-04-30 07:21:29.548 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.552 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.553 | +functions-common:run_phase:1863           [[ override_defaults == \s\o\u\r\c\e ]]
+2026-04-30 07:21:29.555 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.561 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.561 | +functions-common:run_phase:1866           [[ override_defaults == \o\v\e\r\r\i\d\e\_\d\e\f\a\u\l\t\s ]]
+2026-04-30 07:21:29.563 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.569 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.569 | +functions-common:run_phase:1867           plugin_override_defaults
+2026-04-30 07:21:29.571 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.577 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.578 | +functions-common:plugin_override_defaults:1801  local plugins=
+2026-04-30 07:21:29.579 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.586 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.587 | +functions-common:plugin_override_defaults:1802  local plugin
+2026-04-30 07:21:29.588 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.596 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.596 | +functions-common:plugin_override_defaults:1805  [[ -z '' ]]
+2026-04-30 07:21:29.598 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.604 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.605 | +functions-common:plugin_override_defaults:1806  return
+2026-04-30 07:21:29.607 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.612 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.613 | +./stack.sh:main:601                       source /opt/stack/devstack/lib/apache
+2026-04-30 07:21:29.617 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.617 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.621 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.623 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.627 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.632 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.634 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.639 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.648 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.653 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.654 | +./stack.sh:main:604                       source /opt/stack/devstack/lib/tls
+2026-04-30 07:21:29.656 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.661 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.661 | ++lib/tls:source:38                         is_service_enabled tls-proxy
+2026-04-30 07:21:29.663 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.667 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.672 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.672 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.676 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.677 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.681 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.685 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.688 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.692 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.695 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.699 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.700 | ++functions-common:is_service_enabled:2070  return 1
+2026-04-30 07:21:29.703 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.709 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.710 | +++lib/tls:source:43                         hostname -f
+2026-04-30 07:21:29.713 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.719 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.719 | ++lib/tls:source:43                         DEVSTACK_HOSTNAME=localhost
+2026-04-30 07:21:29.721 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.726 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.727 | ++lib/tls:source:44                         DEVSTACK_CERT_NAME=devstack-cert
+2026-04-30 07:21:29.728 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.735 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.735 | ++lib/tls:source:45                         DEVSTACK_CERT=/opt/stack/data/devstack-cert.pem
+2026-04-30 07:21:29.737 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.744 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.745 | ++lib/tls:source:48                         ROOT_CA_DIR=/opt/stack/data/CA/root-ca
+2026-04-30 07:21:29.746 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.752 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.753 | ++lib/tls:source:49                         INT_CA_DIR=/opt/stack/data/CA/int-ca
+2026-04-30 07:21:29.754 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.760 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.761 | ++lib/tls:source:51                         ORG_NAME=OpenStack
+2026-04-30 07:21:29.766 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.773 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.773 | ++lib/tls:source:52                         ORG_UNIT_NAME=DevStack
+2026-04-30 07:21:29.775 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.782 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.783 | ++lib/tls:source:55                         STUD_PROTO=--tls
+2026-04-30 07:21:29.784 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.791 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.792 | ++lib/tls:source:56                         STUD_CIPHERS='TLSv1+HIGH:!DES:!aNULL:!eNULL:@STRENGTH'
+2026-04-30 07:21:29.794 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.802 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.802 | ++lib/tls:source:63                         OPENSSL=/usr/bin/openssl
+2026-04-30 07:21:29.810 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.820 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.820 | +./stack.sh:main:607                       source /opt/stack/devstack/lib/infra
+2026-04-30 07:21:29.824 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.825 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.831 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.831 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.836 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.840 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.843 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.848 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.851 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.856 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.856 | +./stack.sh:main:608                       source /opt/stack/devstack/lib/libraries
+2026-04-30 07:21:29.859 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.860 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.865 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.865 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.870 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.874 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.876 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.880 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.889 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.895 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.895 | +./stack.sh:main:609                       source /opt/stack/devstack/lib/lvm
+2026-04-30 07:21:29.898 | tput: tput: No value for $TERM and no -T specifiedNo value for $TERM and no -T specified
+2026-04-30 07:21:29.898 | 
+2026-04-30 07:21:29.903 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.903 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.907 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.912 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.915 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.920 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.924 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.930 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.930 | +./stack.sh:main:610                       source /opt/stack/devstack/lib/horizon
+2026-04-30 07:21:29.934 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.935 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.940 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.941 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.945 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.949 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.951 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.956 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.960 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.965 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.965 | +./stack.sh:main:611                       source /opt/stack/devstack/lib/keystone
+2026-04-30 07:21:29.968 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.969 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.973 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.973 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.978 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.982 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.984 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:29.989 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.022 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.029 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.030 | +./stack.sh:main:612                       source /opt/stack/devstack/lib/glance
+2026-04-30 07:21:30.034 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.034 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.040 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.040 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.044 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.049 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.051 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.056 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.127 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.134 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.134 | +./stack.sh:main:613                       source /opt/stack/devstack/lib/nova
+2026-04-30 07:21:30.140 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.141 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.145 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.147 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.151 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.157 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.160 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.165 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.269 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.278 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.279 | +./stack.sh:main:614                       source /opt/stack/devstack/lib/placement
+2026-04-30 07:21:30.283 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.284 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.289 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.291 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.296 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.301 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.304 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.309 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.327 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.334 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.334 | +./stack.sh:main:615                       source /opt/stack/devstack/lib/cinder
+2026-04-30 07:21:30.338 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.339 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.343 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.343 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.348 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.353 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.356 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.361 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.426 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.437 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.437 | +./stack.sh:main:616                       source /opt/stack/devstack/lib/swift
+2026-04-30 07:21:30.444 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.446 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.451 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.452 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.458 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.467 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.472 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.478 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.539 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.548 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.548 | +./stack.sh:main:617                       source /opt/stack/devstack/lib/neutron
+2026-04-30 07:21:30.553 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.563 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.563 | ++lib/neutron:source:61                     is_service_enabled tls-proxy
+2026-04-30 07:21:30.567 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.574 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.579 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.580 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.585 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.586 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.591 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.597 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.600 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.606 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.609 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.614 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.614 | ++functions-common:is_service_enabled:2070  return 1
+2026-04-30 07:21:30.618 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.625 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.625 | ++lib/neutron:source:66                     GITDIR["python-neutronclient"]=/opt/stack/python-neutronclient
+2026-04-30 07:21:30.627 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.634 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.634 | ++lib/neutron:source:68                     NEUTRON_DIR=/opt/stack/neutron
+2026-04-30 07:21:30.637 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.644 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.644 | ++lib/neutron:source:69                     NEUTRON_FWAAS_DIR=/opt/stack/neutron-fwaas
+2026-04-30 07:21:30.648 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.654 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.654 | ++lib/neutron:source:72                     [[ -d /opt/stack/neutron/bin/neutron-server ]]
+2026-04-30 07:21:30.659 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.667 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.668 | +++lib/neutron:source:75                     get_python_exec_prefix
+2026-04-30 07:21:30.671 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.679 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.684 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.685 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.691 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.691 | 
+2026-04-30 07:21:30.696 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.701 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.704 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.709 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.712 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.717 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.717 | +++inc/python:get_python_exec_prefix:80      [[ True == \T\r\u\e ]]
+2026-04-30 07:21:30.719 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.725 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.726 | +++inc/python:get_python_exec_prefix:81      echo /opt/stack/data/venv/bin
+2026-04-30 07:21:30.730 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.737 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.738 | ++lib/neutron:source:75                     NEUTRON_BIN_DIR=/opt/stack/data/venv/bin
+2026-04-30 07:21:30.740 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.747 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.748 | ++lib/neutron:source:78                     NEUTRON_CONF_DIR=/etc/neutron
+2026-04-30 07:21:30.753 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.761 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.762 | ++lib/neutron:source:79                     NEUTRON_CONF=/etc/neutron/neutron.conf
+2026-04-30 07:21:30.764 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.772 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.773 | ++lib/neutron:source:80                     export NEUTRON_TEST_CONFIG_FILE=/etc/neutron/debug.ini
+2026-04-30 07:21:30.776 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.783 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.783 | ++lib/neutron:source:80                     NEUTRON_TEST_CONFIG_FILE=/etc/neutron/debug.ini
+2026-04-30 07:21:30.787 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.794 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.794 | ++lib/neutron:source:82                     NEUTRON_UWSGI=neutron.wsgi.api:application
+2026-04-30 07:21:30.797 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.804 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.805 | ++lib/neutron:source:83                     NEUTRON_UWSGI_CONF=/etc/neutron/neutron-api-uwsgi.ini
+2026-04-30 07:21:30.812 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.818 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.819 | +++lib/neutron:source:89                     trueorfalse True NEUTRON_ENFORCE_SCOPE
+2026-04-30 07:21:30.823 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.830 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.835 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.835 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.841 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.841 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.848 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.853 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.855 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.860 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.863 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.869 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.869 | ++lib/neutron:source:89                     NEUTRON_ENFORCE_SCOPE=True
+2026-04-30 07:21:30.871 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.878 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.879 | ++lib/neutron:source:93                     AGENT_DHCP_BINARY=/opt/stack/data/venv/bin/neutron-dhcp-agent
+2026-04-30 07:21:30.881 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.887 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.887 | ++lib/neutron:source:94                     AGENT_L3_BINARY=/opt/stack/data/venv/bin/neutron-l3-agent
+2026-04-30 07:21:30.890 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.896 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.897 | ++lib/neutron:source:95                     AGENT_META_BINARY=/opt/stack/data/venv/bin/neutron-metadata-agent
+2026-04-30 07:21:30.900 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.907 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.907 | ++lib/neutron:source:99                     Q_DHCP_CONF_FILE=/etc/neutron/dhcp_agent.ini
+2026-04-30 07:21:30.911 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.919 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.919 | ++lib/neutron:source:102                    NEUTRON_DHCP_CONF=/etc/neutron/dhcp_agent.ini
+2026-04-30 07:21:30.921 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.929 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.929 | ++lib/neutron:source:103                    Q_L3_CONF_FILE=/etc/neutron/l3_agent.ini
+2026-04-30 07:21:30.932 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.940 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.940 | ++lib/neutron:source:106                    NEUTRON_L3_CONF=/etc/neutron/l3_agent.ini
+2026-04-30 07:21:30.943 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.949 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.950 | ++lib/neutron:source:107                    Q_META_CONF_FILE=/etc/neutron/metadata_agent.ini
+2026-04-30 07:21:30.953 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.961 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.961 | ++lib/neutron:source:110                    Q_DB_NAME=neutron
+2026-04-30 07:21:30.964 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.971 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.972 | ++lib/neutron:source:112                    Q_PLUGIN=ml2
+2026-04-30 07:21:30.975 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.982 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.983 | ++lib/neutron:source:114                    Q_PORT=9696
+2026-04-30 07:21:30.985 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.993 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:30.993 | ++lib/neutron:source:116                    Q_PORT_INT=19696
+2026-04-30 07:21:30.996 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.005 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.005 | ++lib/neutron:source:118                    Q_HOST=10.132.44.209
+2026-04-30 07:21:31.008 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.016 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.016 | ++lib/neutron:source:120                    Q_PROTOCOL=http
+2026-04-30 07:21:31.021 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.031 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.031 | +++lib/neutron:source:122                    ipv6_unquote 0.0.0.0
+2026-04-30 07:21:31.035 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.036 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.042 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.042 | +++functions-common:ipv6_unquote:2212        tr -d '[]'
+2026-04-30 07:21:31.044 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.044 | +++functions-common:ipv6_unquote:2212        echo 0.0.0.0
+2026-04-30 07:21:31.049 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.055 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.055 | ++lib/neutron:source:122                    Q_LISTEN_ADDRESS=0.0.0.0
+2026-04-30 07:21:31.057 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.063 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.063 | ++lib/neutron:source:124                    Q_ADMIN_USERNAME=neutron
+2026-04-30 07:21:31.065 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.072 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.072 | ++lib/neutron:source:126                    Q_AUTH_STRATEGY=keystone
+2026-04-30 07:21:31.076 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.083 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.083 | ++lib/neutron:source:128                    Q_OVS_USE_VETH=False
+2026-04-30 07:21:31.086 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.092 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.092 | ++lib/neutron:source:129                    Q_USE_ROOTWRAP=True
+2026-04-30 07:21:31.097 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.104 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.105 | +++lib/neutron:source:130                    trueorfalse True Q_USE_ROOTWRAP_DAEMON
+2026-04-30 07:21:31.107 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.115 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.120 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.121 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.127 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.129 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.137 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.143 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.146 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.153 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.157 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.163 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.164 | ++lib/neutron:source:130                    Q_USE_ROOTWRAP_DAEMON=True
+2026-04-30 07:21:31.168 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.176 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.176 | +++lib/neutron:source:132                    ipv6_unquote 10.132.44.209
+2026-04-30 07:21:31.179 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.180 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.185 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.185 | +++functions-common:ipv6_unquote:2212        echo 10.132.44.209
+2026-04-30 07:21:31.187 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.187 | +++functions-common:ipv6_unquote:2212        tr -d '[]'
+2026-04-30 07:21:31.191 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.196 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.196 | ++lib/neutron:source:132                    Q_META_DATA_IP=10.132.44.209
+2026-04-30 07:21:31.198 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.205 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.206 | ++lib/neutron:source:134                    Q_ALLOW_OVERLAPPING_IP=True
+2026-04-30 07:21:31.210 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.216 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.216 | ++lib/neutron:source:135                    Q_NOTIFY_NOVA_PORT_STATUS_CHANGES=True
+2026-04-30 07:21:31.218 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.226 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.226 | ++lib/neutron:source:136                    Q_NOTIFY_NOVA_PORT_DATA_CHANGES=True
+2026-04-30 07:21:31.228 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.235 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.235 | ++lib/neutron:source:137                    VIF_PLUGGING_IS_FATAL=True
+2026-04-30 07:21:31.238 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.247 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.247 | ++lib/neutron:source:138                    VIF_PLUGGING_TIMEOUT=300
+2026-04-30 07:21:31.251 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.258 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.258 | ++lib/neutron:source:141                    SKIP_STOP_OVN=False
+2026-04-30 07:21:31.262 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.269 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.269 | ++lib/neutron:source:145                    _Q_PLUGIN_EXTRA_CONF_PATH=/etc/neutron
+2026-04-30 07:21:31.272 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.281 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.282 | ++lib/neutron:source:148                    NEUTRON_ENDPOINT_SERVICE_NAME=networking
+2026-04-30 07:21:31.284 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.291 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.292 | ++lib/neutron:source:149                    [[ -z networking ]]
+2026-04-30 07:21:31.298 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.306 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.306 | ++lib/neutron:source:154                    ALEMBIC_REPO=https://github.com/sqlalchemy/alembic.git
+2026-04-30 07:21:31.309 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.317 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.318 | ++lib/neutron:source:155                    ALEMBIC_DIR=/opt/stack/alembic
+2026-04-30 07:21:31.320 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.329 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.329 | ++lib/neutron:source:156                    ALEMBIC_BRANCH=main
+2026-04-30 07:21:31.332 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.339 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.339 | ++lib/neutron:source:157                    SQLALCHEMY_REPO=https://github.com/sqlalchemy/sqlalchemy.git
+2026-04-30 07:21:31.343 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.351 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.351 | ++lib/neutron:source:158                    SQLALCHEMY_DIR=/opt/stack/sqlalchemy
+2026-04-30 07:21:31.354 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.362 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.362 | ++lib/neutron:source:159                    SQLALCHEMY_BRANCH=main
+2026-04-30 07:21:31.365 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.371 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.372 | ++lib/neutron:source:170                    declare -a -g Q_PLUGIN_EXTRA_CONF_FILES
+2026-04-30 07:21:31.374 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.384 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.384 | ++lib/neutron:source:173                    declare -a -g _Q_PLUGIN_EXTRA_CONF_FILES_ABS
+2026-04-30 07:21:31.387 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.394 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.394 | ++lib/neutron:source:176                    Q_RR_CONF_FILE=/etc/neutron/rootwrap.conf
+2026-04-30 07:21:31.397 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.404 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.404 | ++lib/neutron:source:177                    [[ True == \F\a\l\s\e ]]
+2026-04-30 07:21:31.408 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.415 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.416 | +++lib/neutron:source:180                    get_rootwrap_location neutron
+2026-04-30 07:21:31.419 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.428 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.428 | +++functions:get_rootwrap_location:601       local module=neutron
+2026-04-30 07:21:31.433 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.441 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.442 | ++++functions:get_rootwrap_location:603       get_python_exec_prefix
+2026-04-30 07:21:31.444 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.452 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.457 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.458 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.464 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.467 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.472 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.477 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.481 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.486 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.489 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.495 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.495 | ++++inc/python:get_python_exec_prefix:80      [[ True == \T\r\u\e ]]
+2026-04-30 07:21:31.497 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.502 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.503 | ++++inc/python:get_python_exec_prefix:81      echo /opt/stack/data/venv/bin
+2026-04-30 07:21:31.506 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.514 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.515 | +++functions:get_rootwrap_location:603       echo /opt/stack/data/venv/bin/neutron-rootwrap
+2026-04-30 07:21:31.518 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.524 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.524 | ++lib/neutron:source:180                    NEUTRON_ROOTWRAP=/opt/stack/data/venv/bin/neutron-rootwrap
+2026-04-30 07:21:31.526 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.531 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.532 | ++lib/neutron:source:181                    Q_RR_COMMAND='sudo /opt/stack/data/venv/bin/neutron-rootwrap /etc/neutron/rootwrap.conf'
+2026-04-30 07:21:31.534 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.539 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.540 | ++lib/neutron:source:182                    [[ True == \T\r\u\e ]]
+2026-04-30 07:21:31.541 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.547 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.548 | ++lib/neutron:source:183                    Q_RR_DAEMON_COMMAND='sudo /opt/stack/data/venv/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf'
+2026-04-30 07:21:31.550 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.557 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.557 | ++lib/neutron:source:195                    Q_DVR_MODE=legacy
+2026-04-30 07:21:31.559 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.565 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.566 | ++lib/neutron:source:196                    [[ legacy != \l\e\g\a\c\y ]]
+2026-04-30 07:21:31.568 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.575 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.575 | ++lib/neutron:source:212                    ENABLE_TENANT_TUNNELS=True
+2026-04-30 07:21:31.577 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.584 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.584 | ++lib/neutron:source:217                    TENANT_TUNNEL_RANGES=1:1000
+2026-04-30 07:21:31.587 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.593 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.594 | ++lib/neutron:source:222                    ENABLE_TENANT_VLANS=False
+2026-04-30 07:21:31.596 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.602 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.603 | ++lib/neutron:source:230                    TENANT_VLAN_RANGE=
+2026-04-30 07:21:31.605 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.613 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.614 | ++lib/neutron:source:238                    PHYSICAL_NETWORK=public
+2026-04-30 07:21:31.616 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.623 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.624 | ++lib/neutron:source:248                    OVS_PHYSICAL_BRIDGE=br-ex
+2026-04-30 07:21:31.626 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.633 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.634 | ++lib/neutron:source:254                    OVS_ENABLE_TUNNELING=True
+2026-04-30 07:21:31.636 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.641 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.642 | ++lib/neutron:source:258                    ENABLE_ISOLATED_METADATA=False
+2026-04-30 07:21:31.644 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.650 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.650 | ++lib/neutron:source:263                    ENABLE_METADATA_NETWORK=False
+2026-04-30 07:21:31.652 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.657 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.657 | ++lib/neutron:source:268                    '[' -f /opt/stack/devstack/lib/neutron_plugins/ml2 ']'
+2026-04-30 07:21:31.660 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.666 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.666 | ++lib/neutron:source:269                    source /opt/stack/devstack/lib/neutron_plugins/ml2
+2026-04-30 07:21:31.670 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.670 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.674 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.676 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.680 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.685 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.687 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.692 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.826 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.836 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.836 | ++lib/neutron:source:276                    source /opt/stack/devstack/lib/neutron_plugins/services/metering
+2026-04-30 07:21:31.840 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.840 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.846 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.846 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.851 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.855 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.857 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.862 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.865 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.869 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.869 | ++lib/neutron:source:279                    source /opt/stack/devstack/lib/neutron_plugins/services/l3
+2026-04-30 07:21:31.871 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.876 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.876 | +++lib/neutron_plugins/services/l3:source:3  IP_VERSION=4
+2026-04-30 07:21:31.879 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.884 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.884 | +++lib/neutron_plugins/services/l3:source:5  [[ 4 != \4 ]]
+2026-04-30 07:21:31.886 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.891 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.891 | +++lib/neutron_plugins/services/l3:source:9  NEUTRON_CREATE_INITIAL_NETWORKS=True
+2026-04-30 07:21:31.894 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.900 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.900 | +++lib/neutron_plugins/services/l3:source:12  PROVIDER_SUBNET_NAME=provider_net
+2026-04-30 07:21:31.903 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.909 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.909 | +++lib/neutron_plugins/services/l3:source:13  IPV6_PROVIDER_SUBNET_NAME=provider_net_v6
+2026-04-30 07:21:31.912 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.917 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.917 | +++lib/neutron_plugins/services/l3:source:14  IPV6_PROVIDER_FIXED_RANGE=
+2026-04-30 07:21:31.920 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.925 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.925 | +++lib/neutron_plugins/services/l3:source:15  IPV6_PROVIDER_NETWORK_GATEWAY=
+2026-04-30 07:21:31.928 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.933 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.933 | +++lib/neutron_plugins/services/l3:source:17  PUBLIC_BRIDGE=br-ex
+2026-04-30 07:21:31.935 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.941 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.941 | +++lib/neutron_plugins/services/l3:source:18  PUBLIC_BRIDGE_MTU=1500
+2026-04-30 07:21:31.944 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.950 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.950 | +++lib/neutron_plugins/services/l3:source:23  Q_ASSIGN_GATEWAY_TO_PUBLIC_BRIDGE=True
+2026-04-30 07:21:31.953 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.960 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.960 | +++lib/neutron_plugins/services/l3:source:26  Q_ROUTER_NAME=router1
+2026-04-30 07:21:31.962 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.968 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.968 | +++lib/neutron_plugins/services/l3:source:31  Q_USE_PUBLIC_VETH=False
+2026-04-30 07:21:31.971 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.976 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.976 | +++lib/neutron_plugins/services/l3:source:32  Q_PUBLIC_VETH_EX=veth-pub-ex
+2026-04-30 07:21:31.979 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.984 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.984 | +++lib/neutron_plugins/services/l3:source:33  Q_PUBLIC_VETH_INT=veth-pub-int
+2026-04-30 07:21:31.987 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.992 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:31.993 | +++lib/neutron_plugins/services/l3:source:39  Q_L3_ROUTER_PER_TENANT=True
+2026-04-30 07:21:31.996 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.001 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.001 | +++lib/neutron_plugins/services/l3:source:72  Q_USE_PROVIDERNET_FOR_PUBLIC=True
+2026-04-30 07:21:32.003 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.009 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.009 | +++lib/neutron_plugins/services/l3:source:73  PUBLIC_PHYSICAL_NETWORK=public
+2026-04-30 07:21:32.014 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.014 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.014 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.016 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.021 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.021 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.021 | ++++lib/neutron_plugins/services/l3:source:76  cut -c 23-
+2026-04-30 07:21:32.021 | ++++lib/neutron_plugins/services/l3:source:76  sed s/-//g
+2026-04-30 07:21:32.021 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.022 | ++++lib/neutron_plugins/services/l3:source:76  uuidgen
+2026-04-30 07:21:32.022 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.023 | ++++lib/neutron_plugins/services/l3:source:76  sed -e 's/\(..\)\(....\)\(....\)/\1:\2:\3/'
+2026-04-30 07:21:32.039 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.044 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.044 | +++lib/neutron_plugins/services/l3:source:76  IPV6_GLOBAL_ID=31:ebdf:44f3
+2026-04-30 07:21:32.047 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.053 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.053 | +++lib/neutron_plugins/services/l3:source:79  IPV6_RA_MODE=slaac
+2026-04-30 07:21:32.055 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.061 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.061 | +++lib/neutron_plugins/services/l3:source:80  IPV6_ADDRESS_MODE=slaac
+2026-04-30 07:21:32.063 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.068 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.069 | +++lib/neutron_plugins/services/l3:source:81  IPV6_PUBLIC_SUBNET_NAME=ipv6-public-subnet
+2026-04-30 07:21:32.071 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.077 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.078 | +++lib/neutron_plugins/services/l3:source:82  IPV6_PRIVATE_SUBNET_NAME=ipv6-private-subnet
+2026-04-30 07:21:32.079 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.084 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.085 | +++lib/neutron_plugins/services/l3:source:83  IPV6_ADDRS_SAFE_TO_USE=fd31:ebdf:44f3::/56
+2026-04-30 07:21:32.088 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.089 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.094 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.094 | ++++lib/neutron_plugins/services/l3:source:86  awk -F / '{ print $1"/"($2>63 ? $2 : 64) }'
+2026-04-30 07:21:32.094 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.095 | ++++lib/neutron_plugins/services/l3:source:86  echo fd31:ebdf:44f3::/56
+2026-04-30 07:21:32.099 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.104 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.104 | +++lib/neutron_plugins/services/l3:source:86  FIXED_RANGE_V6=fd31:ebdf:44f3::/64
+2026-04-30 07:21:32.106 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.111 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.111 | +++lib/neutron_plugins/services/l3:source:87  IPV6_PRIVATE_NETWORK_GATEWAY=
+2026-04-30 07:21:32.115 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.120 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.120 | +++lib/neutron_plugins/services/l3:source:88  IPV6_PUBLIC_RANGE=2001:db8::/64
+2026-04-30 07:21:32.125 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.130 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.131 | +++lib/neutron_plugins/services/l3:source:89  IPV6_PUBLIC_NETWORK_GATEWAY=2001:db8::2
+2026-04-30 07:21:32.133 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.139 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.140 | +++lib/neutron_plugins/services/l3:source:90  IPV6_ROUTER_GW_IP=2001:db8::1
+2026-04-30 07:21:32.142 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.148 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.149 | +++lib/neutron_plugins/services/l3:source:93  NETWORK_GATEWAY=
+2026-04-30 07:21:32.151 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.157 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.157 | +++lib/neutron_plugins/services/l3:source:94  PUBLIC_NETWORK_GATEWAY=
+2026-04-30 07:21:32.159 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.164 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.165 | +++lib/neutron_plugins/services/l3:source:95  PRIVATE_SUBNET_NAME=private-subnet
+2026-04-30 07:21:32.167 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.172 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.173 | +++lib/neutron_plugins/services/l3:source:96  PUBLIC_SUBNET_NAME=public-subnet
+2026-04-30 07:21:32.175 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.181 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.181 | +++lib/neutron_plugins/services/l3:source:97  PUBLIC_SUBNET_ENABLE_DHCP=False
+2026-04-30 07:21:32.183 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.188 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.188 | +++lib/neutron_plugins/services/l3:source:100  USE_SUBNETPOOL=False
+2026-04-30 07:21:32.191 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.196 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.196 | +++lib/neutron_plugins/services/l3:source:101  SUBNETPOOL_NAME_V4=shared-default-subnetpool-v4
+2026-04-30 07:21:32.199 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.205 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.206 | +++lib/neutron_plugins/services/l3:source:102  SUBNETPOOL_NAME_V6=shared-default-subnetpool-v6
+2026-04-30 07:21:32.208 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.213 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.214 | +++lib/neutron_plugins/services/l3:source:104  SUBNETPOOL_PREFIX_V4=10.0.0.0/22
+2026-04-30 07:21:32.216 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.221 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.221 | +++lib/neutron_plugins/services/l3:source:105  SUBNETPOOL_PREFIX_V6=fd31:ebdf:44f3::/56
+2026-04-30 07:21:32.223 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.229 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.229 | +++lib/neutron_plugins/services/l3:source:107  SUBNETPOOL_SIZE_V4=26
+2026-04-30 07:21:32.231 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.239 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.239 | +++lib/neutron_plugins/services/l3:source:108  SUBNETPOOL_SIZE_V6=64
+2026-04-30 07:21:32.244 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.244 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.246 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.250 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.250 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.251 | ++++lib/neutron_plugins/services/l3:source:110  ip -4 route
+2026-04-30 07:21:32.251 | ++++lib/neutron_plugins/services/l3:source:110  grep '^default'
+2026-04-30 07:21:32.252 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.252 | ++++lib/neutron_plugins/services/l3:source:110  awk '{print $5}'
+2026-04-30 07:21:32.258 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.263 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.263 | +++lib/neutron_plugins/services/l3:source:110  default_v4_route_devs=ens3
+2026-04-30 07:21:32.267 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.267 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.267 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.271 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.271 | ++++lib/neutron_plugins/services/l3:source:112  ip -6 route list match default table all
+2026-04-30 07:21:32.272 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.273 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.273 | ++++lib/neutron_plugins/services/l3:source:112  grep via
+2026-04-30 07:21:32.273 | ++++lib/neutron_plugins/services/l3:source:112  awk '{print $5}'
+2026-04-30 07:21:32.278 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.282 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.283 | +++lib/neutron_plugins/services/l3:source:112  default_v6_route_devs=
+2026-04-30 07:21:32.288 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.293 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.293 | ++lib/neutron:source:282                    source /opt/stack/devstack/lib/neutron_plugins/services/placement
+2026-04-30 07:21:32.295 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.300 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.300 | ++lib/neutron:source:283                    source /opt/stack/devstack/lib/neutron_plugins/services/trunk
+2026-04-30 07:21:32.303 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.308 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.308 | ++lib/neutron:source:284                    source /opt/stack/devstack/lib/neutron_plugins/services/qos
+2026-04-30 07:21:32.311 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.316 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.316 | ++lib/neutron:source:285                    source /opt/stack/devstack/lib/neutron_plugins/services/segments
+2026-04-30 07:21:32.323 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.329 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.330 | ++lib/neutron:source:286                    source /opt/stack/devstack/lib/neutron_plugins/services/ovn-bgp
+2026-04-30 07:21:32.333 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.340 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.340 | ++lib/neutron:source:289                    has_neutron_plugin_security_group
+2026-04-30 07:21:32.342 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.348 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.348 | ++lib/neutron_plugins/ml2:has_neutron_plugin_security_group:146  return 0
+2026-04-30 07:21:32.352 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.360 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.360 | ++lib/neutron:source:290                    Q_USE_SECGROUP=True
+2026-04-30 07:21:32.363 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.369 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.369 | ++lib/neutron:source:298                    OVN_BRIDGE_MAPPINGS=public:br-ex
+2026-04-30 07:21:32.374 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.374 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.380 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.382 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.387 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.391 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.394 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.399 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.410 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.416 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.416 | +./stack.sh:main:618                       source /opt/stack/devstack/lib/ldap
+2026-04-30 07:21:32.419 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.419 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.424 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.425 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.429 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.434 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.436 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.441 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.445 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.450 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.450 | +./stack.sh:main:619                       source /opt/stack/devstack/lib/dstat
+2026-04-30 07:21:32.454 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.454 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.459 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.459 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.464 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.469 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.471 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.476 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.479 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.485 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.485 | +./stack.sh:main:620                       source /opt/stack/devstack/lib/atop
+2026-04-30 07:21:32.488 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.489 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.493 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.494 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.499 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.504 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.507 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.511 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.514 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.519 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.520 | +./stack.sh:main:621                       source /opt/stack/devstack/lib/tcpdump
+2026-04-30 07:21:32.523 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.523 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.529 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.529 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.534 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.540 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.543 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.549 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.552 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.558 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.558 | +./stack.sh:main:622                       source /opt/stack/devstack/lib/etcd3
+2026-04-30 07:21:32.563 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.564 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.568 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.569 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.573 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.578 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.580 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.585 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.609 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.614 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.614 | +./stack.sh:main:623                       source /opt/stack/devstack/lib/os-vif
+2026-04-30 07:21:32.617 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.622 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.622 | +++lib/os-vif:source:12                      is_ml2_ovs
+2026-04-30 07:21:32.624 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.629 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.629 | +++lib/os-vif:is_ml2_ovs:4                   [[ ovn == \o\p\e\n\v\s\w\i\t\c\h ]]
+2026-04-30 07:21:32.632 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.637 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.637 | +++lib/os-vif:is_ml2_ovs:7                   echo False
+2026-04-30 07:21:32.640 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.645 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.645 | ++lib/os-vif:source:12                      OS_VIF_OVS_ISOLATE_VIF=False
+2026-04-30 07:21:32.648 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.653 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.654 | +++lib/os-vif:source:13                      trueorfalse False OS_VIF_OVS_ISOLATE_VIF
+2026-04-30 07:21:32.656 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.661 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.664 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.665 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.669 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.671 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.675 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.680 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.682 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.687 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.690 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.695 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.695 | ++lib/os-vif:source:13                      OS_VIF_OVS_ISOLATE_VIF=False
+2026-04-30 07:21:32.698 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.704 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.704 | +./stack.sh:main:629                       run_phase source
+2026-04-30 07:21:32.706 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.714 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.714 | +functions-common:run_phase:1842           local mode=source
+2026-04-30 07:21:32.716 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.723 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.723 | +functions-common:run_phase:1843           local phase=
+2026-04-30 07:21:32.726 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.733 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.733 | +functions-common:run_phase:1844           [[ -d /opt/stack/devstack/extras.d ]]
+2026-04-30 07:21:32.736 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.742 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.742 | +functions-common:run_phase:1845           local extra_plugin_file_name
+2026-04-30 07:21:32.745 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.750 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.751 | +functions-common:run_phase:1846           for extra_plugin_file_name in $TOP_DIR/extras.d/*.sh
+2026-04-30 07:21:32.753 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.759 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.759 | +functions-common:run_phase:1851           local exceptions=80-tempest.sh
+2026-04-30 07:21:32.761 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.768 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.768 | +functions-common:run_phase:1852           local extra
+2026-04-30 07:21:32.771 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.777 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.777 | ++functions-common:run_phase:1853           basename /opt/stack/devstack/extras.d/80-tempest.sh
+2026-04-30 07:21:32.781 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.788 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.788 | +functions-common:run_phase:1853           extra=80-tempest.sh
+2026-04-30 07:21:32.790 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.796 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.796 | +functions-common:run_phase:1854           [[ 80-tempest.sh =~ 80-tempest\.sh ]]
+2026-04-30 07:21:32.799 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.805 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.805 | +functions-common:run_phase:1858           [[ -r /opt/stack/devstack/extras.d/80-tempest.sh ]]
+2026-04-30 07:21:32.808 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.814 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.814 | +functions-common:run_phase:1858           source /opt/stack/devstack/extras.d/80-tempest.sh source
+2026-04-30 07:21:32.818 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.824 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.824 | ++extras.d/80-tempest.sh:source:3           is_service_enabled tempest
+2026-04-30 07:21:32.826 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.833 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.837 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.839 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.843 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.844 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.849 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.854 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.856 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.861 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.864 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.869 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.869 | ++functions-common:is_service_enabled:2070  return 0
+2026-04-30 07:21:32.872 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.877 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.877 | ++extras.d/80-tempest.sh:source:4           [[ source == \s\o\u\r\c\e ]]
+2026-04-30 07:21:32.879 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.885 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.885 | ++extras.d/80-tempest.sh:source:6           source /opt/stack/devstack/lib/tempest
+2026-04-30 07:21:32.889 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.890 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.895 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.895 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.901 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.905 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.908 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.913 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.950 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.955 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.955 | ++extras.d/80-tempest.sh:source:27          [[ source == \u\n\s\t\a\c\k ]]
+2026-04-30 07:21:32.958 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.965 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.965 | ++extras.d/80-tempest.sh:source:32          [[ source == \c\l\e\a\n ]]
+2026-04-30 07:21:32.969 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.975 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.975 | +functions-common:run_phase:1863           [[ source == \s\o\u\r\c\e ]]
+2026-04-30 07:21:32.978 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.984 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.984 | +functions-common:run_phase:1864           load_plugin_settings
+2026-04-30 07:21:32.987 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.993 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:32.994 | +functions-common:load_plugin_settings:1778  local plugins=
+2026-04-30 07:21:32.996 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.003 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.003 | +functions-common:load_plugin_settings:1779  local plugin
+2026-04-30 07:21:33.006 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.011 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.012 | +functions-common:load_plugin_settings:1782  [[ -z '' ]]
+2026-04-30 07:21:33.015 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.021 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.021 | +functions-common:load_plugin_settings:1783  return
+2026-04-30 07:21:33.024 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.030 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.031 | +functions-common:run_phase:1865           verify_disabled_services
+2026-04-30 07:21:33.034 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.040 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.040 | +functions-common:verify_disabled_services:2125  local service
+2026-04-30 07:21:33.043 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.048 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.048 | +functions-common:verify_disabled_services:2126  for service in ${ENABLED_SERVICES//,/ }
+2026-04-30 07:21:33.051 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.057 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.058 | +functions-common:verify_disabled_services:2127  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,key, ]]
+2026-04-30 07:21:33.061 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.067 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.067 | +functions-common:verify_disabled_services:2126  for service in ${ENABLED_SERVICES//,/ }
+2026-04-30 07:21:33.070 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.076 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.077 | +functions-common:verify_disabled_services:2127  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,n-api, ]]
+2026-04-30 07:21:33.079 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.086 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.086 | +functions-common:verify_disabled_services:2126  for service in ${ENABLED_SERVICES//,/ }
+2026-04-30 07:21:33.089 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.094 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.095 | +functions-common:verify_disabled_services:2127  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,n-cpu, ]]
+2026-04-30 07:21:33.097 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.103 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.104 | +functions-common:verify_disabled_services:2126  for service in ${ENABLED_SERVICES//,/ }
+2026-04-30 07:21:33.106 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.112 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.113 | +functions-common:verify_disabled_services:2127  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,n-cond, ]]
+2026-04-30 07:21:33.116 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.122 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.122 | +functions-common:verify_disabled_services:2126  for service in ${ENABLED_SERVICES//,/ }
+2026-04-30 07:21:33.125 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.131 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.131 | +functions-common:verify_disabled_services:2127  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,n-sch, ]]
+2026-04-30 07:21:33.134 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.141 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.141 | +functions-common:verify_disabled_services:2126  for service in ${ENABLED_SERVICES//,/ }
+2026-04-30 07:21:33.144 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.151 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.151 | +functions-common:verify_disabled_services:2127  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,n-novnc, ]]
+2026-04-30 07:21:33.154 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.161 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.161 | +functions-common:verify_disabled_services:2126  for service in ${ENABLED_SERVICES//,/ }
+2026-04-30 07:21:33.164 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.170 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.170 | +functions-common:verify_disabled_services:2127  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,n-api-meta, ]]
+2026-04-30 07:21:33.173 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.178 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.179 | +functions-common:verify_disabled_services:2126  for service in ${ENABLED_SERVICES//,/ }
+2026-04-30 07:21:33.181 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.187 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.187 | +functions-common:verify_disabled_services:2127  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,placement-api, ]]
+2026-04-30 07:21:33.190 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.197 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.197 | +functions-common:verify_disabled_services:2126  for service in ${ENABLED_SERVICES//,/ }
+2026-04-30 07:21:33.199 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.206 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.207 | +functions-common:verify_disabled_services:2127  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,placement-client, ]]
+2026-04-30 07:21:33.210 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.217 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.217 | +functions-common:verify_disabled_services:2126  for service in ${ENABLED_SERVICES//,/ }
+2026-04-30 07:21:33.220 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.226 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.226 | +functions-common:verify_disabled_services:2127  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,g-api, ]]
+2026-04-30 07:21:33.229 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.235 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.235 | +functions-common:verify_disabled_services:2126  for service in ${ENABLED_SERVICES//,/ }
+2026-04-30 07:21:33.237 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.244 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.245 | +functions-common:verify_disabled_services:2127  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,c-sch, ]]
+2026-04-30 07:21:33.248 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.254 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.254 | +functions-common:verify_disabled_services:2126  for service in ${ENABLED_SERVICES//,/ }
+2026-04-30 07:21:33.257 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.262 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.263 | +functions-common:verify_disabled_services:2127  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,c-api, ]]
+2026-04-30 07:21:33.265 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.272 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.272 | +functions-common:verify_disabled_services:2126  for service in ${ENABLED_SERVICES//,/ }
+2026-04-30 07:21:33.275 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.281 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.282 | +functions-common:verify_disabled_services:2127  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,c-vol, ]]
+2026-04-30 07:21:33.284 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.291 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.291 | +functions-common:verify_disabled_services:2126  for service in ${ENABLED_SERVICES//,/ }
+2026-04-30 07:21:33.294 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.300 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.300 | +functions-common:verify_disabled_services:2127  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,ovn-controller, ]]
+2026-04-30 07:21:33.303 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.309 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.310 | +functions-common:verify_disabled_services:2126  for service in ${ENABLED_SERVICES//,/ }
+2026-04-30 07:21:33.314 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.322 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.323 | +functions-common:verify_disabled_services:2127  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,ovn-northd, ]]
+2026-04-30 07:21:33.326 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.333 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.333 | +functions-common:verify_disabled_services:2126  for service in ${ENABLED_SERVICES//,/ }
+2026-04-30 07:21:33.337 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.344 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.344 | +functions-common:verify_disabled_services:2127  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,ovs-vswitchd, ]]
+2026-04-30 07:21:33.350 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.358 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.359 | +functions-common:verify_disabled_services:2126  for service in ${ENABLED_SERVICES//,/ }
+2026-04-30 07:21:33.362 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.370 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.370 | +functions-common:verify_disabled_services:2127  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,ovsdb-server, ]]
+2026-04-30 07:21:33.374 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.381 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.381 | +functions-common:verify_disabled_services:2126  for service in ${ENABLED_SERVICES//,/ }
+2026-04-30 07:21:33.385 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.391 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.392 | +functions-common:verify_disabled_services:2127  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,q-svc, ]]
+2026-04-30 07:21:33.395 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.402 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.402 | +functions-common:verify_disabled_services:2126  for service in ${ENABLED_SERVICES//,/ }
+2026-04-30 07:21:33.405 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.411 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.411 | +functions-common:verify_disabled_services:2127  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,q-ovn-agent, ]]
+2026-04-30 07:21:33.414 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.421 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.421 | +functions-common:verify_disabled_services:2126  for service in ${ENABLED_SERVICES//,/ }
+2026-04-30 07:21:33.425 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.434 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.434 | +functions-common:verify_disabled_services:2127  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,rabbit, ]]
+2026-04-30 07:21:33.438 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.448 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.448 | +functions-common:verify_disabled_services:2126  for service in ${ENABLED_SERVICES//,/ }
+2026-04-30 07:21:33.451 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.460 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.461 | +functions-common:verify_disabled_services:2127  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,tempest, ]]
+2026-04-30 07:21:33.465 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.473 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.473 | +functions-common:verify_disabled_services:2126  for service in ${ENABLED_SERVICES//,/ }
+2026-04-30 07:21:33.478 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.485 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.486 | +functions-common:verify_disabled_services:2127  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,mysql, ]]
+2026-04-30 07:21:33.489 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.497 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.497 | +functions-common:verify_disabled_services:2126  for service in ${ENABLED_SERVICES//,/ }
+2026-04-30 07:21:33.501 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.509 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.509 | +functions-common:verify_disabled_services:2127  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,etcd3, ]]
+2026-04-30 07:21:33.512 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.521 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.521 | +functions-common:verify_disabled_services:2126  for service in ${ENABLED_SERVICES//,/ }
+2026-04-30 07:21:33.524 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.532 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.533 | +functions-common:verify_disabled_services:2127  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,dstat, ]]
+2026-04-30 07:21:33.537 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.547 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.547 | +functions-common:verify_disabled_services:2126  for service in ${ENABLED_SERVICES//,/ }
+2026-04-30 07:21:33.550 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.558 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.559 | +functions-common:verify_disabled_services:2127  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,cinder, ]]
+2026-04-30 07:21:33.562 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.571 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.571 | +functions-common:verify_disabled_services:2126  for service in ${ENABLED_SERVICES//,/ }
+2026-04-30 07:21:33.574 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.581 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.582 | +functions-common:verify_disabled_services:2127  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,c-bak, ]]
+2026-04-30 07:21:33.587 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.595 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.596 | +./stack.sh:main:700                       initialize_database_backends
+2026-04-30 07:21:33.599 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.606 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.607 | +lib/database:initialize_database_backends:65  for backend in $DATABASE_BACKENDS
+2026-04-30 07:21:33.610 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.618 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.619 | +lib/database:initialize_database_backends:66  is_service_enabled mysql
+2026-04-30 07:21:33.622 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.630 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.635 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.637 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.641 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.647 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.650 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.656 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.659 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.664 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.667 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.673 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.674 | +functions-common:is_service_enabled:2070  return 0
+2026-04-30 07:21:33.676 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.683 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.683 | +lib/database:initialize_database_backends:66  DATABASE_TYPE=mysql
+2026-04-30 07:21:33.688 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.696 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.696 | +lib/database:initialize_database_backends:65  for backend in $DATABASE_BACKENDS
+2026-04-30 07:21:33.700 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.708 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.708 | +lib/database:initialize_database_backends:66  is_service_enabled postgresql
+2026-04-30 07:21:33.711 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.720 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.725 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.725 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.732 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.733 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.741 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.747 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.750 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.756 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.759 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.765 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.765 | +functions-common:is_service_enabled:2070  return 1
+2026-04-30 07:21:33.769 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.775 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.776 | +lib/database:initialize_database_backends:69  '[' -z mysql ']'
+2026-04-30 07:21:33.779 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.787 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.787 | +lib/database:initialize_database_backends:73  MYSQL_HOST=127.0.0.1
+2026-04-30 07:21:33.789 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.802 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.803 | +lib/database:initialize_database_backends:74  MYSQL_USER=root
+2026-04-30 07:21:33.806 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.815 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.815 | +lib/database:initialize_database_backends:80  [[ 4 == 6 ]]
+2026-04-30 07:21:33.819 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.828 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.828 | +lib/database:initialize_database_backends:83  DATABASE_HOST=127.0.0.1
+2026-04-30 07:21:33.832 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.840 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.840 | +lib/database:initialize_database_backends:86  DATABASE_USER=root
+2026-04-30 07:21:33.844 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.852 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.853 | +lib/database:initialize_database_backends:88  '[' -n '' ']'
+2026-04-30 07:21:33.856 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.864 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.865 | +lib/database:initialize_database_backends:92  return 0
+2026-04-30 07:21:33.869 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.881 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.881 | +./stack.sh:main:701                       echo 'Using mysql database backend'
+2026-04-30 07:21:33.881 | Using mysql database backend
+2026-04-30 07:21:33.884 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.893 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.893 | +./stack.sh:main:704                       read_password DATABASE_PASSWORD 'ENTER A PASSWORD TO USE FOR THE DATABASE.'
+2026-04-30 07:21:33.898 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.909 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.914 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.916 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.922 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.922 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.929 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.936 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.939 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.946 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.950 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.958 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.959 | +./stack.sh:main:706                       define_database_baseurl
+2026-04-30 07:21:33.964 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.973 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.973 | ++lib/database:define_database_baseurl:106  get_database_type_mysql
+2026-04-30 07:21:33.975 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.984 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.984 | ++lib/databases/mysql:get_database_type_mysql:32  [[ PyMySQL == \P\y\M\y\S\Q\L ]]
+2026-04-30 07:21:33.986 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.994 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:33.994 | ++lib/databases/mysql:get_database_type_mysql:33  echo mysql+pymysql
+2026-04-30 07:21:34.002 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.009 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.010 | +lib/database:define_database_baseurl:106  BASE_SQL_CONN=mysql+pymysql://root:hpinvent@127.0.0.1
+2026-04-30 07:21:34.014 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.021 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.022 | +./stack.sh:main:718                       is_service_enabled rabbit
+2026-04-30 07:21:34.025 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.032 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.037 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.039 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.046 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.047 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.051 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.058 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.060 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.066 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.070 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.076 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.076 | +functions-common:is_service_enabled:2070  return 0
+2026-04-30 07:21:34.079 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.085 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.086 | +./stack.sh:main:719                       read_password RABBIT_PASSWORD 'ENTER A PASSWORD TO USE FOR RABBIT.'
+2026-04-30 07:21:34.092 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.102 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.109 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.110 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.119 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.120 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.126 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.131 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.134 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.140 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.144 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.152 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.152 | +./stack.sh:main:726                       is_service_enabled keystone
+2026-04-30 07:21:34.155 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.161 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.165 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.166 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.172 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.172 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.178 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.184 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.187 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.192 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.195 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.201 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.201 | +functions-common:is_service_enabled:2070  return 0
+2026-04-30 07:21:34.204 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.209 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.210 | +./stack.sh:main:728                       read_password SERVICE_PASSWORD 'ENTER A SERVICE_PASSWORD TO USE FOR THE SERVICE AUTHENTICATION.'
+2026-04-30 07:21:34.213 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.219 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.222 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.224 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.229 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.230 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.234 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.239 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.242 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.247 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.250 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.255 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.256 | +./stack.sh:main:730                       read_password ADMIN_PASSWORD 'ENTER A PASSWORD TO USE FOR HORIZON AND KEYSTONE (20 CHARS OR LESS).'
+2026-04-30 07:21:34.258 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.264 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.268 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.270 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.275 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.275 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.281 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.286 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.289 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.295 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.297 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.303 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.304 | +./stack.sh:main:741                       is_service_enabled ldap
+2026-04-30 07:21:34.307 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.313 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.316 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.317 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.322 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.322 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.328 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.333 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.335 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.340 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.344 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.349 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.349 | +functions-common:is_service_enabled:2070  return 1
+2026-04-30 07:21:34.352 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.358 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.358 | +./stack.sh:main:750                       is_service_enabled s-proxy
+2026-04-30 07:21:34.361 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.370 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.375 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.376 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.382 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.383 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.389 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.394 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.399 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.407 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.410 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.417 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.417 | +functions-common:is_service_enabled:2070  return 1
+2026-04-30 07:21:34.422 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.429 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.429 | +./stack.sh:main:762                       save_stackenv 762
+2026-04-30 07:21:34.431 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.438 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.439 | +functions-common:save_stackenv:65         local tag=762
+2026-04-30 07:21:34.443 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.449 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.451 | ++functions-common:save_stackenv:67         date +%F-%H%M%S
+2026-04-30 07:21:34.455 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.461 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.462 | +functions-common:save_stackenv:67         time_stamp=2026-04-30-072134
+2026-04-30 07:21:34.466 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.473 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.473 | +functions-common:save_stackenv:68         echo '# 2026-04-30-072134 762'
+2026-04-30 07:21:34.476 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.483 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.483 | +functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+2026-04-30 07:21:34.486 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.492 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.492 | +functions-common:save_stackenv:70         echo BASE_SQL_CONN=mysql+pymysql://root:hpinvent@127.0.0.1
+2026-04-30 07:21:34.494 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.500 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.500 | +functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+2026-04-30 07:21:34.505 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.510 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.510 | +functions-common:save_stackenv:70         echo DATA_DIR=/opt/stack/data
+2026-04-30 07:21:34.514 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.520 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.521 | +functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+2026-04-30 07:21:34.523 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.530 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.530 | +functions-common:save_stackenv:70         echo DEST=/opt/stack
+2026-04-30 07:21:34.533 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.541 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.541 | +functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+2026-04-30 07:21:34.546 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.553 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.553 | +functions-common:save_stackenv:70         echo ENABLED_SERVICES=key,n-api,n-cpu,n-cond,n-sch,n-novnc,n-api-meta,placement-api,placement-client,g-api,c-sch,c-api,c-vol,ovn-controller,ovn-northd,ovs-vswitchd,ovsdb-server,q-svc,q-ovn-agent,rabbit,tempest,mysql,etcd3,dstat,cinder,c-bak
+2026-04-30 07:21:34.557 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.563 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.564 | +functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+2026-04-30 07:21:34.566 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.572 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.572 | +functions-common:save_stackenv:70         echo HOST_IP=10.132.44.209
+2026-04-30 07:21:34.575 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.581 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.581 | +functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+2026-04-30 07:21:34.584 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.590 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.590 | +functions-common:save_stackenv:70         echo KEYSTONE_SERVICE_URI=http://10.132.44.209/identity
+2026-04-30 07:21:34.593 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.600 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.600 | +functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+2026-04-30 07:21:34.602 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.611 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.611 | +functions-common:save_stackenv:70         echo LOGFILE=/tmp/devstack_logs/devstacklog.txt.2026-04-30-072117
+2026-04-30 07:21:34.613 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.619 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.620 | +functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+2026-04-30 07:21:34.623 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.629 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.629 | +functions-common:save_stackenv:70         echo OS_CACERT=
+2026-04-30 07:21:34.633 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.639 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.639 | +functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+2026-04-30 07:21:34.642 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.649 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.649 | +functions-common:save_stackenv:70         echo SERVICE_HOST=10.132.44.209
+2026-04-30 07:21:34.653 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.659 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.659 | +functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+2026-04-30 07:21:34.662 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.668 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.668 | +functions-common:save_stackenv:70         echo STACK_USER=ubuntu
+2026-04-30 07:21:34.672 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.678 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.679 | +functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+2026-04-30 07:21:34.682 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.688 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.689 | +functions-common:save_stackenv:70         echo TLS_IP=
+2026-04-30 07:21:34.692 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.699 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.700 | +functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+2026-04-30 07:21:34.702 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.709 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.710 | +functions-common:save_stackenv:70         echo HOST_IPV6=::1
+2026-04-30 07:21:34.712 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.720 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.720 | +functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+2026-04-30 07:21:34.723 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.731 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.731 | +functions-common:save_stackenv:70         echo SERVICE_IP_VERSION=4
+2026-04-30 07:21:34.734 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.740 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.741 | +functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+2026-04-30 07:21:34.743 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.750 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.750 | +functions-common:save_stackenv:70         echo TUNNEL_ENDPOINT_IP=10.132.44.209
+2026-04-30 07:21:34.754 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.760 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.760 | +functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+2026-04-30 07:21:34.763 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.769 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.769 | +functions-common:save_stackenv:70         echo TUNNEL_IP_VERSION=4
+2026-04-30 07:21:34.773 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.780 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.781 | +./stack.sh:main:775                       GIT_DEPTH=0
+2026-04-30 07:21:34.785 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.792 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.793 | +./stack.sh:main:775                       git_clone http://github.com/openstack/requirements.git /opt/stack/requirements master
+2026-04-30 07:21:34.796 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.804 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.804 | +functions-common:git_clone:583            local git_remote=http://github.com/openstack/requirements.git
+2026-04-30 07:21:34.808 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.817 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.817 | +functions-common:git_clone:584            local git_dest=/opt/stack/requirements
+2026-04-30 07:21:34.819 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.829 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.830 | +functions-common:git_clone:585            local git_ref=master
+2026-04-30 07:21:34.833 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.841 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.842 | +functions-common:git_clone:586            local orig_dir
+2026-04-30 07:21:34.846 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.857 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.857 | ++functions-common:git_clone:587            pwd
+2026-04-30 07:21:34.861 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.871 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.872 | +functions-common:git_clone:587            orig_dir=/opt/stack/devstack
+2026-04-30 07:21:34.876 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.888 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.889 | +functions-common:git_clone:588            local git_clone_flags=
+2026-04-30 07:21:34.894 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.904 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.905 | ++functions-common:git_clone:590            trueorfalse False RECLONE
+2026-04-30 07:21:34.908 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.914 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.919 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.919 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.926 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.928 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.933 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.939 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.941 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.947 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.951 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.957 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.957 | +functions-common:git_clone:590            RECLONE=False
+2026-04-30 07:21:34.960 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.966 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.966 | +functions-common:git_clone:591            [[ 0 -gt 0 ]]
+2026-04-30 07:21:34.970 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.976 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.977 | +functions-common:git_clone:595            [[ False = \T\r\u\e ]]
+2026-04-30 07:21:34.979 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.981 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.985 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.985 | +functions-common:git_clone:604            echo master
+2026-04-30 07:21:34.987 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.987 | +functions-common:git_clone:604            egrep -q '^refs'
+2026-04-30 07:21:34.992 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.997 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:34.997 | +functions-common:git_clone:618            [[ ! -d /opt/stack/requirements ]]
+2026-04-30 07:21:34.999 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:35.006 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:35.006 | +functions-common:git_clone:619            [[ False = \T\r\u\e ]]
+2026-04-30 07:21:35.008 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:35.014 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:35.015 | +functions-common:git_clone:624            git_timed clone --no-checkout http://github.com/openstack/requirements.git /opt/stack/requirements
+2026-04-30 07:21:35.017 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:35.022 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:35.023 | +functions-common:git_timed:691            local count=0
+2026-04-30 07:21:35.026 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:35.031 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:35.032 | +functions-common:git_timed:692            local timeout=0
+2026-04-30 07:21:35.034 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:35.041 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:35.042 | +functions-common:git_timed:694            [[ -n 0 ]]
+2026-04-30 07:21:35.045 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:35.053 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:35.053 | +functions-common:git_timed:695            timeout=0
+2026-04-30 07:21:35.056 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:35.064 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:35.065 | +functions-common:git_timed:698            time_start git_timed
+2026-04-30 07:21:35.067 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:35.074 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:35.074 | +functions-common:time_start:2400          local name=git_timed
+2026-04-30 07:21:35.077 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:35.085 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:35.085 | +functions-common:time_start:2401          local start_time=
+2026-04-30 07:21:35.089 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:35.097 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:35.098 | +functions-common:time_start:2402          [[ -n '' ]]
+2026-04-30 07:21:35.101 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:35.110 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:35.111 | ++functions-common:time_start:2405          date +%s%3N
+2026-04-30 07:21:35.117 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:35.124 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:35.124 | +functions-common:time_start:2405          _TIME_START[$name]=1777533695113
+2026-04-30 07:21:35.128 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:35.135 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:35.135 | +functions-common:git_timed:699            timeout -s SIGINT 0 git clone --no-checkout http://github.com/openstack/requirements.git /opt/stack/requirements
+2026-04-30 07:21:35.139 | Cloning into '/opt/stack/requirements'...
+2026-04-30 07:21:35.971 | warning: redirecting to https://github.com/openstack/requirements.git/
+2026-04-30 07:21:39.147 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.154 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.155 | +functions-common:git_timed:713            time_stop git_timed
+2026-04-30 07:21:39.157 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.162 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.163 | +functions-common:time_stop:2414           local name
+2026-04-30 07:21:39.165 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.171 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.171 | +functions-common:time_stop:2415           local end_time
+2026-04-30 07:21:39.173 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.178 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.179 | +functions-common:time_stop:2416           local elapsed_time
+2026-04-30 07:21:39.181 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.189 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.189 | +functions-common:time_stop:2417           local total
+2026-04-30 07:21:39.192 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.197 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.198 | +functions-common:time_stop:2418           local start_time
+2026-04-30 07:21:39.200 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.205 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.206 | +functions-common:time_stop:2420           name=git_timed
+2026-04-30 07:21:39.208 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.216 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.216 | +functions-common:time_stop:2421           start_time=1777533695113
+2026-04-30 07:21:39.218 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.225 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.225 | +functions-common:time_stop:2423           [[ -z 1777533695113 ]]
+2026-04-30 07:21:39.229 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.235 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.236 | ++functions-common:time_stop:2426           date +%s%3N
+2026-04-30 07:21:39.240 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.246 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.246 | +functions-common:time_stop:2426           end_time=1777533699238
+2026-04-30 07:21:39.249 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.254 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.254 | +functions-common:time_stop:2427           elapsed_time=4125
+2026-04-30 07:21:39.257 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.263 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.263 | +functions-common:time_stop:2428           total=0
+2026-04-30 07:21:39.265 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.270 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.270 | +functions-common:time_stop:2430           _TIME_START[$name]=
+2026-04-30 07:21:39.273 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.278 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.278 | +functions-common:time_stop:2431           _TIME_TOTAL[$name]=4125
+2026-04-30 07:21:39.281 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.287 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.288 | +functions-common:git_clone:625            cd /opt/stack/requirements
+2026-04-30 07:21:39.290 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.296 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.297 | +functions-common:git_clone:626            git_timed fetch origin master
+2026-04-30 07:21:39.299 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.305 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.305 | +functions-common:git_timed:691            local count=0
+2026-04-30 07:21:39.307 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.313 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.314 | +functions-common:git_timed:692            local timeout=0
+2026-04-30 07:21:39.316 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.322 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.322 | +functions-common:git_timed:694            [[ -n 0 ]]
+2026-04-30 07:21:39.324 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.331 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.331 | +functions-common:git_timed:695            timeout=0
+2026-04-30 07:21:39.333 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.339 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.339 | +functions-common:git_timed:698            time_start git_timed
+2026-04-30 07:21:39.341 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.348 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.349 | +functions-common:time_start:2400          local name=git_timed
+2026-04-30 07:21:39.351 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.358 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.358 | +functions-common:time_start:2401          local start_time=
+2026-04-30 07:21:39.361 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.367 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.368 | +functions-common:time_start:2402          [[ -n '' ]]
+2026-04-30 07:21:39.373 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.380 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.381 | ++functions-common:time_start:2405          date +%s%3N
+2026-04-30 07:21:39.385 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.391 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.391 | +functions-common:time_start:2405          _TIME_START[$name]=1777533699382
+2026-04-30 07:21:39.394 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.400 | tput: No value for $TERM and no -T specified
+2026-04-30 07:21:39.400 | +functions-common:git_timed:699            timeout -s SIGINT 0 git fetch origin master
+2026-04-30 07:22:13.226 | fatal: unable to access 'http://github.com/openstack/requirements.git/': Recv failure: Connection reset by peer
+2026-04-30 07:22:13.235 | tput: No value for $TERM and no -T specified
+2026-04-30 07:22:13.248 | tput: No value for $TERM and no -T specified
+2026-04-30 07:22:13.248 | +functions-common:git_timed:702            [[ 128 -ne 124 ]]
+2026-04-30 07:22:13.254 | tput: No value for $TERM and no -T specified
+2026-04-30 07:22:13.265 | tput: No value for $TERM and no -T specified
+2026-04-30 07:22:13.266 | +functions-common:git_timed:703            die 703 'git call failed: [git fetch' origin 'master]'
+2026-04-30 07:22:13.269 | tput: No value for $TERM and no -T specified
+2026-04-30 07:22:13.282 | tput: No value for $TERM and no -T specified
+2026-04-30 07:22:13.283 | +functions-common:die:290                  local exitcode=0
+2026-04-30 07:22:13.287 | tput: No value for $TERM and no -T specified
+2026-04-30 07:22:13.295 | tput: No value for $TERM and no -T specified
+2026-04-30 07:22:13.295 | [Call Trace]
+2026-04-30 07:22:13.296 | ./stack.sh:775:git_clone
+2026-04-30 07:22:13.296 | /opt/stack/devstack/functions-common:626:git_timed
+2026-04-30 07:22:13.296 | /opt/stack/devstack/functions-common:703:die
+2026-04-30 07:22:13.302 | [ERROR] /opt/stack/devstack/functions-common:703 git call failed: [git fetch origin master]
+2026-04-30 07:22:14.310 | Error on exit
