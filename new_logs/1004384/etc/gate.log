@@ -1,4 +1,4 @@
-07:40:12 RT program started
+09:39:06 RT program started
 SHELL=/bin/sh
 PWD=/home/ubuntu
 LOGNAME=ubuntu
@@ -9,13 +9,13 @@ SSH_CONNECTION= <redacted>
 XDG_SESSION_CLASS=user
 USER=ubuntu
 SHLVL=1
-XDG_SESSION_ID=2
+XDG_SESSION_ID=1
 XDG_RUNTIME_DIR=/run/user/1000
-SSH_CLIENT=10.201.4.29 55304 22
+SSH_CLIENT=10.201.4.29 59750 22
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 _=/usr/bin/env
-07:40:12 RT We are inside agent gate
+09:39:06 RT We are inside agent gate
 Reading package lists...
 Building dependency tree...
 Reading state information...
@@ -25,57 +25,57 @@ The following NEW packages will be installed:
 Need to get 204 kB of archives.
 After this operation, 811 kB of additional disk space will be used.
 Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 net-tools amd64 2.10-0.1ubuntu4.4 [204 kB]
-Fetched 204 kB in 1s (160 kB/s)
+Fetched 204 kB in 2s (88.2 kB/s)
 Selecting previously unselected package net-tools.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 52666 files and directories currently installed.)
 Preparing to unpack .../net-tools_2.10-0.1ubuntu4.4_amd64.deb ...
 Unpacking net-tools (2.10-0.1ubuntu4.4) ...
 Setting up net-tools (2.10-0.1ubuntu4.4) ...
 Processing triggers for man-db (2.12.0-4build2) ...
-Disabling Ubuntu mode, explicit restart mode configured07:40:18 RT patch id: refs/changes/84/1004384/4 - Calling various functions
-07:40:18 RT Inside install_packages
+Disabling Ubuntu mode, explicit restart mode configured09:39:14 RT patch id: refs/changes/84/1004384/6 - Calling various functions
+09:39:14 RT Inside install_packages
 Hit:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble InRelease
 Get:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
-Get:3 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
-Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1375 kB]
-Get:5 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
-Get:6 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [181 kB]
-Get:7 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 c-n-f Metadata [17.7 kB]
-Get:8 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1121 kB]
-Get:9 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1702 kB]
-Get:10 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [46.4 kB]
-Get:11 http://security.ubuntu.com/ubuntu noble-security/main amd64 c-n-f Metadata [11.9 kB]
-Get:12 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [388 kB]
-Get:13 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1220 kB]
-Get:14 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [76.2 kB]
-Get:15 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 c-n-f Metadata [34.9 kB]
-Get:16 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [1761 kB]
-Get:17 http://security.ubuntu.com/ubuntu noble-security/universe amd64 c-n-f Metadata [24.2 kB]
-Get:18 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [1669 kB]
-Get:19 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
-Get:20 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 c-n-f Metadata [456 B]
-Get:21 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [212 B]
-Get:22 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Packages [55.0 kB]
-Get:23 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 c-n-f Metadata [444 B]
-Get:24 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
-Get:25 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 c-n-f Metadata [656 B]
-Get:26 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/main amd64 Packages [40.6 kB]
-Get:27 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [5784 B]
-Get:28 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Packages [49.8 kB]
-Get:29 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/main amd64 c-n-f Metadata [368 B]
-Get:30 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [208 B]
-Get:31 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Packages [31.0 kB]
-Get:32 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 c-n-f Metadata [468 B]
+Get:3 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+Get:5 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1397 kB]
+Get:6 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1144 kB]
+Get:7 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [46.3 kB]
+Get:8 http://security.ubuntu.com/ubuntu noble-security/main amd64 c-n-f Metadata [11.9 kB]
+Get:9 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [181 kB]
+Get:10 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1221 kB]
+Get:11 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [76.3 kB]
+Get:12 http://security.ubuntu.com/ubuntu noble-security/universe amd64 c-n-f Metadata [24.2 kB]
+Get:13 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 c-n-f Metadata [17.7 kB]
+Get:14 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [1713 kB]
+Get:15 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1702 kB]
+Get:16 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [212 B]
+Get:17 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 c-n-f Metadata [444 B]
+Get:18 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Packages [45.4 kB]
+Get:19 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [208 B]
+Get:20 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 c-n-f Metadata [468 B]
+Get:21 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [388 kB]
+Get:22 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 c-n-f Metadata [34.9 kB]
+Get:23 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [1805 kB]
+Get:24 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
+Get:25 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 c-n-f Metadata [456 B]
+Get:26 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Packages [50.7 kB]
+Get:27 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+Get:28 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 c-n-f Metadata [656 B]
+Get:29 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/main amd64 Packages [40.6 kB]
+Get:30 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [5780 B]
+Get:31 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/main amd64 c-n-f Metadata [368 B]
+Get:32 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Packages [31.0 kB]
 Get:33 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [12.6 kB]
 Get:34 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/universe amd64 c-n-f Metadata [1588 B]
 Get:35 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Components [212 B]
 Get:36 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Packages [748 B]
 Get:37 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Components [212 B]
-Fetched 10.2 MB in 9s (1129 kB/s)
+Fetched 10.3 MB in 15s (668 kB/s)
 Reading package lists...
 Building dependency tree...
 Reading state information...
-218 packages can be upgraded. Run 'apt list --upgradable' to see them.
+220 packages can be upgraded. Run 'apt list --upgradable' to see them.
 Reading package lists...
 Building dependency tree...
 Reading state information...
@@ -85,12 +85,12 @@ Recommended packages:
   build-essential python3-dev
 The following NEW packages will be installed:
   python3-pip python3-wheel
-0 upgraded, 2 newly installed, 0 to remove and 218 not upgraded.
+0 upgraded, 2 newly installed, 0 to remove and 220 not upgraded.
 Need to get 1373 kB of archives.
 After this operation, 7270 kB of additional disk space will be used.
 Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-wheel all 0.42.0-2 [53.1 kB]
 Get:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 python3-pip all 24.0+dfsg-1ubuntu1.3 [1320 kB]
-Fetched 1373 kB in 1s (1350 kB/s)
+Fetched 1373 kB in 2s (847 kB/s)
 Selecting previously unselected package python3-wheel.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 52714 files and directories currently installed.)
 Preparing to unpack .../python3-wheel_0.42.0-2_all.deb ...
@@ -113,7 +113,7 @@ The following NEW packages will be installed:
   gnutls-bin libevent-2.1-7t64 libgnutls-dane0t64 libunbound8
 The following packages will be upgraded:
   libevent-core-2.1-7t64 libgnutls30t64
-2 upgraded, 4 newly installed, 0 to remove and 216 not upgraded.
+2 upgraded, 4 newly installed, 0 to remove and 218 not upgraded.
 Need to get 1979 kB of archives.
 After this operation, 2672 kB of additional disk space will be used.
 Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgnutls30t64 amd64 3.8.3-1.1ubuntu3.6 [1003 kB]
@@ -122,7 +122,7 @@ Get:3 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libu
 Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgnutls-dane0t64 amd64 3.8.3-1.1ubuntu3.6 [23.5 kB]
 Get:5 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 gnutls-bin amd64 3.8.3-1.1ubuntu3.6 [270 kB]
 Get:6 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libevent-core-2.1-7t64 amd64 2.1.12-stable-9ubuntu2.2 [91.9 kB]
-Fetched 1979 kB in 2s (962 kB/s)
+Fetched 1979 kB in 4s (557 kB/s)
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 53431 files and directories currently installed.)
 Preparing to unpack .../libgnutls30t64_3.8.3-1.1ubuntu3.6_amd64.deb ...
 Unpacking libgnutls30t64:amd64 (3.8.3-1.1ubuntu3.6) over (3.8.3-1.1ubuntu3.5) ...
@@ -166,7 +166,7 @@ Recommended packages:
 The following NEW packages will be installed:
   python3-distlib python3-filelock python3-pip-whl python3-platformdirs
   python3-setuptools-whl python3-virtualenv python3-wheel-whl virtualenv
-0 upgraded, 8 newly installed, 0 to remove and 216 not upgraded.
+0 upgraded, 8 newly installed, 0 to remove and 218 not upgraded.
 Need to get 2909 kB of archives.
 After this operation, 4545 kB of additional disk space will be used.
 Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-distlib all 0.3.8-1 [318 kB]
@@ -177,7 +177,7 @@ Get:5 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 
 Get:6 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-wheel-whl all 0.42.0-2 [67.8 kB]
 Get:7 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-virtualenv all 20.25.0+ds-2 [70.8 kB]
 Get:8 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 virtualenv all 20.25.0+ds-2 [1978 B]
-Fetched 2909 kB in 3s (1052 kB/s)
+Fetched 2909 kB in 5s (600 kB/s)
 Selecting previously unselected package python3-distlib.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 53470 files and directories currently installed.)
 Preparing to unpack .../0-python3-distlib_0.3.8-1_all.deb ...
@@ -217,11 +217,11 @@ Building dependency tree...
 Reading state information...
 The following NEW packages will be installed:
   vlan
-0 upgraded, 1 newly installed, 0 to remove and 216 not upgraded.
+0 upgraded, 1 newly installed, 0 to remove and 218 not upgraded.
 Need to get 10.4 kB of archives.
 After this operation, 51.2 kB of additional disk space will be used.
 Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 vlan all 2.0.5ubuntu5 [10.4 kB]
-Fetched 10.4 kB in 0s (48.1 kB/s)
+Fetched 10.4 kB in 0s (29.4 kB/s)
 Selecting previously unselected package vlan.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 53690 files and directories currently installed.)
 Preparing to unpack .../vlan_2.0.5ubuntu5_all.deb ...
@@ -232,13 +232,13 @@ Disabling Ubuntu mode, explicit restart mode configuredReading package lists...
 Building dependency tree...
 Reading state information...
 net-tools is already the newest version (2.10-0.1ubuntu4.4).
-0 upgraded, 0 newly installed, 0 to remove and 216 not upgraded.
-07:41:00 RT Inside clone_projects
-07:41:00 RT git clone master
-07:41:03 RT Inside configure_interface
-07:42:13 RT Inside run_stack
+0 upgraded, 0 newly installed, 0 to remove and 218 not upgraded.
+09:40:08 RT Inside clone_projects
+09:40:08 RT git clone master
+09:40:11 RT Inside configure_interface
+09:41:22 RT Inside run_stack
 10.201.5.127
-07:42:13 RT Run stack.sh
+09:41:22 RT Run stack.sh
 #includedir /etc/sudoers.d
 Reading package lists...
 Building dependency tree...
@@ -259,7 +259,7 @@ The following NEW packages will be installed:
 The following packages will be upgraded:
   libc-bin libc6 libexpat1 libpython3.12-minimal libpython3.12-stdlib
   libpython3.12t64 locales python3.12 python3.12-minimal zlib1g
-10 upgraded, 9 newly installed, 0 to remove and 206 not upgraded.
+10 upgraded, 9 newly installed, 0 to remove and 208 not upgraded.
 Need to get 27.7 MB of archives.
 After this operation, 54.5 MB of additional disk space will be used.
 Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libc6 amd64 2.39-0ubuntu8.9 [3,264 kB]
@@ -273,7 +273,7 @@ Get:8 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 pyth
 Get:9 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12-minimal amd64 3.12.3-1ubuntu0.17 [839 kB]
 Get:10 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 locales all 2.39-0ubuntu8.9 [4,232 kB]
 Get:11 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libc-dev-bin amd64 2.39-0ubuntu8.9 [20.4 kB]
-Get:12 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-libc-dev amd64 6.8.0-146.146 [1,540 kB]
+Get:12 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-libc-dev amd64 6.8.0-147.147 [1,595 kB]
 Get:13 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libcrypt-dev amd64 1:4.4.36-4build1 [112 kB]
 Get:14 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 rpcsvc-proto amd64 1.4.2-0ubuntu7 [67.4 kB]
 Get:15 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libc6-dev amd64 2.39-0ubuntu8.9 [2,126 kB]
@@ -282,7 +282,7 @@ Get:17 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 zli
 Get:18 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12-dev amd64 3.12.3-1ubuntu0.17 [5,684 kB]
 Get:19 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3.12-dev amd64 3.12.3-1ubuntu0.17 [498 kB]
 Preconfiguring packages ...
-Fetched 27.7 MB in 30s (924 kB/s)
+Fetched 27.7 MB in 29s (967 kB/s)
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 53705 files and directories currently installed.)
 Preparing to unpack .../libc6_2.39-0ubuntu8.9_amd64.deb ...
 Unpacking libc6:amd64 (2.39-0ubuntu8.9) over (2.39-0ubuntu8.7) ...
@@ -314,8 +314,8 @@ Selecting previously unselected package libc-dev-bin.
 Preparing to unpack .../06-libc-dev-bin_2.39-0ubuntu8.9_amd64.deb ...
 Unpacking libc-dev-bin (2.39-0ubuntu8.9) ...
 Selecting previously unselected package linux-libc-dev:amd64.
-Preparing to unpack .../07-linux-libc-dev_6.8.0-146.146_amd64.deb ...
-Unpacking linux-libc-dev:amd64 (6.8.0-146.146) ...
+Preparing to unpack .../07-linux-libc-dev_6.8.0-147.147_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (6.8.0-147.147) ...
 Selecting previously unselected package libcrypt-dev:amd64.
 Preparing to unpack .../08-libcrypt-dev_1%3a4.4.36-4build1_amd64.deb ...
 Unpacking libcrypt-dev:amd64 (1:4.4.36-4build1) ...
@@ -339,7 +339,7 @@ Preparing to unpack .../14-python3.12-dev_3.12.3-1ubuntu0.17_amd64.deb ...
 Unpacking python3.12-dev (3.12.3-1ubuntu0.17) ...
 Setting up libexpat1:amd64 (2.6.1-2ubuntu0.6) ...
 Setting up libpython3.12-minimal:amd64 (3.12.3-1ubuntu0.17) ...
-Setting up linux-libc-dev:amd64 (6.8.0-146.146) ...
+Setting up linux-libc-dev:amd64 (6.8.0-147.147) ...
 Setting up locales (2.39-0ubuntu8.9) ...
 Generating locales (this might take a while)...
   en_US.UTF-8... done
@@ -365,21 +365,21 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++./stack.sh:main:491                       /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -o /tmp/devstack_logs/devstacklog.txt.2026-10-12-074301.summary.2026-10-12-074301
+++./stack.sh:main:491                       /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -o /tmp/devstack_logs/devstacklog.txt.2026-10-15-094208.summary.2026-10-15-094208
 tput: No value for $TERM and no -T specified
-+./stack.sh:main:499                       echo_summary 'stack.sh log /tmp/devstack_logs/devstacklog.txt.2026-10-12-074301'
++./stack.sh:main:499                       echo_summary 'stack.sh log /tmp/devstack_logs/devstacklog.txt.2026-10-15-094208'
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +./stack.sh:echo_summary:444               [[ -t 3 ]]
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+./stack.sh:echo_summary:450               echo -e stack.sh log /tmp/devstack_logs/devstacklog.txt.2026-10-12-074301
++./stack.sh:echo_summary:450               echo -e stack.sh log /tmp/devstack_logs/devstacklog.txt.2026-10-15-094208
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+./stack.sh:main:501                       ln -sf /tmp/devstack_logs/devstacklog.txt.2026-10-12-074301 /tmp/devstack_logs/devstacklog.txt
++./stack.sh:main:501                       ln -sf /tmp/devstack_logs/devstacklog.txt.2026-10-15-094208 /tmp/devstack_logs/devstacklog.txt
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+./stack.sh:main:502                       ln -sf /tmp/devstack_logs/devstacklog.txt.2026-10-12-074301.summary.2026-10-12-074301 /tmp/devstack_logs/devstacklog.txt.summary
++./stack.sh:main:502                       ln -sf /tmp/devstack_logs/devstacklog.txt.2026-10-15-094208.summary.2026-10-15-094208 /tmp/devstack_logs/devstacklog.txt.summary
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +./stack.sh:main:517                       check_path_perm_sanity /opt/stack
@@ -398,9 +398,9 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++functions:check_path_perm_sanity:618      echo /opt/stack
-tput: No value for $TERM and no -T specified
 ++functions:check_path_perm_sanity:618      tr / ' '
+tput: No value for $TERM and no -T specified
+++functions:check_path_perm_sanity:618      echo /opt/stack
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions:check_path_perm_sanity:618      for i in $(echo ${real_path} | tr "/" " ")
@@ -530,8 +530,8 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specifiedtput: 
+No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -635,7 +635,7 @@ tput: No value for $TERM and no -T specified
 ++functions-common:time_start:2411          date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_start:2411          _TIME_START[$name]=1791790981999
++functions-common:time_start:2411          _TIME_START[$name]=1792057329218
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:apt_get_update:1179      local 'proxies=http_proxy=http://proxy-in.its.hpecorp.net:80 https_proxy=http://proxy-in.its.hpecorp.net:443 no_proxy=10.201.5.87,10.201.4.29,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,localhost,127.0.0.1,10.201.4.30,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.3.86,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208 '
@@ -646,8 +646,8 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:apt_get_update:1181      timeout 300 sh -c 'while ! sudo http_proxy=http://proxy-in.its.hpecorp.net:80 https_proxy=http://proxy-in.its.hpecorp.net:443 no_proxy=10.201.5.87,10.201.4.29,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,localhost,127.0.0.1,10.201.4.30,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.3.86,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208  apt-get update; do sleep 30; done'
 Hit:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble InRelease
-Hit:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates InRelease
-Hit:3 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:2 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:3 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates InRelease
 Hit:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports InRelease
 Reading package lists...
 tput: No value for $TERM and no -T specified
@@ -676,19 +676,19 @@ tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2426           name=apt-get-update
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2427           start_time=1791790981999
++functions-common:time_stop:2427           start_time=1792057329218
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2429           [[ -z 1791790981999 ]]
++functions-common:time_stop:2429           [[ -z 1792057329218 ]]
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++functions-common:time_stop:2432           date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2432           end_time=1791790986200
++functions-common:time_stop:2432           end_time=1792057333198
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2433           elapsed_time=4201
++functions-common:time_stop:2433           elapsed_time=3980
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2434           total=0
@@ -697,7 +697,7 @@ tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2436           _TIME_START[$name]=
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2437           _TIME_TOTAL[$name]=4201
++functions-common:time_stop:2437           _TIME_TOTAL[$name]=3980
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:install_package:1439     real_install_package ksmtuned
@@ -733,11 +733,11 @@ Recommended packages:
   qemu-kvm
 The following NEW packages will be installed:
   ksmtuned
-0 upgraded, 1 newly installed, 0 to remove and 206 not upgraded.
+0 upgraded, 1 newly installed, 0 to remove and 208 not upgraded.
 Need to get 7,444 B of archives.
 After this operation, 44.0 kB of additional disk space will be used.
 Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 ksmtuned amd64 4.20150326 [7,444 B]
-Fetched 7,444 B in 0s (23.0 kB/s)
+Fetched 7,444 B in 0s (22.7 kB/s)
 Selecting previously unselected package ksmtuned.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 55658 files and directories currently installed.)
 Preparing to unpack .../ksmtuned_4.20150326_amd64.deb ...
@@ -759,8 +759,8 @@ Service restarts being deferred:
 No containers need to be restarted.
 
 User sessions running outdated binaries:
- ubuntu @ session #2: bash[1619], python3[1616], sh[1614,1615,1617], sshd[1321,1414]
- ubuntu @ user manager service: systemd[1326]
+ ubuntu @ session #1: bash[1623], python3[1620], sh[1618,1619,1621], sshd[1302,1393]
+ ubuntu @ user manager service: systemd[1307]
 
 No VM guests are running outdated hypervisor (qemu) binaries on this host.
 tput: No value for $TERM and no -T specified
@@ -789,28 +789,28 @@ tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2426           name=apt-get
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2427           start_time=1791790986346
++functions-common:time_stop:2427           start_time=1792057333319
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2429           [[ -z 1791790986346 ]]
++functions-common:time_stop:2429           [[ -z 1792057333319 ]]
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++functions-common:time_stop:2432           date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2432           end_time=1791790990238
++functions-common:time_stop:2432           end_time=1792057337130
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2433           elapsed_time=3892
++functions-common:time_stop:2433           elapsed_time=3811
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2434           total=41997
++functions-common:time_stop:2434           total=41580
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2436           _TIME_START[$name]=
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2437           _TIME_TOTAL[$name]=45889
++functions-common:time_stop:2437           _TIME_TOTAL[$name]=45391
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:apt_get:1215             return 0
@@ -845,8 +845,8 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+lib/host:set_sysfs_parameter:24           echo 0
 tput: No value for $TERM and no -T specified
++lib/host:set_sysfs_parameter:24           echo 0
 +lib/host:set_sysfs_parameter:24           sudo tee /sys/kernel/mm/ksm/run
 0
 tput: No value for $TERM and no -T specified
@@ -1111,10 +1111,10 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +./stack.sh:main:619                       source /opt/stack/devstack/lib/nova
-tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
+tput: tput: No value for $TERM and no -T specifiedNo value for $TERM and no -T specified
+
+tput: tput: No value for $TERM and no -T specified
+No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -1160,8 +1160,8 @@ tput: No value for $TERM and no -T specified
 ++lib/neutron:source:61                     is_service_enabled tls-proxy
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
+tput: tput: No value for $TERM and no -T specified
+No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -1324,8 +1324,8 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+++functions-common:ipv6_unquote:2218        echo 10.201.5.127
 tput: No value for $TERM and no -T specified
++++functions-common:ipv6_unquote:2218        echo 10.201.5.127
 +++functions-common:ipv6_unquote:2218        tr -d '[]'
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -1546,14 +1546,14 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++++lib/neutron_plugins/services/l3:source:76  sed s/-//g
 tput: No value for $TERM and no -T specified
-++++lib/neutron_plugins/services/l3:source:76  sed -e 's/\(..\)\(....\)\(....\)/\1:\2:\3/'
-tput: No value for $TERM and no -T specified
 ++++lib/neutron_plugins/services/l3:source:76  uuidgen
+tput: No value for $TERM and no -T specified
+++++lib/neutron_plugins/services/l3:source:76  sed -e 's/\(..\)\(....\)\(....\)/\1:\2:\3/'
 tput: No value for $TERM and no -T specified
 ++++lib/neutron_plugins/services/l3:source:76  cut -c 23-
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+++lib/neutron_plugins/services/l3:source:76  IPV6_GLOBAL_ID=88:717d:1793
++++lib/neutron_plugins/services/l3:source:76  IPV6_GLOBAL_ID=9c:75db:db2f
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +++lib/neutron_plugins/services/l3:source:79  IPV6_RA_MODE=slaac
@@ -1568,16 +1568,16 @@ tput: No value for $TERM and no -T specified
 +++lib/neutron_plugins/services/l3:source:82  IPV6_PRIVATE_SUBNET_NAME=ipv6-private-subnet
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+++lib/neutron_plugins/services/l3:source:83  IPV6_ADDRS_SAFE_TO_USE=fd88:717d:1793::/56
++++lib/neutron_plugins/services/l3:source:83  IPV6_ADDRS_SAFE_TO_USE=fd9c:75db:db2f::/56
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++++lib/neutron_plugins/services/l3:source:86  echo fd88:717d:1793::/56
 tput: No value for $TERM and no -T specified
+++++lib/neutron_plugins/services/l3:source:86  echo fd9c:75db:db2f::/56
 ++++lib/neutron_plugins/services/l3:source:86  awk -F / '{ print $1"/"($2>63 ? $2 : 64) }'
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+++lib/neutron_plugins/services/l3:source:86  FIXED_RANGE_V6=fd88:717d:1793::/64
++++lib/neutron_plugins/services/l3:source:86  FIXED_RANGE_V6=fd9c:75db:db2f::/64
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +++lib/neutron_plugins/services/l3:source:87  IPV6_PRIVATE_NETWORK_GATEWAY=
@@ -1619,7 +1619,7 @@ tput: No value for $TERM and no -T specified
 +++lib/neutron_plugins/services/l3:source:104  SUBNETPOOL_PREFIX_V4=10.0.0.0/22
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+++lib/neutron_plugins/services/l3:source:105  SUBNETPOOL_PREFIX_V6=fd88:717d:1793::/56
++++lib/neutron_plugins/services/l3:source:105  SUBNETPOOL_PREFIX_V6=fd9c:75db:db2f::/56
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +++lib/neutron_plugins/services/l3:source:107  SUBNETPOOL_SIZE_V4=26
@@ -1630,11 +1630,11 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
+++++lib/neutron_plugins/services/l3:source:110  awk '{print $5}'
+tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++++lib/neutron_plugins/services/l3:source:110  ip -4 route
 ++++lib/neutron_plugins/services/l3:source:110  grep '^default'
-tput: No value for $TERM and no -T specified
-++++lib/neutron_plugins/services/l3:source:110  awk '{print $5}'
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +++lib/neutron_plugins/services/l3:source:110  default_v4_route_devs=ens3
@@ -1642,11 +1642,11 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++++lib/neutron_plugins/services/l3:source:112  ip -6 route list match default table all
-tput: No value for $TERM and no -T specified
 ++++lib/neutron_plugins/services/l3:source:112  grep via
 tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
 ++++lib/neutron_plugins/services/l3:source:112  awk '{print $5}'
+++++lib/neutron_plugins/services/l3:source:112  ip -6 route list match default table all
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +++lib/neutron_plugins/services/l3:source:112  default_v6_route_devs=
@@ -1691,8 +1691,8 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +./stack.sh:main:624                       source /opt/stack/devstack/lib/ldap
-tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specifiedtput: No value for $TERM and no -T specified
+
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -1724,8 +1724,8 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +./stack.sh:main:627                       source /opt/stack/devstack/lib/tcpdump
-tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
+tput: tput: No value for $TERM and no -T specified
+No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -1821,7 +1821,7 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
+
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -2192,8 +2192,8 @@ tput: No value for $TERM and no -T specified
 +./stack.sh:main:736                       read_password ADMIN_PASSWORD 'ENTER A PASSWORD TO USE FOR HORIZON AND KEYSTONE (20 CHARS OR LESS).'
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
+tput: tput: No value for $TERM and no -T specifiedNo value for $TERM and no -T specified
+
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -2221,8 +2221,8 @@ tput: No value for $TERM and no -T specified
 +./stack.sh:main:756                       is_service_enabled s-proxy
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
+tput: tput: No value for $TERM and no -T specified
+No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -2243,10 +2243,10 @@ tput: No value for $TERM and no -T specified
 ++functions-common:save_stackenv:67         date +%F-%H%M%S
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:save_stackenv:67         time_stamp=2026-10-12-074315
++functions-common:save_stackenv:67         time_stamp=2026-10-15-094221
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:save_stackenv:68         echo '# 2026-10-12-074315 768'
++functions-common:save_stackenv:68         echo '# 2026-10-15-094221 768'
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
@@ -2288,7 +2288,7 @@ tput: No value for $TERM and no -T specified
 +functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:save_stackenv:70         echo LOGFILE=/tmp/devstack_logs/devstacklog.txt.2026-10-12-074301
++functions-common:save_stackenv:70         echo LOGFILE=/tmp/devstack_logs/devstacklog.txt.2026-10-15-094208
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
@@ -2389,9 +2389,9 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:git_clone:610            egrep -q '^refs'
-tput: No value for $TERM and no -T specified
 +functions-common:git_clone:610            echo master
+tput: No value for $TERM and no -T specified
++functions-common:git_clone:610            egrep -q '^refs'
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:git_clone:624            [[ ! -d /opt/stack/requirements ]]
@@ -2430,7 +2430,7 @@ tput: No value for $TERM and no -T specified
 ++functions-common:time_start:2411          date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_start:2411          _TIME_START[$name]=1791790995800
++functions-common:time_start:2411          _TIME_START[$name]=1792057341557
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:git_timed:705            timeout -s SIGINT 0 git clone --no-checkout http://github.com/openstack/requirements.git /opt/stack/requirements
@@ -2459,19 +2459,19 @@ tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2426           name=git_timed
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2427           start_time=1791790995800
++functions-common:time_stop:2427           start_time=1792057341557
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2429           [[ -z 1791790995800 ]]
++functions-common:time_stop:2429           [[ -z 1792057341557 ]]
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++functions-common:time_stop:2432           date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2432           end_time=1791790998849
++functions-common:time_stop:2432           end_time=1792057344897
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2433           elapsed_time=3049
++functions-common:time_stop:2433           elapsed_time=3340
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2434           total=0
@@ -2480,7 +2480,7 @@ tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2436           _TIME_START[$name]=
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2437           _TIME_TOTAL[$name]=3049
++functions-common:time_stop:2437           _TIME_TOTAL[$name]=3340
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:git_clone:631            cd /opt/stack/requirements
@@ -2516,7 +2516,7 @@ tput: No value for $TERM and no -T specified
 ++functions-common:time_start:2411          date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_start:2411          _TIME_START[$name]=1791790999046
++functions-common:time_start:2411          _TIME_START[$name]=1792057345101
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:git_timed:705            timeout -s SIGINT 0 git fetch origin master
@@ -2546,28 +2546,28 @@ tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2426           name=git_timed
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2427           start_time=1791790999046
++functions-common:time_stop:2427           start_time=1792057345101
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2429           [[ -z 1791790999046 ]]
++functions-common:time_stop:2429           [[ -z 1792057345101 ]]
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++functions-common:time_stop:2432           date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2432           end_time=1791791000049
++functions-common:time_stop:2432           end_time=1792057346147
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2433           elapsed_time=1003
++functions-common:time_stop:2433           elapsed_time=1046
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2434           total=3049
++functions-common:time_stop:2434           total=3340
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2436           _TIME_START[$name]=
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2437           _TIME_TOTAL[$name]=4052
++functions-common:time_stop:2437           _TIME_TOTAL[$name]=4386
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:git_clone:633            git_timed checkout FETCH_HEAD
@@ -2600,7 +2600,7 @@ tput: No value for $TERM and no -T specified
 ++functions-common:time_start:2411          date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_start:2411          _TIME_START[$name]=1791791000230
++functions-common:time_start:2411          _TIME_START[$name]=1792057346312
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:git_timed:705            timeout -s SIGINT 0 git checkout FETCH_HEAD
@@ -2621,7 +2621,7 @@ Or undo this operation with:
 
 Turn off this advice by setting config variable advice.detachedHead to false
 
-HEAD is now at 6a1e5de6 Merge "Updated from generate-constraints"
+HEAD is now at 0082ada8 Merge "ruff: Enable B, RUF rules"
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:git_timed:719            time_stop git_timed
@@ -2645,28 +2645,28 @@ tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2426           name=git_timed
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2427           start_time=1791791000230
++functions-common:time_stop:2427           start_time=1792057346312
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2429           [[ -z 1791791000230 ]]
++functions-common:time_stop:2429           [[ -z 1792057346312 ]]
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++functions-common:time_stop:2432           date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2432           end_time=1791791000403
++functions-common:time_stop:2432           end_time=1792057346461
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2433           elapsed_time=173
++functions-common:time_stop:2433           elapsed_time=149
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2434           total=4052
++functions-common:time_stop:2434           total=4386
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2436           _TIME_START[$name]=
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2437           _TIME_TOTAL[$name]=4225
++functions-common:time_stop:2437           _TIME_TOTAL[$name]=4535
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:git_clone:669            sudo git config --system --add safe.directory /opt/stack/requirements
@@ -2676,10 +2676,10 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:git_clone:673            git show --oneline
 tput: No value for $TERM and no -T specified
++functions-common:git_clone:673            git show --oneline
 +functions-common:git_clone:673            head -1
-6a1e5de6 Merge "Updated from generate-constraints"
+0082ada8 Merge "ruff: Enable B, RUF rules"
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:git_clone:674            cd /opt/stack/devstack
@@ -2718,7 +2718,7 @@ tput: No value for $TERM and no -T specified
 +++tools/install_prereqs.sh:source:47        date +%s
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++tools/install_prereqs.sh:source:47        NOW=1791791000
+++tools/install_prereqs.sh:source:47        NOW=1792057346
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +++tools/install_prereqs.sh:source:48        head -1 /opt/stack/devstack/.prereqs
@@ -2730,10 +2730,10 @@ tput: No value for $TERM and no -T specified
 ++tools/install_prereqs.sh:source:48        LAST_RUN=0
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++tools/install_prereqs.sh:source:49        DELTA=1791791000
+++tools/install_prereqs.sh:source:49        DELTA=1792057346
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++tools/install_prereqs.sh:source:50        [[ 1791791000 -lt 7200 ]]
+++tools/install_prereqs.sh:source:50        [[ 1792057346 -lt 7200 ]]
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++tools/install_prereqs.sh:source:57        export_proxy_variables
@@ -2780,8 +2780,8 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specifiedtput: 
-No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -2989,9 +2989,9 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
+++tools/install_prereqs.sh:source:67        echo apache2 apache2-dev bc bsdmainutils curl g++ gawk gcc gettext git graphviz iputils-ping libffi-dev libjpeg-dev libpq-dev libssl-dev libsystemd-dev libxml2-dev libxslt1-dev libyaml-dev lsof openssh-server openssl pkg-config psmisc python3-dev python3-pip python3-systemd python3-venv tar tcpdump unzip uuid-runtime wget zlib1g-dev libkrb5-dev libldap2-dev libsasl2-dev memcached python3-mysqldb sqlite3 conntrack curl ebtables genisoimage iptables iputils-arping kpartx libjs-jquery-tablesorter parted pm-utils python3-mysqldb socat sqlite3 sudo vlan lsscsi open-iscsi cryptsetup dosfstools genisoimage gir1.2-libosinfo-1.0 netcat-openbsd open-iscsi qemu-utils sg3-utils sysfsutils lvm2 qemu-utils thin-provisioning-tools acl dnsmasq-base dnsmasq-utils ebtables haproxy iptables iputils-arping iputils-ping postgresql-server-dev-all python3-mysqldb sqlite3 sudo vlan pcp lvm2 qemu-utils thin-provisioning-tools
 tput: No value for $TERM and no -T specified
 ++tools/install_prereqs.sh:source:67        grep -q dkms
-++tools/install_prereqs.sh:source:67        echo apache2 apache2-dev bc bsdmainutils curl g++ gawk gcc gettext git graphviz iputils-ping libffi-dev libjpeg-dev libpq-dev libssl-dev libsystemd-dev libxml2-dev libxslt1-dev libyaml-dev lsof openssh-server openssl pkg-config psmisc python3-dev python3-pip python3-systemd python3-venv tar tcpdump unzip uuid-runtime wget zlib1g-dev libkrb5-dev libldap2-dev libsasl2-dev memcached python3-mysqldb sqlite3 conntrack curl ebtables genisoimage iptables iputils-arping kpartx libjs-jquery-tablesorter parted pm-utils python3-mysqldb socat sqlite3 sudo vlan lsscsi open-iscsi cryptsetup dosfstools genisoimage gir1.2-libosinfo-1.0 netcat-openbsd open-iscsi qemu-utils sg3-utils sysfsutils lvm2 qemu-utils thin-provisioning-tools acl dnsmasq-base dnsmasq-utils ebtables haproxy iptables iputils-arping iputils-ping postgresql-server-dev-all python3-mysqldb sqlite3 sudo vlan pcp lvm2 qemu-utils thin-provisioning-tools
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++tools/install_prereqs.sh:source:72        install_package apache2 apache2-dev bc bsdmainutils curl g++ gawk gcc gettext git graphviz iputils-ping libffi-dev libjpeg-dev libpq-dev libssl-dev libsystemd-dev libxml2-dev libxslt1-dev libyaml-dev lsof openssh-server openssl pkg-config psmisc python3-dev python3-pip python3-systemd python3-venv tar tcpdump unzip uuid-runtime wget zlib1g-dev libkrb5-dev libldap2-dev libsasl2-dev memcached python3-mysqldb sqlite3 conntrack curl ebtables genisoimage iptables iputils-arping kpartx libjs-jquery-tablesorter parted pm-utils python3-mysqldb socat sqlite3 sudo vlan lsscsi open-iscsi cryptsetup dosfstools genisoimage gir1.2-libosinfo-1.0 netcat-openbsd open-iscsi qemu-utils sg3-utils sysfsutils lvm2 qemu-utils thin-provisioning-tools acl dnsmasq-base dnsmasq-utils ebtables haproxy iptables iputils-arping iputils-ping postgresql-server-dev-all python3-mysqldb sqlite3 sudo vlan pcp lvm2 qemu-utils thin-provisioning-tools
@@ -3212,216 +3212,216 @@ The following packages will be upgraded:
   openssh-client openssh-server openssh-sftp-server openssl sg3-utils
   sg3-utils-udev sudo systemd systemd-dev systemd-resolved systemd-sysv
   systemd-timesyncd tar udev util-linux uuid-runtime wget
-55 upgraded, 200 newly installed, 0 to remove and 151 not upgraded.
+55 upgraded, 200 newly installed, 0 to remove and 153 not upgraded.
 Need to get 216 MB of archives.
 After this operation, 990 MB of additional disk space will be used.
 Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 bsdutils amd64 1:2.39.3-9ubuntu6.6 [96.4 kB]
-Get:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 ncurses-bin amd64 6.4+20240113-1ubuntu2.2 [188 kB]
-Get:3 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 tar amd64 1.35+dfsg-3ubuntu0.4 [256 kB]
-Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 util-linux amd64 2.39.3-9ubuntu6.6 [1,128 kB]
-Get:5 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 ncurses-base all 6.4+20240113-1ubuntu2.2 [25.8 kB]
-Get:6 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 ncurses-term all 6.4+20240113-1ubuntu2.2 [275 kB]
-Get:7 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 mount amd64 2.39.3-9ubuntu6.6 [118 kB]
-Get:8 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 systemd-dev all 255.4-1ubuntu8.17 [107 kB]
-Get:9 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libblkid1 amd64 2.39.3-9ubuntu6.6 [124 kB]
-Get:10 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 systemd-timesyncd amd64 255.4-1ubuntu8.17 [35.3 kB]
-Get:11 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 systemd-resolved amd64 255.4-1ubuntu8.17 [297 kB]
-Get:12 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libsystemd-shared amd64 255.4-1ubuntu8.17 [2,077 kB]
-Get:13 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libsystemd0 amd64 255.4-1ubuntu8.17 [432 kB]
-Get:14 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 systemd-sysv amd64 255.4-1ubuntu8.17 [11.9 kB]
-Get:15 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libnss-systemd amd64 255.4-1ubuntu8.17 [159 kB]
-Get:16 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpam-systemd amd64 255.4-1ubuntu8.17 [235 kB]
-Get:17 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 systemd amd64 255.4-1ubuntu8.17 [3,475 kB]
-Get:18 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 udev amd64 255.4-1ubuntu8.17 [1,875 kB]
-Get:19 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libudev1 amd64 255.4-1ubuntu8.17 [178 kB]
-Get:20 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libssl3t64 amd64 3.0.13-0ubuntu3.16 [1,945 kB]
-Get:21 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libmount1 amd64 2.39.3-9ubuntu6.6 [134 kB]
-Get:22 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libuuid1 amd64 2.39.3-9ubuntu6.6 [36.6 kB]
-Get:23 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libfdisk1 amd64 2.39.3-9ubuntu6.6 [146 kB]
-Get:24 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libsmartcols1 amd64 2.39.3-9ubuntu6.6 [66.3 kB]
-Get:25 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 uuid-runtime amd64 2.39.3-9ubuntu6.6 [33.1 kB]
-Get:26 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libapr1t64 amd64 1.7.2-3.1ubuntu0.1 [108 kB]
-Get:27 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libaprutil1t64 amd64 1.6.3-1.1ubuntu7.1 [92.7 kB]
-Get:28 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libsqlite3-0 amd64 3.45.1-1ubuntu2.8 [702 kB]
-Get:29 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libaprutil1-dbd-sqlite3 amd64 1.6.3-1.1ubuntu7.1 [11.2 kB]
-Get:30 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libaprutil1-ldap amd64 1.6.3-1.1ubuntu7.1 [9,120 B]
-Get:31 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 curl amd64 8.5.0-2ubuntu10.15 [227 kB]
-Get:32 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libk5crypto3 amd64 1.20.1-6ubuntu2.10 [81.9 kB]
-Get:33 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgssapi-krb5-2 amd64 1.20.1-6ubuntu2.10 [143 kB]
-Get:34 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libkrb5support0 amd64 1.20.1-6ubuntu2.10 [34.9 kB]
-Get:35 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libkrb5-3 amd64 1.20.1-6ubuntu2.10 [348 kB]
-Get:36 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libcurl4t64 amd64 8.5.0-2ubuntu10.15 [343 kB]
-Get:37 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 liblua5.4-0 amd64 5.4.6-3build2 [166 kB]
-Get:38 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libxml2 amd64 2.9.14+dfsg-1.3ubuntu3.10 [764 kB]
-Get:39 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 apache2-bin amd64 2.4.58-1ubuntu8.16 [1,338 kB]
-Get:40 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 apache2-data all 2.4.58-1ubuntu8.16 [163 kB]
-Get:41 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 apache2-utils amd64 2.4.58-1ubuntu8.16 [99.9 kB]
-Get:42 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 apache2 amd64 2.4.58-1ubuntu8.16 [90.2 kB]
-Get:43 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 gawk amd64 1:5.2.1-2ubuntu0.1 [463 kB]
-Get:44 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 haproxy amd64 2.8.16-0ubuntu0.24.04.3 [2,070 kB]
-Get:45 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 memcached amd64 1.6.24-1ubuntu0.3 [214 kB]
-Get:46 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libopeniscsiusr amd64 2.1.9-3ubuntu5.5 [49.5 kB]
-Get:47 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 open-iscsi amd64 2.1.9-3ubuntu5.5 [328 kB]
-Get:48 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 openssh-sftp-server amd64 1:9.6p1-3ubuntu13.19 [37.1 kB]
-Get:49 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 openssh-server amd64 1:9.6p1-3ubuntu13.19 [511 kB]
-Get:50 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 openssh-client amd64 1:9.6p1-3ubuntu13.19 [908 kB]
-Get:51 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libjson-perl all 4.10000-1 [81.9 kB]
-Get:52 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 postgresql-client-common all 257build1.1 [36.4 kB]
-Get:53 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 openssl amd64 3.0.13-0ubuntu3.16 [1,004 kB]
-Get:54 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 ssl-cert all 1.1.2ubuntu1 [17.8 kB]
-Get:55 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 postgresql-common all 257build1.1 [161 kB]
-Get:56 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libsysfs2 amd64 2.1.1-6build1 [20.0 kB]
-Get:57 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 sysfsutils amd64 2.1.1-6build1 [15.5 kB]
-Get:58 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libncursesw6 amd64 6.4+20240113-1ubuntu2.2 [148 kB]
-Get:59 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libncurses6 amd64 6.4+20240113-1ubuntu2.2 [112 kB]
-Get:60 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libtinfo6 amd64 6.4+20240113-1ubuntu2.2 [108 kB]
-Get:61 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 eject amd64 2.39.3-9ubuntu6.6 [26.3 kB]
-Get:62 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 krb5-locales all 1.20.1-6ubuntu2.10 [15.3 kB]
-Get:63 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 sudo amd64 1.9.15p5-3ubuntu5.24.04.4 [949 kB]
-Get:64 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 bsdextrautils amd64 2.39.3-9ubuntu6.6 [73.7 kB]
-Get:65 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 wget amd64 1.21.4-1ubuntu4.5 [334 kB]
-Get:66 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 acl amd64 2.3.2-1build1.1 [39.4 kB]
-Get:67 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 autotools-dev all 20220109.1 [44.9 kB]
-Get:68 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 m4 amd64 1.4.19-4build1 [244 kB]
-Get:69 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 autoconf all 2.71-3 [339 kB]
-Get:70 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 automake all 1:1.16.5-1.3ubuntu1 [558 kB]
-Get:71 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 autopoint all 0.21-14ubuntu2 [422 kB]
+Get:2 http://security.ubuntu.com/ubuntu noble-security/main amd64 systemd-dev all 255.4-1ubuntu8.18 [107 kB]
+Get:3 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 ncurses-bin amd64 6.4+20240113-1ubuntu2.2 [188 kB]
+Get:4 http://security.ubuntu.com/ubuntu noble-security/main amd64 systemd-timesyncd amd64 255.4-1ubuntu8.18 [35.3 kB]
+Get:5 http://security.ubuntu.com/ubuntu noble-security/main amd64 systemd-resolved amd64 255.4-1ubuntu8.18 [296 kB]
+Get:6 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 tar amd64 1.35+dfsg-3ubuntu0.4 [256 kB]
+Get:7 http://security.ubuntu.com/ubuntu noble-security/main amd64 libsystemd-shared amd64 255.4-1ubuntu8.18 [2,077 kB]
+Get:8 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 util-linux amd64 2.39.3-9ubuntu6.6 [1,128 kB]
+Get:9 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 ncurses-base all 6.4+20240113-1ubuntu2.2 [25.8 kB]
+Get:10 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 ncurses-term all 6.4+20240113-1ubuntu2.2 [275 kB]
+Get:11 http://security.ubuntu.com/ubuntu noble-security/main amd64 libsystemd0 amd64 255.4-1ubuntu8.18 [436 kB]
+Get:12 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 mount amd64 2.39.3-9ubuntu6.6 [118 kB]
+Get:13 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libblkid1 amd64 2.39.3-9ubuntu6.6 [124 kB]
+Get:14 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libssl3t64 amd64 3.0.13-0ubuntu3.16 [1,945 kB]
+Get:15 http://security.ubuntu.com/ubuntu noble-security/main amd64 systemd-sysv amd64 255.4-1ubuntu8.18 [11.9 kB]
+Get:16 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libmount1 amd64 2.39.3-9ubuntu6.6 [134 kB]
+Get:17 http://security.ubuntu.com/ubuntu noble-security/main amd64 libnss-systemd amd64 255.4-1ubuntu8.18 [159 kB]
+Get:18 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libuuid1 amd64 2.39.3-9ubuntu6.6 [36.6 kB]
+Get:19 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libfdisk1 amd64 2.39.3-9ubuntu6.6 [146 kB]
+Get:20 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libsmartcols1 amd64 2.39.3-9ubuntu6.6 [66.3 kB]
+Get:21 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 uuid-runtime amd64 2.39.3-9ubuntu6.6 [33.1 kB]
+Get:22 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libapr1t64 amd64 1.7.2-3.1ubuntu0.1 [108 kB]
+Get:23 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libaprutil1t64 amd64 1.6.3-1.1ubuntu7.1 [92.7 kB]
+Get:24 http://security.ubuntu.com/ubuntu noble-security/main amd64 libpam-systemd amd64 255.4-1ubuntu8.18 [235 kB]
+Get:25 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libsqlite3-0 amd64 3.45.1-1ubuntu2.8 [702 kB]
+Get:26 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libaprutil1-dbd-sqlite3 amd64 1.6.3-1.1ubuntu7.1 [11.2 kB]
+Get:27 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libaprutil1-ldap amd64 1.6.3-1.1ubuntu7.1 [9,120 B]
+Get:28 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libk5crypto3 amd64 1.20.1-6ubuntu2.10 [81.9 kB]
+Get:29 http://security.ubuntu.com/ubuntu noble-security/main amd64 systemd amd64 255.4-1ubuntu8.18 [3,475 kB]
+Get:30 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgssapi-krb5-2 amd64 1.20.1-6ubuntu2.10 [143 kB]
+Get:31 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libkrb5support0 amd64 1.20.1-6ubuntu2.10 [34.9 kB]
+Get:32 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libkrb5-3 amd64 1.20.1-6ubuntu2.10 [348 kB]
+Get:33 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 liblua5.4-0 amd64 5.4.6-3build2 [166 kB]
+Get:34 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libxml2 amd64 2.9.14+dfsg-1.3ubuntu3.10 [764 kB]
+Get:35 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 gawk amd64 1:5.2.1-2ubuntu0.1 [463 kB]
+Get:36 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 haproxy amd64 2.8.16-0ubuntu0.24.04.3 [2,070 kB]
+Get:37 http://security.ubuntu.com/ubuntu noble-security/main amd64 udev amd64 255.4-1ubuntu8.18 [1,875 kB]
+Get:38 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 memcached amd64 1.6.24-1ubuntu0.3 [214 kB]
+Get:39 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libopeniscsiusr amd64 2.1.9-3ubuntu5.5 [49.5 kB]
+Get:40 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 open-iscsi amd64 2.1.9-3ubuntu5.5 [328 kB]
+Get:41 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libjson-perl all 4.10000-1 [81.9 kB]
+Get:42 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 postgresql-client-common all 257build1.1 [36.4 kB]
+Get:43 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 openssl amd64 3.0.13-0ubuntu3.16 [1,004 kB]
+Get:44 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 ssl-cert all 1.1.2ubuntu1 [17.8 kB]
+Get:45 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 postgresql-common all 257build1.1 [161 kB]
+Get:46 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libsysfs2 amd64 2.1.1-6build1 [20.0 kB]
+Get:47 http://security.ubuntu.com/ubuntu noble-security/main amd64 libudev1 amd64 255.4-1ubuntu8.18 [178 kB]
+Get:48 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 sysfsutils amd64 2.1.1-6build1 [15.5 kB]
+Get:49 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libncursesw6 amd64 6.4+20240113-1ubuntu2.2 [148 kB]
+Get:50 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libncurses6 amd64 6.4+20240113-1ubuntu2.2 [112 kB]
+Get:51 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libtinfo6 amd64 6.4+20240113-1ubuntu2.2 [108 kB]
+Get:52 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 eject amd64 2.39.3-9ubuntu6.6 [26.3 kB]
+Get:53 http://security.ubuntu.com/ubuntu noble-security/main amd64 curl amd64 8.5.0-2ubuntu10.16 [226 kB]
+Get:54 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 krb5-locales all 1.20.1-6ubuntu2.10 [15.3 kB]
+Get:55 http://security.ubuntu.com/ubuntu noble-security/main amd64 libcurl4t64 amd64 8.5.0-2ubuntu10.16 [344 kB]
+Get:56 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 sudo amd64 1.9.15p5-3ubuntu5.24.04.4 [949 kB]
+Get:57 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 bsdextrautils amd64 2.39.3-9ubuntu6.6 [73.7 kB]
+Get:58 http://security.ubuntu.com/ubuntu noble-security/main amd64 apache2-bin amd64 2.4.58-1ubuntu8.17 [1,338 kB]
+Get:59 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 wget amd64 1.21.4-1ubuntu4.5 [334 kB]
+Get:60 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 acl amd64 2.3.2-1build1.1 [39.4 kB]
+Get:61 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 autotools-dev all 20220109.1 [44.9 kB]
+Get:62 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 m4 amd64 1.4.19-4build1 [244 kB]
+Get:63 http://security.ubuntu.com/ubuntu noble-security/main amd64 apache2-data all 2.4.58-1ubuntu8.17 [163 kB]
+Get:64 http://security.ubuntu.com/ubuntu noble-security/main amd64 apache2-utils amd64 2.4.58-1ubuntu8.17 [100 kB]
+Get:65 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 autoconf all 2.71-3 [339 kB]
+Get:66 http://security.ubuntu.com/ubuntu noble-security/main amd64 apache2 amd64 2.4.58-1ubuntu8.17 [90.2 kB]
+Get:67 http://security.ubuntu.com/ubuntu noble-security/main amd64 openssh-sftp-server amd64 1:9.6p1-3ubuntu13.20 [37.4 kB]
+Get:68 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 automake all 1:1.16.5-1.3ubuntu1 [558 kB]
+Get:69 http://security.ubuntu.com/ubuntu noble-security/main amd64 openssh-server amd64 1:9.6p1-3ubuntu13.20 [512 kB]
+Get:70 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 autopoint all 0.21-14ubuntu2 [422 kB]
+Get:71 http://security.ubuntu.com/ubuntu noble-security/main amd64 openssh-client amd64 1:9.6p1-3ubuntu13.20 [909 kB]
 Get:72 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libdebhelper-perl all 13.14.1ubuntu5 [89.8 kB]
 Get:73 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libllvm17t64 amd64 1:17.0.6-9ubuntu1 [26.2 MB]
-Get:74 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 libclang-cpp17t64 amd64 1:17.0.6-9ubuntu1 [12.9 MB]
-Get:75 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libstdc++-13-dev amd64 13.3.0-6ubuntu2~24.04.1 [2,420 kB]
-Get:76 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libgc1 amd64 1:8.2.6-1build1 [90.3 kB]
-Get:77 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 libobjc4 amd64 14.2.0-4ubuntu2~24.04.1 [47.1 kB]
-Get:78 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 libobjc-13-dev amd64 13.3.0-6ubuntu2~24.04.1 [194 kB]
-Get:79 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 libclang-common-17-dev amd64 1:17.0.6-9ubuntu1 [690 kB]
-Get:80 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 llvm-17-linker-tools amd64 1:17.0.6-9ubuntu1 [1,308 kB]
-Get:81 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 libclang1-17t64 amd64 1:17.0.6-9ubuntu1 [7,353 kB]
-Get:82 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 clang-17 amd64 1:17.0.6-9ubuntu1 [78.6 kB]
-Get:83 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libtool all 2.4.7-7build1 [166 kB]
-Get:84 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 dh-autoreconf all 20 [16.1 kB]
-Get:85 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libarchive-zip-perl all 1.68-1 [90.2 kB]
-Get:86 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libsub-override-perl all 0.10-1 [10.0 kB]
-Get:87 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libfile-stripnondeterminism-perl all 1.13.1-1 [18.1 kB]
-Get:88 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 dh-strip-nondeterminism all 1.13.1-1 [5,362 B]
-Get:89 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 debugedit amd64 1:5.0-5build2 [46.1 kB]
-Get:90 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 dwz amd64 0.15-1build6 [115 kB]
-Get:91 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 gettext amd64 0.21-14ubuntu2 [864 kB]
-Get:92 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 intltool-debian all 0.35.0+20060710.6 [23.2 kB]
-Get:93 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 po-debconf all 1.0.21+nmu1 [233 kB]
-Get:94 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 debhelper all 13.14.1ubuntu5 [869 kB]
-Get:95 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 uuid-dev amd64 2.39.3-9ubuntu6.6 [33.5 kB]
-Get:96 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libsctp1 amd64 1.0.19+dfsg-2build1 [9,146 B]
-Get:97 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libsctp-dev amd64 1.0.19+dfsg-2build1 [51.1 kB]
-Get:98 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libapr1-dev amd64 1.7.2-3.1ubuntu0.1 [768 kB]
-Get:99 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libldap-dev amd64 2.6.10+dfsg-0ubuntu0.24.04.1 [308 kB]
-Get:100 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libldap2-dev all 2.6.10+dfsg-0ubuntu0.24.04.1 [11.1 kB]
-Get:101 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libaprutil1-dev amd64 1.6.3-1.1ubuntu7.1 [413 kB]
-Get:102 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpcre2-16-0 amd64 10.42-4ubuntu2.1 [210 kB]
-Get:103 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpcre2-32-0 amd64 10.42-4ubuntu2.1 [197 kB]
-Get:104 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpcre2-posix3 amd64 10.42-4ubuntu2.1 [6,748 B]
-Get:105 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpcre2-dev amd64 10.42-4ubuntu2.1 [736 kB]
-Get:106 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 apache2-dev amd64 2.4.58-1ubuntu8.16 [204 kB]
-Get:107 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 ncal amd64 12.1.8 [21.0 kB]
-Get:108 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 bsdmainutils all 12.1.8 [3,176 B]
-Get:109 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 conntrack amd64 1:1.4.8-1ubuntu1 [37.9 kB]
-Get:110 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libdconf1 amd64 0.40.0-4ubuntu0.1 [39.6 kB]
-Get:111 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 dconf-service amd64 0.40.0-4ubuntu0.1 [27.6 kB]
-Get:112 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 dconf-gsettings-backend amd64 0.40.0-4ubuntu0.1 [22.1 kB]
-Get:113 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 dnsmasq-base amd64 2.91-0ubuntu0.24.04.2 [381 kB]
-Get:114 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 dnsmasq-utils amd64 2.91-0ubuntu0.24.04.2 [16.7 kB]
-Get:115 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 ebtables amd64 2.0.11-6build1 [88.4 kB]
-Get:116 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 fdisk amd64 2.39.3-9ubuntu6.6 [122 kB]
-Get:117 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 fonts-dejavu-mono all 2.37-8 [502 kB]
-Get:118 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 fonts-dejavu-core all 2.37-8 [835 kB]
-Get:119 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 fontconfig-config amd64 2.15.0-1.1ubuntu2 [37.3 kB]
-Get:120 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libfontconfig1 amd64 2.15.0-1.1ubuntu2 [139 kB]
-Get:121 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 fontconfig amd64 2.15.0-1.1ubuntu2 [180 kB]
-Get:122 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 g++-13-x86-64-linux-gnu amd64 13.3.0-6ubuntu2~24.04.1 [12.2 MB]
-Get:123 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 g++-13 amd64 13.3.0-6ubuntu2~24.04.1 [16.0 kB]
-Get:124 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 g++-x86-64-linux-gnu amd64 4:13.2.0-7ubuntu1 [964 B]
-Get:125 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 g++ amd64 4:13.2.0-7ubuntu1 [1,100 B]
-Get:126 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 genisoimage amd64 9:1.1.11-3.5 [378 kB]
-Get:127 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libpixman-1-0 amd64 0.42.2-1build1 [279 kB]
-Get:128 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-render0 amd64 1.15-1ubuntu2 [16.2 kB]
-Get:129 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-shm0 amd64 1.15-1ubuntu2 [5,756 B]
-Get:130 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libxrender1 amd64 1:0.9.10-1.1build1 [19.0 kB]
-Get:131 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libcairo2 amd64 1.18.0-3build1 [566 kB]
-Get:132 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libcairo-gobject2 amd64 1.18.0-3build1 [127 kB]
-Get:133 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 gir1.2-freedesktop amd64 1.80.1-1 [49.7 kB]
-Get:134 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libcurl3t64-gnutls amd64 8.5.0-2ubuntu10.15 [336 kB]
-Get:135 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libproxy1v5 amd64 0.5.4-4build1 [26.5 kB]
-Get:136 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 glib-networking-common all 2.80.0-1build1 [6,702 B]
-Get:137 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 glib-networking-services amd64 2.80.0-1build1 [12.8 kB]
-Get:138 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 session-migration amd64 0.3.9build1 [9,034 B]
-Get:139 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 gsettings-desktop-schemas all 46.1-0ubuntu1 [35.6 kB]
-Get:140 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 glib-networking amd64 2.80.0-1build1 [64.1 kB]
-Get:141 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 libann0 amd64 1.1.2+doc-9build1 [25.5 kB]
-Get:142 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 libcdt5 amd64 2.42.2-9ubuntu0.1 [21.6 kB]
-Get:143 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 libcgraph6 amd64 2.42.2-9ubuntu0.1 [44.6 kB]
-Get:144 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libsharpyuv0 amd64 1.3.2-0.4build3 [15.8 kB]
-Get:145 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libaom3 amd64 3.8.2-2ubuntu0.2 [1,942 kB]
-Get:146 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libheif-plugin-aomdec amd64 1.17.6-1ubuntu4.9 [11.9 kB]
-Get:147 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libheif1 amd64 1.17.6-1ubuntu4.9 [277 kB]
-Get:148 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg-turbo8 amd64 2.1.5-2ubuntu2 [150 kB]
-Get:149 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg8 amd64 8c-2ubuntu11 [2,148 B]
-Get:150 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libdeflate0 amd64 1.19-1build1.1 [43.9 kB]
-Get:151 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libjbig0 amd64 2.1-6.1ubuntu2 [29.7 kB]
-Get:152 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 liblerc4 amd64 4.0.0+ds-4ubuntu2 [179 kB]
-Get:153 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libwebp7 amd64 1.3.2-0.4build3 [230 kB]
-Get:154 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libtiff6 amd64 4.5.1+git230720-4ubuntu2.5 [200 kB]
-Get:155 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libxpm4 amd64 1:3.5.17-1ubuntu0.24.04.2 [36.7 kB]
-Get:156 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libgd3 amd64 2.3.3-9ubuntu5 [128 kB]
-Get:157 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 libgts-0.7-5t64 amd64 0.7.6+darcs121130-5.2build1 [161 kB]
-Get:158 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libltdl7 amd64 2.4.7-7build1 [40.3 kB]
-Get:159 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgraphite2-3 amd64 1.3.14-2ubuntu0.24.04.1 [73.4 kB]
-Get:160 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libharfbuzz0b amd64 8.3.0-2build2 [469 kB]
-Get:161 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libthai-data all 0.1.29-2build1 [158 kB]
-Get:162 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libdatrie1 amd64 0.2.13-3build1 [19.0 kB]
-Get:163 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libthai0 amd64 0.1.29-2build1 [18.9 kB]
-Get:164 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libpango-1.0-0 amd64 1.52.1+ds-1build1 [231 kB]
-Get:165 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libpangoft2-1.0-0 amd64 1.52.1+ds-1build1 [42.5 kB]
-Get:166 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libpangocairo-1.0-0 amd64 1.52.1+ds-1build1 [28.8 kB]
-Get:167 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 libpathplan4 amd64 2.42.2-9ubuntu0.1 [24.0 kB]
-Get:168 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 libgvc6 amd64 2.42.2-9ubuntu0.1 [716 kB]
-Get:169 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 libgvpr2 amd64 2.42.2-9ubuntu0.1 [187 kB]
-Get:170 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 liblab-gamut1 amd64 2.42.2-9ubuntu0.1 [1,886 kB]
-Get:171 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 x11-common all 1:7.7+23ubuntu3 [21.7 kB]
-Get:172 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libice6 amd64 2:1.0.10-1build3 [41.4 kB]
-Get:173 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libsm6 amd64 2:1.2.3-1build3 [15.7 kB]
-Get:174 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libxt6t64 amd64 1:1.2.1-1.2build1 [171 kB]
-Get:175 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libxmu6 amd64 2:1.1.3-3build2 [47.6 kB]
-Get:176 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libxaw7 amd64 2:1.0.14-1build2 [187 kB]
-Get:177 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 graphviz amd64 2.42.2-9ubuntu0.1 [642 kB]
-Get:178 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 icu-devtools amd64 74.2-1ubuntu3.1 [212 kB]
-Get:179 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 iputils-arping amd64 3:20240117-1ubuntu0.1 [15.1 kB]
-Get:180 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 comerr-dev amd64 2.1-1.47.0-2.4~exp1ubuntu4.1 [43.8 kB]
-Get:181 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgssrpc4t64 amd64 1.20.1-6ubuntu2.10 [57.3 kB]
-Get:182 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libkadm5clnt-mit12 amd64 1.20.1-6ubuntu2.10 [40.0 kB]
-Get:183 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libkdb5-10t64 amd64 1.20.1-6ubuntu2.10 [40.4 kB]
-Get:184 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libkadm5srv-mit12 amd64 1.20.1-6ubuntu2.10 [53.0 kB]
-Get:185 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 krb5-multidev amd64 1.20.1-6ubuntu2.10 [125 kB]
-Get:186 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libicu-dev amd64 74.2-1ubuntu3.1 [11.9 MB]
-Get:187 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg-turbo8-dev amd64 2.1.5-2ubuntu2 [295 kB]
-Get:188 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg8-dev amd64 8c-2ubuntu11 [1,484 B]
-Get:189 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg-dev amd64 8c-2ubuntu11 [1,482 B]
-Get:190 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libjs-jquery all 3.6.1+dfsg+~3.5.14-1 [328 kB]
-Get:191 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 libjs-jquery-metadata all 12-4 [6,582 B]
-Get:192 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 libjs-jquery-tablesorter all 1:2.31.3+dfsg1-3 [193 kB]
-Get:193 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libjs-underscore all 1.13.4~dfsg+~1.11.4-3 [118 kB]
-Get:194 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libjs-sphinxdoc all 7.2.6-6 [149 kB]
-Get:195 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 mysql-common all 5.8+1.1.0build1 [6,746 B]
-Get:196 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libmysqlclient21 amd64 8.0.46-0ubuntu0.24.04.4 [1,255 kB]
-Get:197 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libncurses-dev amd64 6.4+20240113-1ubuntu2.2 [384 kB]
-Get:198 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libpkgconf3 amd64 1.8.1-2build1 [30.7 kB]
-Get:199 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpq5 amd64 16.15-0ubuntu0.24.04.1 [151 kB]
-Get:200 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libssl-dev amd64 3.0.13-0ubuntu3.16 [2,409 kB]
-Get:201 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpq-dev amd64 16.15-0ubuntu0.24.04.1 [153 kB]
-Get:202 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3-dev amd64 3.12.3-0ubuntu2.1 [10.3 kB]
-Get:203 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libsasl2-dev amd64 2.1.28+dfsg1-5ubuntu3.1 [243 kB]
-Get:204 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libsgutils2-1.46-2 amd64 1.46-3ubuntu4.1 [94.6 kB]
-Get:205 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libsoup-3.0-common all 3.4.4-5ubuntu0.9 [12.3 kB]
-Get:206 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libsoup-3.0-0 amd64 3.4.4-5ubuntu0.9 [291 kB]
-Get:207 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libsystemd-dev amd64 255.4-1ubuntu8.17 [1,239 kB]
+Get:74 http://security.ubuntu.com/ubuntu noble-security/main amd64 apache2-dev amd64 2.4.58-1ubuntu8.17 [204 kB]
+Get:75 http://security.ubuntu.com/ubuntu noble-security/main amd64 libcurl3t64-gnutls amd64 8.5.0-2ubuntu10.16 [337 kB]
+Get:76 http://security.ubuntu.com/ubuntu noble-security/main amd64 libsystemd-dev amd64 255.4-1ubuntu8.18 [1,239 kB]
+Get:77 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 libclang-cpp17t64 amd64 1:17.0.6-9ubuntu1 [12.9 MB]
+Get:78 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libstdc++-13-dev amd64 13.3.0-6ubuntu2~24.04.1 [2,420 kB]
+Get:79 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libgc1 amd64 1:8.2.6-1build1 [90.3 kB]
+Get:80 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 libobjc4 amd64 14.2.0-4ubuntu2~24.04.1 [47.1 kB]
+Get:81 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 libobjc-13-dev amd64 13.3.0-6ubuntu2~24.04.1 [194 kB]
+Get:82 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 libclang-common-17-dev amd64 1:17.0.6-9ubuntu1 [690 kB]
+Get:83 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 llvm-17-linker-tools amd64 1:17.0.6-9ubuntu1 [1,308 kB]
+Get:84 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 libclang1-17t64 amd64 1:17.0.6-9ubuntu1 [7,353 kB]
+Get:85 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 clang-17 amd64 1:17.0.6-9ubuntu1 [78.6 kB]
+Get:86 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libtool all 2.4.7-7build1 [166 kB]
+Get:87 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 dh-autoreconf all 20 [16.1 kB]
+Get:88 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libarchive-zip-perl all 1.68-1 [90.2 kB]
+Get:89 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libsub-override-perl all 0.10-1 [10.0 kB]
+Get:90 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libfile-stripnondeterminism-perl all 1.13.1-1 [18.1 kB]
+Get:91 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 dh-strip-nondeterminism all 1.13.1-1 [5,362 B]
+Get:92 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 debugedit amd64 1:5.0-5build2 [46.1 kB]
+Get:93 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 dwz amd64 0.15-1build6 [115 kB]
+Get:94 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 gettext amd64 0.21-14ubuntu2 [864 kB]
+Get:95 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 intltool-debian all 0.35.0+20060710.6 [23.2 kB]
+Get:96 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 po-debconf all 1.0.21+nmu1 [233 kB]
+Get:97 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 debhelper all 13.14.1ubuntu5 [869 kB]
+Get:98 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 uuid-dev amd64 2.39.3-9ubuntu6.6 [33.5 kB]
+Get:99 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libsctp1 amd64 1.0.19+dfsg-2build1 [9,146 B]
+Get:100 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libsctp-dev amd64 1.0.19+dfsg-2build1 [51.1 kB]
+Get:101 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libapr1-dev amd64 1.7.2-3.1ubuntu0.1 [768 kB]
+Get:102 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libldap-dev amd64 2.6.10+dfsg-0ubuntu0.24.04.1 [308 kB]
+Get:103 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libldap2-dev all 2.6.10+dfsg-0ubuntu0.24.04.1 [11.1 kB]
+Get:104 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libaprutil1-dev amd64 1.6.3-1.1ubuntu7.1 [413 kB]
+Get:105 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpcre2-16-0 amd64 10.42-4ubuntu2.1 [210 kB]
+Get:106 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpcre2-32-0 amd64 10.42-4ubuntu2.1 [197 kB]
+Get:107 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpcre2-posix3 amd64 10.42-4ubuntu2.1 [6,748 B]
+Get:108 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpcre2-dev amd64 10.42-4ubuntu2.1 [736 kB]
+Get:109 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 ncal amd64 12.1.8 [21.0 kB]
+Get:110 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 bsdmainutils all 12.1.8 [3,176 B]
+Get:111 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 conntrack amd64 1:1.4.8-1ubuntu1 [37.9 kB]
+Get:112 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libdconf1 amd64 0.40.0-4ubuntu0.1 [39.6 kB]
+Get:113 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 dconf-service amd64 0.40.0-4ubuntu0.1 [27.6 kB]
+Get:114 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 dconf-gsettings-backend amd64 0.40.0-4ubuntu0.1 [22.1 kB]
+Get:115 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 dnsmasq-base amd64 2.91-0ubuntu0.24.04.2 [381 kB]
+Get:116 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 dnsmasq-utils amd64 2.91-0ubuntu0.24.04.2 [16.7 kB]
+Get:117 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 ebtables amd64 2.0.11-6build1 [88.4 kB]
+Get:118 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 fdisk amd64 2.39.3-9ubuntu6.6 [122 kB]
+Get:119 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 fonts-dejavu-mono all 2.37-8 [502 kB]
+Get:120 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 fonts-dejavu-core all 2.37-8 [835 kB]
+Get:121 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 fontconfig-config amd64 2.15.0-1.1ubuntu2 [37.3 kB]
+Get:122 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libfontconfig1 amd64 2.15.0-1.1ubuntu2 [139 kB]
+Get:123 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 fontconfig amd64 2.15.0-1.1ubuntu2 [180 kB]
+Get:124 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 g++-13-x86-64-linux-gnu amd64 13.3.0-6ubuntu2~24.04.1 [12.2 MB]
+Get:125 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 g++-13 amd64 13.3.0-6ubuntu2~24.04.1 [16.0 kB]
+Get:126 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 g++-x86-64-linux-gnu amd64 4:13.2.0-7ubuntu1 [964 B]
+Get:127 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 g++ amd64 4:13.2.0-7ubuntu1 [1,100 B]
+Get:128 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 genisoimage amd64 9:1.1.11-3.5 [378 kB]
+Get:129 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libpixman-1-0 amd64 0.42.2-1build1 [279 kB]
+Get:130 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-render0 amd64 1.15-1ubuntu2 [16.2 kB]
+Get:131 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-shm0 amd64 1.15-1ubuntu2 [5,756 B]
+Get:132 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libxrender1 amd64 1:0.9.10-1.1build1 [19.0 kB]
+Get:133 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libcairo2 amd64 1.18.0-3build1 [566 kB]
+Get:134 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libcairo-gobject2 amd64 1.18.0-3build1 [127 kB]
+Get:135 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 gir1.2-freedesktop amd64 1.80.1-1 [49.7 kB]
+Get:136 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libproxy1v5 amd64 0.5.4-4build1 [26.5 kB]
+Get:137 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 glib-networking-common all 2.80.0-1build1 [6,702 B]
+Get:138 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 glib-networking-services amd64 2.80.0-1build1 [12.8 kB]
+Get:139 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 session-migration amd64 0.3.9build1 [9,034 B]
+Get:140 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 gsettings-desktop-schemas all 46.1-0ubuntu1 [35.6 kB]
+Get:141 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 glib-networking amd64 2.80.0-1build1 [64.1 kB]
+Get:142 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 libann0 amd64 1.1.2+doc-9build1 [25.5 kB]
+Get:143 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 libcdt5 amd64 2.42.2-9ubuntu0.1 [21.6 kB]
+Get:144 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 libcgraph6 amd64 2.42.2-9ubuntu0.1 [44.6 kB]
+Get:145 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libsharpyuv0 amd64 1.3.2-0.4build3 [15.8 kB]
+Get:146 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libaom3 amd64 3.8.2-2ubuntu0.2 [1,942 kB]
+Get:147 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libheif-plugin-aomdec amd64 1.17.6-1ubuntu4.9 [11.9 kB]
+Get:148 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libheif1 amd64 1.17.6-1ubuntu4.9 [277 kB]
+Get:149 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg-turbo8 amd64 2.1.5-2ubuntu2 [150 kB]
+Get:150 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg8 amd64 8c-2ubuntu11 [2,148 B]
+Get:151 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libdeflate0 amd64 1.19-1build1.1 [43.9 kB]
+Get:152 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libjbig0 amd64 2.1-6.1ubuntu2 [29.7 kB]
+Get:153 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 liblerc4 amd64 4.0.0+ds-4ubuntu2 [179 kB]
+Get:154 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libwebp7 amd64 1.3.2-0.4build3 [230 kB]
+Get:155 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libtiff6 amd64 4.5.1+git230720-4ubuntu2.5 [200 kB]
+Get:156 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libxpm4 amd64 1:3.5.17-1ubuntu0.24.04.2 [36.7 kB]
+Get:157 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libgd3 amd64 2.3.3-9ubuntu5 [128 kB]
+Get:158 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 libgts-0.7-5t64 amd64 0.7.6+darcs121130-5.2build1 [161 kB]
+Get:159 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libltdl7 amd64 2.4.7-7build1 [40.3 kB]
+Get:160 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgraphite2-3 amd64 1.3.14-2ubuntu0.24.04.1 [73.4 kB]
+Get:161 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libharfbuzz0b amd64 8.3.0-2build2 [469 kB]
+Get:162 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libthai-data all 0.1.29-2build1 [158 kB]
+Get:163 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libdatrie1 amd64 0.2.13-3build1 [19.0 kB]
+Get:164 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libthai0 amd64 0.1.29-2build1 [18.9 kB]
+Get:165 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libpango-1.0-0 amd64 1.52.1+ds-1build1 [231 kB]
+Get:166 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libpangoft2-1.0-0 amd64 1.52.1+ds-1build1 [42.5 kB]
+Get:167 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libpangocairo-1.0-0 amd64 1.52.1+ds-1build1 [28.8 kB]
+Get:168 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 libpathplan4 amd64 2.42.2-9ubuntu0.1 [24.0 kB]
+Get:169 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 libgvc6 amd64 2.42.2-9ubuntu0.1 [716 kB]
+Get:170 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 libgvpr2 amd64 2.42.2-9ubuntu0.1 [187 kB]
+Get:171 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 liblab-gamut1 amd64 2.42.2-9ubuntu0.1 [1,886 kB]
+Get:172 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 x11-common all 1:7.7+23ubuntu3 [21.7 kB]
+Get:173 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libice6 amd64 2:1.0.10-1build3 [41.4 kB]
+Get:174 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libsm6 amd64 2:1.2.3-1build3 [15.7 kB]
+Get:175 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libxt6t64 amd64 1:1.2.1-1.2build1 [171 kB]
+Get:176 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libxmu6 amd64 2:1.1.3-3build2 [47.6 kB]
+Get:177 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libxaw7 amd64 2:1.0.14-1build2 [187 kB]
+Get:178 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 graphviz amd64 2.42.2-9ubuntu0.1 [642 kB]
+Get:179 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 icu-devtools amd64 74.2-1ubuntu3.1 [212 kB]
+Get:180 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 iputils-arping amd64 3:20240117-1ubuntu0.1 [15.1 kB]
+Get:181 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 comerr-dev amd64 2.1-1.47.0-2.4~exp1ubuntu4.1 [43.8 kB]
+Get:182 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgssrpc4t64 amd64 1.20.1-6ubuntu2.10 [57.3 kB]
+Get:183 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libkadm5clnt-mit12 amd64 1.20.1-6ubuntu2.10 [40.0 kB]
+Get:184 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libkdb5-10t64 amd64 1.20.1-6ubuntu2.10 [40.4 kB]
+Get:185 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libkadm5srv-mit12 amd64 1.20.1-6ubuntu2.10 [53.0 kB]
+Get:186 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 krb5-multidev amd64 1.20.1-6ubuntu2.10 [125 kB]
+Get:187 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libicu-dev amd64 74.2-1ubuntu3.1 [11.9 MB]
+Get:188 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg-turbo8-dev amd64 2.1.5-2ubuntu2 [295 kB]
+Get:189 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg8-dev amd64 8c-2ubuntu11 [1,484 B]
+Get:190 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg-dev amd64 8c-2ubuntu11 [1,482 B]
+Get:191 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libjs-jquery all 3.6.1+dfsg+~3.5.14-1 [328 kB]
+Get:192 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 libjs-jquery-metadata all 12-4 [6,582 B]
+Get:193 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 libjs-jquery-tablesorter all 1:2.31.3+dfsg1-3 [193 kB]
+Get:194 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libjs-underscore all 1.13.4~dfsg+~1.11.4-3 [118 kB]
+Get:195 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libjs-sphinxdoc all 7.2.6-6 [149 kB]
+Get:196 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 mysql-common all 5.8+1.1.0build1 [6,746 B]
+Get:197 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libmysqlclient21 amd64 8.0.46-0ubuntu0.24.04.4 [1,255 kB]
+Get:198 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libncurses-dev amd64 6.4+20240113-1ubuntu2.2 [384 kB]
+Get:199 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libpkgconf3 amd64 1.8.1-2build1 [30.7 kB]
+Get:200 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpq5 amd64 16.15-0ubuntu0.24.04.1 [151 kB]
+Get:201 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libssl-dev amd64 3.0.13-0ubuntu3.16 [2,409 kB]
+Get:202 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpq-dev amd64 16.15-0ubuntu0.24.04.1 [153 kB]
+Get:203 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3-dev amd64 3.12.3-0ubuntu2.1 [10.3 kB]
+Get:204 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libsasl2-dev amd64 2.1.28+dfsg1-5ubuntu3.1 [243 kB]
+Get:205 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libsgutils2-1.46-2 amd64 1.46-3ubuntu4.1 [94.6 kB]
+Get:206 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libsoup-3.0-common all 3.4.4-5ubuntu0.9 [12.3 kB]
+Get:207 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libsoup-3.0-0 amd64 3.4.4-5ubuntu0.9 [291 kB]
 Get:208 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 liburing2 amd64 2.5-1build1 [21.1 kB]
 Get:209 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libxml2-dev amd64 2.9.14+dfsg-1.3ubuntu3.10 [781 kB]
 Get:210 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libxslt1-dev amd64 1.1.39-0exp1ubuntu0.24.04.3 [91.9 kB]
@@ -3471,7 +3471,7 @@ Get:253 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python
 Get:254 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 pcp amd64 6.2.0-1.1build4 [2,946 kB]
 Get:255 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 socat amd64 1.8.0.0-4ubuntu0.1 [374 kB]
 Preconfiguring packages ...
-Fetched 216 MB in 2min 22s (1,520 kB/s)
+Fetched 216 MB in 1min 31s (2,362 kB/s)
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 55667 files and directories currently installed.)
 Preparing to unpack .../bsdutils_1%3a2.39.3-9ubuntu6.6_amd64.deb ...
 Unpacking bsdutils (1:2.39.3-9ubuntu6.6) over (1:2.39.3-9ubuntu6.4) ...
@@ -3498,35 +3498,35 @@ Preparing to unpack .../ncurses-term_6.4+20240113-1ubuntu2.2_all.deb ...
 Unpacking ncurses-term (6.4+20240113-1ubuntu2.2) over (6.4+20240113-1ubuntu2) ...
 Preparing to unpack .../mount_2.39.3-9ubuntu6.6_amd64.deb ...
 Unpacking mount (2.39.3-9ubuntu6.6) over (2.39.3-9ubuntu6.4) ...
-Preparing to unpack .../systemd-dev_255.4-1ubuntu8.17_all.deb ...
-Unpacking systemd-dev (255.4-1ubuntu8.17) over (255.4-1ubuntu8.12) ...
+Preparing to unpack .../systemd-dev_255.4-1ubuntu8.18_all.deb ...
+Unpacking systemd-dev (255.4-1ubuntu8.18) over (255.4-1ubuntu8.12) ...
 Preparing to unpack .../libblkid1_2.39.3-9ubuntu6.6_amd64.deb ...
 Unpacking libblkid1:amd64 (2.39.3-9ubuntu6.6) over (2.39.3-9ubuntu6.4) ...
 Setting up libblkid1:amd64 (2.39.3-9ubuntu6.6) ...
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 55667 files and directories currently installed.)
-Preparing to unpack .../systemd-timesyncd_255.4-1ubuntu8.17_amd64.deb ...
-Unpacking systemd-timesyncd (255.4-1ubuntu8.17) over (255.4-1ubuntu8.12) ...
-Preparing to unpack .../systemd-resolved_255.4-1ubuntu8.17_amd64.deb ...
-Unpacking systemd-resolved (255.4-1ubuntu8.17) over (255.4-1ubuntu8.12) ...
-Preparing to unpack .../libsystemd-shared_255.4-1ubuntu8.17_amd64.deb ...
-Unpacking libsystemd-shared:amd64 (255.4-1ubuntu8.17) over (255.4-1ubuntu8.12) ...
-Preparing to unpack .../libsystemd0_255.4-1ubuntu8.17_amd64.deb ...
-Unpacking libsystemd0:amd64 (255.4-1ubuntu8.17) over (255.4-1ubuntu8.12) ...
-Setting up libsystemd0:amd64 (255.4-1ubuntu8.17) ...
+Preparing to unpack .../systemd-timesyncd_255.4-1ubuntu8.18_amd64.deb ...
+Unpacking systemd-timesyncd (255.4-1ubuntu8.18) over (255.4-1ubuntu8.12) ...
+Preparing to unpack .../systemd-resolved_255.4-1ubuntu8.18_amd64.deb ...
+Unpacking systemd-resolved (255.4-1ubuntu8.18) over (255.4-1ubuntu8.12) ...
+Preparing to unpack .../libsystemd-shared_255.4-1ubuntu8.18_amd64.deb ...
+Unpacking libsystemd-shared:amd64 (255.4-1ubuntu8.18) over (255.4-1ubuntu8.12) ...
+Preparing to unpack .../libsystemd0_255.4-1ubuntu8.18_amd64.deb ...
+Unpacking libsystemd0:amd64 (255.4-1ubuntu8.18) over (255.4-1ubuntu8.12) ...
+Setting up libsystemd0:amd64 (255.4-1ubuntu8.18) ...
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 55667 files and directories currently installed.)
-Preparing to unpack .../0-systemd-sysv_255.4-1ubuntu8.17_amd64.deb ...
-Unpacking systemd-sysv (255.4-1ubuntu8.17) over (255.4-1ubuntu8.12) ...
-Preparing to unpack .../1-libnss-systemd_255.4-1ubuntu8.17_amd64.deb ...
-Unpacking libnss-systemd:amd64 (255.4-1ubuntu8.17) over (255.4-1ubuntu8.12) ...
-Preparing to unpack .../2-libpam-systemd_255.4-1ubuntu8.17_amd64.deb ...
-Unpacking libpam-systemd:amd64 (255.4-1ubuntu8.17) over (255.4-1ubuntu8.12) ...
-Preparing to unpack .../3-systemd_255.4-1ubuntu8.17_amd64.deb ...
-Unpacking systemd (255.4-1ubuntu8.17) over (255.4-1ubuntu8.12) ...
-Preparing to unpack .../4-udev_255.4-1ubuntu8.17_amd64.deb ...
-Unpacking udev (255.4-1ubuntu8.17) over (255.4-1ubuntu8.12) ...
-Preparing to unpack .../5-libudev1_255.4-1ubuntu8.17_amd64.deb ...
-Unpacking libudev1:amd64 (255.4-1ubuntu8.17) over (255.4-1ubuntu8.12) ...
-Setting up libudev1:amd64 (255.4-1ubuntu8.17) ...
+Preparing to unpack .../0-systemd-sysv_255.4-1ubuntu8.18_amd64.deb ...
+Unpacking systemd-sysv (255.4-1ubuntu8.18) over (255.4-1ubuntu8.12) ...
+Preparing to unpack .../1-libnss-systemd_255.4-1ubuntu8.18_amd64.deb ...
+Unpacking libnss-systemd:amd64 (255.4-1ubuntu8.18) over (255.4-1ubuntu8.12) ...
+Preparing to unpack .../2-libpam-systemd_255.4-1ubuntu8.18_amd64.deb ...
+Unpacking libpam-systemd:amd64 (255.4-1ubuntu8.18) over (255.4-1ubuntu8.12) ...
+Preparing to unpack .../3-systemd_255.4-1ubuntu8.18_amd64.deb ...
+Unpacking systemd (255.4-1ubuntu8.18) over (255.4-1ubuntu8.12) ...
+Preparing to unpack .../4-udev_255.4-1ubuntu8.18_amd64.deb ...
+Unpacking udev (255.4-1ubuntu8.18) over (255.4-1ubuntu8.12) ...
+Preparing to unpack .../5-libudev1_255.4-1ubuntu8.18_amd64.deb ...
+Unpacking libudev1:amd64 (255.4-1ubuntu8.18) over (255.4-1ubuntu8.12) ...
+Setting up libudev1:amd64 (255.4-1ubuntu8.18) ...
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 55667 files and directories currently installed.)
 Preparing to unpack .../libssl3t64_3.0.13-0ubuntu3.16_amd64.deb ...
 Unpacking libssl3t64:amd64 (3.0.13-0ubuntu3.16) over (3.0.13-0ubuntu3.7) ...
@@ -3562,8 +3562,8 @@ Unpacking libaprutil1-dbd-sqlite3:amd64 (1.6.3-1.1ubuntu7.1) ...
 Selecting previously unselected package libaprutil1-ldap:amd64.
 Preparing to unpack .../05-libaprutil1-ldap_1.6.3-1.1ubuntu7.1_amd64.deb ...
 Unpacking libaprutil1-ldap:amd64 (1.6.3-1.1ubuntu7.1) ...
-Preparing to unpack .../06-curl_8.5.0-2ubuntu10.15_amd64.deb ...
-Unpacking curl (8.5.0-2ubuntu10.15) over (8.5.0-2ubuntu10.6) ...
+Preparing to unpack .../06-curl_8.5.0-2ubuntu10.16_amd64.deb ...
+Unpacking curl (8.5.0-2ubuntu10.16) over (8.5.0-2ubuntu10.6) ...
 Preparing to unpack .../07-libk5crypto3_1.20.1-6ubuntu2.10_amd64.deb ...
 Unpacking libk5crypto3:amd64 (1.20.1-6ubuntu2.10) over (1.20.1-6ubuntu2.6) ...
 Preparing to unpack .../08-libgssapi-krb5-2_1.20.1-6ubuntu2.10_amd64.deb ...
@@ -3572,25 +3572,25 @@ Preparing to unpack .../09-libkrb5support0_1.20.1-6ubuntu2.10_amd64.deb ...
 Unpacking libkrb5support0:amd64 (1.20.1-6ubuntu2.10) over (1.20.1-6ubuntu2.6) ...
 Preparing to unpack .../10-libkrb5-3_1.20.1-6ubuntu2.10_amd64.deb ...
 Unpacking libkrb5-3:amd64 (1.20.1-6ubuntu2.10) over (1.20.1-6ubuntu2.6) ...
-Preparing to unpack .../11-libcurl4t64_8.5.0-2ubuntu10.15_amd64.deb ...
-Unpacking libcurl4t64:amd64 (8.5.0-2ubuntu10.15) over (8.5.0-2ubuntu10.6) ...
+Preparing to unpack .../11-libcurl4t64_8.5.0-2ubuntu10.16_amd64.deb ...
+Unpacking libcurl4t64:amd64 (8.5.0-2ubuntu10.16) over (8.5.0-2ubuntu10.6) ...
 Selecting previously unselected package liblua5.4-0:amd64.
 Preparing to unpack .../12-liblua5.4-0_5.4.6-3build2_amd64.deb ...
 Unpacking liblua5.4-0:amd64 (5.4.6-3build2) ...
 Preparing to unpack .../13-libxml2_2.9.14+dfsg-1.3ubuntu3.10_amd64.deb ...
 Unpacking libxml2:amd64 (2.9.14+dfsg-1.3ubuntu3.10) over (2.9.14+dfsg-1.3ubuntu3.7) ...
 Selecting previously unselected package apache2-bin.
-Preparing to unpack .../14-apache2-bin_2.4.58-1ubuntu8.16_amd64.deb ...
-Unpacking apache2-bin (2.4.58-1ubuntu8.16) ...
+Preparing to unpack .../14-apache2-bin_2.4.58-1ubuntu8.17_amd64.deb ...
+Unpacking apache2-bin (2.4.58-1ubuntu8.17) ...
 Selecting previously unselected package apache2-data.
-Preparing to unpack .../15-apache2-data_2.4.58-1ubuntu8.16_all.deb ...
-Unpacking apache2-data (2.4.58-1ubuntu8.16) ...
+Preparing to unpack .../15-apache2-data_2.4.58-1ubuntu8.17_all.deb ...
+Unpacking apache2-data (2.4.58-1ubuntu8.17) ...
 Selecting previously unselected package apache2-utils.
-Preparing to unpack .../16-apache2-utils_2.4.58-1ubuntu8.16_amd64.deb ...
-Unpacking apache2-utils (2.4.58-1ubuntu8.16) ...
+Preparing to unpack .../16-apache2-utils_2.4.58-1ubuntu8.17_amd64.deb ...
+Unpacking apache2-utils (2.4.58-1ubuntu8.17) ...
 Selecting previously unselected package apache2.
-Preparing to unpack .../17-apache2_2.4.58-1ubuntu8.16_amd64.deb ...
-Unpacking apache2 (2.4.58-1ubuntu8.16) ...
+Preparing to unpack .../17-apache2_2.4.58-1ubuntu8.17_amd64.deb ...
+Unpacking apache2 (2.4.58-1ubuntu8.17) ...
 Preparing to unpack .../18-gawk_1%3a5.2.1-2ubuntu0.1_amd64.deb ...
 Unpacking gawk (1:5.2.1-2ubuntu0.1) over (1:5.2.1-2build3) ...
 Selecting previously unselected package haproxy.
@@ -3603,12 +3603,12 @@ Preparing to unpack .../21-libopeniscsiusr_2.1.9-3ubuntu5.5_amd64.deb ...
 Unpacking libopeniscsiusr (2.1.9-3ubuntu5.5) over (2.1.9-3ubuntu5.4) ...
 Preparing to unpack .../22-open-iscsi_2.1.9-3ubuntu5.5_amd64.deb ...
 Unpacking open-iscsi (2.1.9-3ubuntu5.5) over (2.1.9-3ubuntu5.4) ...
-Preparing to unpack .../23-openssh-sftp-server_1%3a9.6p1-3ubuntu13.19_amd64.deb ...
-Unpacking openssh-sftp-server (1:9.6p1-3ubuntu13.19) over (1:9.6p1-3ubuntu13.14) ...
-Preparing to unpack .../24-openssh-server_1%3a9.6p1-3ubuntu13.19_amd64.deb ...
-Unpacking openssh-server (1:9.6p1-3ubuntu13.19) over (1:9.6p1-3ubuntu13.14) ...
-Preparing to unpack .../25-openssh-client_1%3a9.6p1-3ubuntu13.19_amd64.deb ...
-Unpacking openssh-client (1:9.6p1-3ubuntu13.19) over (1:9.6p1-3ubuntu13.14) ...
+Preparing to unpack .../23-openssh-sftp-server_1%3a9.6p1-3ubuntu13.20_amd64.deb ...
+Unpacking openssh-sftp-server (1:9.6p1-3ubuntu13.20) over (1:9.6p1-3ubuntu13.14) ...
+Preparing to unpack .../24-openssh-server_1%3a9.6p1-3ubuntu13.20_amd64.deb ...
+Unpacking openssh-server (1:9.6p1-3ubuntu13.20) over (1:9.6p1-3ubuntu13.14) ...
+Preparing to unpack .../25-openssh-client_1%3a9.6p1-3ubuntu13.20_amd64.deb ...
+Unpacking openssh-client (1:9.6p1-3ubuntu13.20) over (1:9.6p1-3ubuntu13.14) ...
 Selecting previously unselected package libjson-perl.
 Preparing to unpack .../26-libjson-perl_4.10000-1_all.deb ...
 Unpacking libjson-perl (4.10000-1) ...
@@ -3769,8 +3769,8 @@ Selecting previously unselected package libpcre2-dev:amd64.
 Preparing to unpack .../044-libpcre2-dev_10.42-4ubuntu2.1_amd64.deb ...
 Unpacking libpcre2-dev:amd64 (10.42-4ubuntu2.1) ...
 Selecting previously unselected package apache2-dev.
-Preparing to unpack .../045-apache2-dev_2.4.58-1ubuntu8.16_amd64.deb ...
-Unpacking apache2-dev (2.4.58-1ubuntu8.16) ...
+Preparing to unpack .../045-apache2-dev_2.4.58-1ubuntu8.17_amd64.deb ...
+Unpacking apache2-dev (2.4.58-1ubuntu8.17) ...
 Selecting previously unselected package ncal.
 Preparing to unpack .../046-ncal_12.1.8_amd64.deb ...
 Unpacking ncal (12.1.8) ...
@@ -3851,8 +3851,8 @@ Unpacking libcairo-gobject2:amd64 (1.18.0-3build1) ...
 Selecting previously unselected package gir1.2-freedesktop:amd64.
 Preparing to unpack .../072-gir1.2-freedesktop_1.80.1-1_amd64.deb ...
 Unpacking gir1.2-freedesktop:amd64 (1.80.1-1) ...
-Preparing to unpack .../073-libcurl3t64-gnutls_8.5.0-2ubuntu10.15_amd64.deb ...
-Unpacking libcurl3t64-gnutls:amd64 (8.5.0-2ubuntu10.15) over (8.5.0-2ubuntu10.6) ...
+Preparing to unpack .../073-libcurl3t64-gnutls_8.5.0-2ubuntu10.16_amd64.deb ...
+Unpacking libcurl3t64-gnutls:amd64 (8.5.0-2ubuntu10.16) over (8.5.0-2ubuntu10.6) ...
 Selecting previously unselected package libproxy1v5:amd64.
 Preparing to unpack .../074-libproxy1v5_0.5.4-4build1_amd64.deb ...
 Unpacking libproxy1v5:amd64 (0.5.4-4build1) ...
@@ -4069,8 +4069,8 @@ Selecting previously unselected package libsoup-3.0-0:amd64.
 Preparing to unpack .../145-libsoup-3.0-0_3.4.4-5ubuntu0.9_amd64.deb ...
 Unpacking libsoup-3.0-0:amd64 (3.4.4-5ubuntu0.9) ...
 Selecting previously unselected package libsystemd-dev:amd64.
-Preparing to unpack .../146-libsystemd-dev_255.4-1ubuntu8.17_amd64.deb ...
-Unpacking libsystemd-dev:amd64 (255.4-1ubuntu8.17) ...
+Preparing to unpack .../146-libsystemd-dev_255.4-1ubuntu8.18_amd64.deb ...
+Unpacking libsystemd-dev:amd64 (255.4-1ubuntu8.18) ...
 Selecting previously unselected package liburing2:amd64.
 Preparing to unpack .../147-liburing2_2.5-1build1_amd64.deb ...
 Unpacking liburing2:amd64 (2.5-1build1) ...
@@ -4249,7 +4249,7 @@ Setting up x11-common (1:7.7+23ubuntu3) ...
 Setting up libsgutils2-1.46-2:amd64 (1.46-3ubuntu4.1) ...
 Setting up libdeflate0:amd64 (1.19-1build1.1) ...
 Setting up m4 (1.4.19-4build1) ...
-Setting up systemd-dev (255.4-1ubuntu8.17) ...
+Setting up systemd-dev (255.4-1ubuntu8.18) ...
 Setting up krb5-locales (1.20.1-6ubuntu2.10) ...
 Setting up libxcb-shm0:amd64 (1.15-1ubuntu2) ...
 Setting up libsoup-3.0-common (3.4.4-5ubuntu0.9) ...
@@ -4284,7 +4284,7 @@ Setting up bsdmainutils (12.1.8) ...
 Setting up comerr-dev:amd64 (2.1-1.47.0-2.4~exp1ubuntu4.1) ...
 Setting up fonts-dejavu-mono (2.37-8) ...
 Setting up libssl-dev:amd64 (3.0.13-0ubuntu3.16) ...
-Setting up libsystemd-shared:amd64 (255.4-1ubuntu8.17) ...
+Setting up libsystemd-shared:amd64 (255.4-1ubuntu8.18) ...
 Setting up autopoint (0.21-14ubuntu2) ...
 Setting up icu-devtools (74.2-1ubuntu3.1) ...
 Setting up sudo (1.9.15p5-3ubuntu5.24.04.4) ...
@@ -4320,14 +4320,14 @@ Setting up libgts-0.7-5t64:amd64 (0.7.6+darcs121130-5.2build1) ...
 Setting up libcdt5:amd64 (2.42.2-9ubuntu0.1) ...
 Setting up libkrb5-3:amd64 (1.20.1-6ubuntu2.10) ...
 Setting up libcgraph6:amd64 (2.42.2-9ubuntu0.1) ...
-Setting up apache2-data (2.4.58-1ubuntu8.16) ...
+Setting up apache2-data (2.4.58-1ubuntu8.17) ...
 Setting up libjs-jquery (3.6.1+dfsg+~3.5.14-1) ...
 Setting up glib-networking-common (2.80.0-1build1) ...
 Setting up liburing2:amd64 (2.5-1build1) ...
 Setting up openssl (3.0.13-0ubuntu3.16) ...
 Setting up libicu-dev:amd64 (74.2-1ubuntu3.1) ...
 Setting up libxml2:amd64 (2.9.14+dfsg-1.3ubuntu3.10) ...
-Setting up libsystemd-dev:amd64 (255.4-1ubuntu8.17) ...
+Setting up libsystemd-dev:amd64 (255.4-1ubuntu8.18) ...
 Setting up sqlite3 (3.45.1-1ubuntu2.8) ...
 Setting up libosinfo-l10n (1.11.0-2build3) ...
 Setting up libstdc++-13-dev:amd64 (13.3.0-6ubuntu2~24.04.1) ...
@@ -4352,7 +4352,7 @@ Setting up haproxy (2.8.16-0ubuntu0.24.04.3) ...
 Created symlink /etc/systemd/system/multi-user.target.wants/haproxy.service → /usr/lib/systemd/system/haproxy.service.
 Setting up libobjc4:amd64 (14.2.0-4ubuntu2~24.04.1) ...
 Setting up dconf-service (0.40.0-4ubuntu0.1) ...
-Setting up systemd (255.4-1ubuntu8.17) ...
+Setting up systemd (255.4-1ubuntu8.18) ...
 [0;1;31m/usr/lib/tmpfiles.d/pcp-reboot-init.conf:4: Failed to resolve user 'pcp': No such process[0m
 [0;1;31m/usr/lib/tmpfiles.d/postgresql-common.conf:2: Failed to resolve user 'postgres': No such process[0m
 [0;1;31m/usr/lib/tmpfiles.d/postgresql-common.conf:4: Failed to resolve group 'postgres': No such process[0m
@@ -4379,9 +4379,9 @@ Creating config file /etc/postgresql-common/createcluster.conf with new version
 Building PostgreSQL dictionaries from installed myspell/hunspell packages...
 Removing obsolete dictionary files:
 Created symlink /etc/systemd/system/multi-user.target.wants/postgresql.service → /usr/lib/systemd/system/postgresql.service.
-Setting up systemd-timesyncd (255.4-1ubuntu8.17) ...
+Setting up systemd-timesyncd (255.4-1ubuntu8.18) ...
 Setting up libgssapi-krb5-2:amd64 (1.20.1-6ubuntu2.10) ...
-Setting up udev (255.4-1ubuntu8.17) ...
+Setting up udev (255.4-1ubuntu8.18) ...
 Setting up libpcp3t64 (6.2.0-1.1build4) ...
 Setting up libsctp-dev:amd64 (1.0.19+dfsg-2build1) ...
 Setting up pkg-config:amd64 (1.8.1-2build1) ...
@@ -4400,24 +4400,24 @@ Setting up qemu-utils (1:8.2.2+ds-0ubuntu1.18) ...
 Setting up libjpeg8-dev:amd64 (8c-2ubuntu11) ...
 Setting up libsm6:amd64 (2:1.2.3-1build3) ...
 Setting up libobjc-13-dev:amd64 (13.3.0-6ubuntu2~24.04.1) ...
-Setting up systemd-resolved (255.4-1ubuntu8.17) ...
-Setting up apache2-utils (2.4.58-1ubuntu8.16) ...
+Setting up systemd-resolved (255.4-1ubuntu8.18) ...
+Setting up apache2-utils (2.4.58-1ubuntu8.17) ...
 Setting up g++-13 (13.3.0-6ubuntu2~24.04.1) ...
-Setting up systemd-sysv (255.4-1ubuntu8.17) ...
+Setting up systemd-sysv (255.4-1ubuntu8.18) ...
 Setting up llvm-17-linker-tools (1:17.0.6-9ubuntu1) ...
 Setting up libpcp-import1t64 (6.2.0-1.1build4) ...
 Setting up libxslt1-dev:amd64 (1.1.39-0exp1ubuntu0.24.04.3) ...
 Setting up dconf-gsettings-backend:amd64 (0.40.0-4ubuntu0.1) ...
-Setting up libcurl4t64:amd64 (8.5.0-2ubuntu10.15) ...
-Setting up openssh-client (1:9.6p1-3ubuntu13.19) ...
+Setting up libcurl4t64:amd64 (8.5.0-2ubuntu10.16) ...
+Setting up openssh-client (1:9.6p1-3ubuntu13.20) ...
 Setting up po-debconf (1.0.21+nmu1) ...
 Setting up libjpeg-dev:amd64 (8c-2ubuntu11) ...
 Setting up libpq5:amd64 (16.15-0ubuntu0.24.04.1) ...
-Setting up libcurl3t64-gnutls:amd64 (8.5.0-2ubuntu10.15) ...
-Setting up libnss-systemd:amd64 (255.4-1ubuntu8.17) ...
+Setting up libcurl3t64-gnutls:amd64 (8.5.0-2ubuntu10.16) ...
+Setting up libnss-systemd:amd64 (255.4-1ubuntu8.18) ...
 Setting up debhelper (13.14.1ubuntu5) ...
 Setting up libpq-dev (16.15-0ubuntu0.24.04.1) ...
-Setting up apache2-bin (2.4.58-1ubuntu8.16) ...
+Setting up apache2-bin (2.4.58-1ubuntu8.17) ...
 Setting up open-iscsi (2.1.9-3ubuntu5.5) ...
 Setting up multipath-tools (0.9.4-5ubuntu8.2) ...
 Setting up libclang-cpp17t64 (1:17.0.6-9ubuntu1) ...
@@ -4429,19 +4429,19 @@ Setting up python3-dev (3.12.3-0ubuntu2.1) ...
 Setting up libxt6t64:amd64 (1:1.2.1-1.2build1) ...
 Setting up g++ (4:13.2.0-7ubuntu1) ...
 update-alternatives: using /usr/bin/g++ to provide /usr/bin/c++ (c++) in auto mode
-Setting up libpam-systemd:amd64 (255.4-1ubuntu8.17) ...
+Setting up libpam-systemd:amd64 (255.4-1ubuntu8.18) ...
 Setting up libaprutil1-dev (1.6.3-1.1ubuntu7.1) ...
-Setting up curl (8.5.0-2ubuntu10.15) ...
+Setting up curl (8.5.0-2ubuntu10.16) ...
 Setting up llvm-17 (1:17.0.6-9ubuntu1) ...
 Setting up libkadm5clnt-mit12:amd64 (1.20.1-6ubuntu2.10) ...
-Setting up apache2-dev (2.4.58-1ubuntu8.16) ...
+Setting up apache2-dev (2.4.58-1ubuntu8.17) ...
 Setting up gsettings-desktop-schemas (46.1-0ubuntu1) ...
-Setting up openssh-sftp-server (1:9.6p1-3ubuntu13.19) ...
+Setting up openssh-sftp-server (1:9.6p1-3ubuntu13.20) ...
 Setting up libproxy1v5:amd64 (0.5.4-4build1) ...
 Setting up libxmu6:amd64 (2:1.1.3-3build2) ...
-Setting up openssh-server (1:9.6p1-3ubuntu13.19) ...
+Setting up openssh-server (1:9.6p1-3ubuntu13.20) ...
 Setting up libkdb5-10t64:amd64 (1.20.1-6ubuntu2.10) ...
-Setting up apache2 (2.4.58-1ubuntu8.16) ...
+Setting up apache2 (2.4.58-1ubuntu8.17) ...
 Enabling module mpm_event.
 Enabling module authz_core.
 Enabling module authz_host.
@@ -4532,8 +4532,8 @@ Service restarts being deferred:
 No containers need to be restarted.
 
 User sessions running outdated binaries:
- ubuntu @ session #2: bash[1619], python3[1616], sh[1614,1615,1617], sshd[1321,1414]
- ubuntu @ user manager service: systemd[1326]
+ ubuntu @ session #1: bash[1623], python3[1620], sh[1618,1619,1621], sshd[1302,1393]
+ ubuntu @ user manager service: systemd[1307]
 
 No VM guests are running outdated hypervisor (qemu) binaries on this host.
 tput: No value for $TERM and no -T specified
@@ -4562,28 +4562,28 @@ tput: No value for $TERM and no -T specified
 ++functions-common:time_stop:2426           name=apt-get
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++functions-common:time_stop:2427           start_time=1791791001359
+++functions-common:time_stop:2427           start_time=1792057347347
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++functions-common:time_stop:2429           [[ -z 1791791001359 ]]
+++functions-common:time_stop:2429           [[ -z 1792057347347 ]]
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +++functions-common:time_stop:2432           date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++functions-common:time_stop:2432           end_time=1791791212867
+++functions-common:time_stop:2432           end_time=1792057509743
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++functions-common:time_stop:2433           elapsed_time=211508
+++functions-common:time_stop:2433           elapsed_time=162396
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++functions-common:time_stop:2434           total=45889
+++functions-common:time_stop:2434           total=45391
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++functions-common:time_stop:2436           _TIME_START[$name]=
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++functions-common:time_stop:2437           _TIME_TOTAL[$name]=257397
+++functions-common:time_stop:2437           _TIME_TOTAL[$name]=207787
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++functions-common:apt_get:1215             return 0
@@ -4835,9 +4835,9 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-++tools/install_pip.sh:get_versions:50      /usr/bin/pip --version
-tput: No value for $TERM and no -T specified
 ++tools/install_pip.sh:get_versions:50      awk '{ print $2}'
+tput: No value for $TERM and no -T specified
+++tools/install_pip.sh:get_versions:50      /usr/bin/pip --version
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +tools/install_pip.sh:get_versions:50      PIP_VERSION=24.0
@@ -4986,7 +4986,7 @@ Collecting packaging>=24.2 (from setuptools[core])
   Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
 Collecting more_itertools>=8.8 (from setuptools[core])
   Downloading more_itertools-11.1.0-py3-none-any.whl.metadata (41 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.4/41.4 kB 643.4 kB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.4/41.4 kB 563.5 kB/s eta 0:00:00
 Collecting jaraco.text>=3.7 (from setuptools[core])
   Downloading jaraco_text-4.3.0-py3-none-any.whl.metadata (3.8 kB)
 Collecting wheel>=0.43.0 (from setuptools[core])
@@ -4998,7 +4998,7 @@ Collecting jaraco.context>=4.1 (from jaraco.text>=3.7->setuptools[core])
 Collecting typer-slim (from jaraco.text>=3.7->setuptools[core])
   Downloading typer_slim-0.24.0-py3-none-any.whl.metadata (4.2 kB)
 Collecting typer>=0.24.0 (from typer-slim->jaraco.text>=3.7->setuptools[core])
-  Downloading typer-0.27.2-py3-none-any.whl.metadata (16 kB)
+  Downloading typer-0.27.3-py3-none-any.whl.metadata (16 kB)
 Collecting shellingham>=1.3.0 (from typer>=0.24.0->typer-slim->jaraco.text>=3.7->setuptools[core])
   Downloading shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
 Collecting rich>=13.8.0 (from typer>=0.24.0->typer-slim->jaraco.text>=3.7->setuptools[core])
@@ -5011,28 +5011,28 @@ Collecting pygments<3.0.0,>=2.13.0 (from rich>=13.8.0->typer>=0.24.0->typer-slim
   Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
 Requirement already satisfied: mdurl~=0.1 in /usr/lib/python3/dist-packages (from markdown-it-py>=2.2.0->rich>=13.8.0->typer>=0.24.0->typer-slim->jaraco.text>=3.7->setuptools[core]) (0.1.2)
 Downloading pip-26.2.1-py3-none-any.whl (1.8 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 4.4 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 3.1 MB/s eta 0:00:00
 Downloading jaraco_functools-4.6.0-py3-none-any.whl (11 kB)
 Downloading jaraco_text-4.3.0-py3-none-any.whl (14 kB)
 Downloading more_itertools-11.1.0-py3-none-any.whl (72 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 72.2/72.2 kB 8.7 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 72.2/72.2 kB 7.3 MB/s eta 0:00:00
 Downloading packaging-26.3-py3-none-any.whl (129 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 130.0/130.0 kB 11.6 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 130.0/130.0 kB 12.4 MB/s eta 0:00:00
 Downloading wheel-0.48.0-py3-none-any.whl (33 kB)
 Downloading setuptools-84.0.0-py3-none-any.whl (818 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 818.2/818.2 kB 8.7 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 818.2/818.2 kB 6.5 MB/s eta 0:00:00
 Downloading jaraco_context-6.1.2-py3-none-any.whl (7.9 kB)
 Downloading typer_slim-0.24.0-py3-none-any.whl (3.4 kB)
-Downloading typer-0.27.2-py3-none-any.whl (123 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 123.1/123.1 kB 12.8 MB/s eta 0:00:00
+Downloading typer-0.27.3-py3-none-any.whl (123 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 123.3/123.3 kB 10.4 MB/s eta 0:00:00
 Downloading annotated_doc-0.0.5-py3-none-any.whl (5.3 kB)
 Downloading rich-15.0.0-py3-none-any.whl (310 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 310.7/310.7 kB 27.1 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 310.7/310.7 kB 22.4 MB/s eta 0:00:00
 Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
 Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 91.7/91.7 kB 10.6 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 91.7/91.7 kB 9.3 MB/s eta 0:00:00
 Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 9.6 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 6.8 MB/s eta 0:00:00
 Installing collected packages: shellingham, setuptools, pygments, pip, packaging, more_itertools, markdown-it-py, jaraco.context, annotated-doc, wheel, rich, jaraco.functools, typer, typer-slim, jaraco.text
   Attempting uninstall: setuptools
     Found existing installation: setuptools 68.1.2
@@ -5062,7 +5062,7 @@ Installing collected packages: shellingham, setuptools, pygments, pip, packaging
     Found existing installation: rich 13.7.1
     Not uninstalling rich at /usr/lib/python3/dist-packages, outside environment /opt/stack/data/venv
     Can't uninstall 'rich'. No files were found to uninstall.
-Successfully installed annotated-doc-0.0.5 jaraco.context-6.1.2 jaraco.functools-4.6.0 jaraco.text-4.3.0 markdown-it-py-4.2.0 more_itertools-11.1.0 packaging-26.3 pip-26.2.1 pygments-2.21.0 rich-15.0.0 setuptools-84.0.0 shellingham-1.5.4 typer-0.27.2 typer-slim-0.24.0 wheel-0.48.0
+Successfully installed annotated-doc-0.0.5 jaraco.context-6.1.2 jaraco.functools-4.6.0 jaraco.text-4.3.0 markdown-it-py-4.2.0 more_itertools-11.1.0 packaging-26.3 pip-26.2.1 pygments-2.21.0 rich-15.0.0 setuptools-84.0.0 shellingham-1.5.4 typer-0.27.3 typer-slim-0.24.0 wheel-0.48.0
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +inc/python:pip_install:216                result=0
@@ -5089,19 +5089,19 @@ tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2426           name=pip_install
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2427           start_time=1791791218210
++functions-common:time_stop:2427           start_time=1792057515357
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2429           [[ -z 1791791218210 ]]
++functions-common:time_stop:2429           [[ -z 1792057515357 ]]
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++functions-common:time_stop:2432           date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2432           end_time=1791791227762
++functions-common:time_stop:2432           end_time=1792057525734
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2433           elapsed_time=9552
++functions-common:time_stop:2433           elapsed_time=10377
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2434           total=0
@@ -5110,7 +5110,7 @@ tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2436           _TIME_START[$name]=
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2437           _TIME_TOTAL[$name]=9552
++functions-common:time_stop:2437           _TIME_TOTAL[$name]=10377
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +inc/python:pip_install:219                return 0
@@ -5165,7 +5165,7 @@ Downloading python_subunit-1.4.6-py3-none-any.whl (77 kB)
 Downloading testtools-2.9.1-py3-none-any.whl (110 kB)
 Downloading iso8601-2.1.0-py3-none-any.whl (7.5 kB)
 Downloading pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (807 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.9/807.9 kB 5.7 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.9/807.9 kB 1.1 MB/s  0:00:00
 Installing collected packages: testtools, PyYAML, pbr, iso8601, python-subunit, os-testr
   Attempting uninstall: PyYAML
     Found existing installation: PyYAML 6.0.1
@@ -5199,28 +5199,28 @@ tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2426           name=pip_install
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2427           start_time=1791791227950
++functions-common:time_stop:2427           start_time=1792057525927
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2429           [[ -z 1791791227950 ]]
++functions-common:time_stop:2429           [[ -z 1792057525927 ]]
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++functions-common:time_stop:2432           date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2432           end_time=1791791231734
++functions-common:time_stop:2432           end_time=1792057529912
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2433           elapsed_time=3784
++functions-common:time_stop:2433           elapsed_time=3985
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2434           total=9552
++functions-common:time_stop:2434           total=10377
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2436           _TIME_START[$name]=
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2437           _TIME_TOTAL[$name]=13336
++functions-common:time_stop:2437           _TIME_TOTAL[$name]=14362
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +inc/python:pip_install:219                return 0
@@ -5262,8 +5262,8 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
+tput: tput: No value for $TERM and no -T specifiedNo value for $TERM and no -T specified
+
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -5290,7 +5290,7 @@ Collecting jaraco.context>=4.1 (from jaraco.text>=3.7->setuptools[core])
 Collecting typer-slim (from jaraco.text>=3.7->setuptools[core])
   Using cached typer_slim-0.24.0-py3-none-any.whl.metadata (4.2 kB)
 Collecting typer>=0.24.0 (from typer-slim->jaraco.text>=3.7->setuptools[core])
-  Using cached typer-0.27.2-py3-none-any.whl.metadata (16 kB)
+  Using cached typer-0.27.3-py3-none-any.whl.metadata (16 kB)
 Collecting shellingham>=1.3.0 (from typer>=0.24.0->typer-slim->jaraco.text>=3.7->setuptools[core])
   Using cached shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
 Collecting rich>=13.8.0 (from typer>=0.24.0->typer-slim->jaraco.text>=3.7->setuptools[core])
@@ -5312,7 +5312,7 @@ Using cached wheel-0.48.0-py3-none-any.whl (33 kB)
 Using cached setuptools-84.0.0-py3-none-any.whl (818 kB)
 Using cached jaraco_context-6.1.2-py3-none-any.whl (7.9 kB)
 Using cached typer_slim-0.24.0-py3-none-any.whl (3.4 kB)
-Using cached typer-0.27.2-py3-none-any.whl (123 kB)
+Using cached typer-0.27.3-py3-none-any.whl (123 kB)
 Using cached annotated_doc-0.0.5-py3-none-any.whl (5.3 kB)
 Using cached rich-15.0.0-py3-none-any.whl (310 kB)
 Using cached shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
@@ -5320,7 +5320,7 @@ Using cached markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
 Using cached pygments-2.21.0-py3-none-any.whl (1.3 MB)
 Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
 Installing collected packages: shellingham, setuptools, pygments, packaging, more_itertools, mdurl, jaraco.context, annotated-doc, wheel, pbr, markdown-it-py, jaraco.functools, rich, typer, typer-slim, jaraco.text
-Successfully installed annotated-doc-0.0.5 jaraco.context-6.1.2 jaraco.functools-4.6.0 jaraco.text-4.3.0 markdown-it-py-4.2.0 mdurl-0.1.2 more_itertools-11.1.0 packaging-26.3 pbr-7.1.3 pygments-2.21.0 rich-15.0.0 setuptools-84.0.0 shellingham-1.5.4 typer-0.27.2 typer-slim-0.24.0 wheel-0.48.0
+Successfully installed annotated-doc-0.0.5 jaraco.context-6.1.2 jaraco.functools-4.6.0 jaraco.text-4.3.0 markdown-it-py-4.2.0 mdurl-0.1.2 more_itertools-11.1.0 packaging-26.3 pbr-7.1.3 pygments-2.21.0 rich-15.0.0 setuptools-84.0.0 shellingham-1.5.4 typer-0.27.3 typer-slim-0.24.0 wheel-0.48.0
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +inc/python:pip_install:216                result=0
@@ -5347,28 +5347,28 @@ tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2426           name=pip_install
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2427           start_time=1791791235235
++functions-common:time_stop:2427           start_time=1792057533568
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2429           [[ -z 1791791235235 ]]
++functions-common:time_stop:2429           [[ -z 1792057533568 ]]
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++functions-common:time_stop:2432           date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2432           end_time=1791791240635
++functions-common:time_stop:2432           end_time=1792057539447
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2433           elapsed_time=5400
++functions-common:time_stop:2433           elapsed_time=5879
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2434           total=13336
++functions-common:time_stop:2434           total=14362
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2436           _TIME_START[$name]=
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2437           _TIME_TOTAL[$name]=18736
++functions-common:time_stop:2437           _TIME_TOTAL[$name]=20241
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +inc/python:pip_install:219                return 0
@@ -5398,47 +5398,47 @@ Processing /opt/stack/requirements
   Getting requirements to build wheel: finished with status 'done'
   Preparing metadata (pyproject.toml): started
   Preparing metadata (pyproject.toml): finished with status 'done'
-Collecting fixtures>=3.0.0 (from openstack_requirements==1.2.1.dev8748)
+Collecting fixtures>=3.0.0 (from openstack_requirements==1.2.1.dev8756)
   Downloading fixtures-4.3.2-py3-none-any.whl.metadata (22 kB)
-Requirement already satisfied: packaging!=20.5,!=20.6,!=20.7,>=16.5 in /opt/stack/requirements/.venv/lib/python3.12/site-packages (from openstack_requirements==1.2.1.dev8748) (26.3)
-Collecting requests>=2.14.2 (from openstack_requirements==1.2.1.dev8748)
+Requirement already satisfied: packaging!=20.5,!=20.6,!=20.7,>=16.5 in /opt/stack/requirements/.venv/lib/python3.12/site-packages (from openstack_requirements==1.2.1.dev8756) (26.3)
+Collecting requests>=2.14.2 (from openstack_requirements==1.2.1.dev8756)
   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
-Collecting PyYAML>=3.12 (from openstack_requirements==1.2.1.dev8748)
+Collecting PyYAML>=3.12 (from openstack_requirements==1.2.1.dev8756)
   Using cached pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
-Collecting beagle>=0.2.1 (from openstack_requirements==1.2.1.dev8748)
+Collecting beagle>=0.2.1 (from openstack_requirements==1.2.1.dev8756)
   Downloading beagle-0.5.0-py3-none-any.whl.metadata (1.1 kB)
-Requirement already satisfied: setuptools!=24.0.0,!=34.0.0,!=34.0.1,!=34.0.2,!=34.0.3,!=34.1.0,!=34.1.1,!=34.2.0,!=34.3.0,!=34.3.1,!=34.3.2,!=36.2.0,>=21.0.0 in /opt/stack/requirements/.venv/lib/python3.12/site-packages (from openstack_requirements==1.2.1.dev8748) (84.0.0)
-Collecting charset_normalizer<4,>=2 (from requests>=2.14.2->openstack_requirements==1.2.1.dev8748)
+Requirement already satisfied: setuptools!=24.0.0,!=34.0.0,!=34.0.1,!=34.0.2,!=34.0.3,!=34.1.0,!=34.1.1,!=34.2.0,!=34.3.0,!=34.3.1,!=34.3.2,!=36.2.0,>=21.0.0 in /opt/stack/requirements/.venv/lib/python3.12/site-packages (from openstack_requirements==1.2.1.dev8756) (84.0.0)
+Collecting charset_normalizer<4,>=2 (from requests>=2.14.2->openstack_requirements==1.2.1.dev8756)
   Downloading charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.4/46.4 kB 2.5 MB/s eta 0:00:00
-Collecting idna<4,>=2.5 (from requests>=2.14.2->openstack_requirements==1.2.1.dev8748)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.4/46.4 kB 1.0 MB/s eta 0:00:00
+Collecting idna<4,>=2.5 (from requests>=2.14.2->openstack_requirements==1.2.1.dev8756)
   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
-Collecting urllib3<3,>=1.26 (from requests>=2.14.2->openstack_requirements==1.2.1.dev8748)
+Collecting urllib3<3,>=1.26 (from requests>=2.14.2->openstack_requirements==1.2.1.dev8756)
   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
-Collecting certifi>=2023.5.7 (from requests>=2.14.2->openstack_requirements==1.2.1.dev8748)
+Collecting certifi>=2023.5.7 (from requests>=2.14.2->openstack_requirements==1.2.1.dev8756)
   Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
 Downloading beagle-0.5.0-py3-none-any.whl (10 kB)
 Downloading fixtures-4.3.2-py3-none-any.whl (41 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.6/41.6 kB 1.4 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.6/41.6 kB 1.3 MB/s eta 0:00:00
 Using cached pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (807 kB)
 Downloading requests-2.34.2-py3-none-any.whl (73 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.1/73.1 kB 1.7 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.1/73.1 kB 1.5 MB/s eta 0:00:00
 Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 137.0/137.0 kB 1.8 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 137.0/137.0 kB 1.6 MB/s eta 0:00:00
 Downloading charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (257 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 257.6/257.6 kB 2.0 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 257.6/257.6 kB 1.7 MB/s eta 0:00:00
 Downloading idna-3.20-py3-none-any.whl (69 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 69.6/69.6 kB 1.9 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 69.6/69.6 kB 1.4 MB/s eta 0:00:00
 Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 135.7/135.7 kB 2.0 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 135.7/135.7 kB 1.7 MB/s eta 0:00:00
 Building wheels for collected packages: openstack_requirements
   Building wheel for openstack_requirements (pyproject.toml): started
   Building wheel for openstack_requirements (pyproject.toml): finished with status 'done'
-  Created wheel for openstack_requirements: filename=openstack_requirements-1.2.1.dev8748-py3-none-any.whl size=53315 sha256=ad3736c4a6c2fd74a5866233ada07737a2280dc0d200c086e9129b1a95cb6265
-  Stored in directory: /tmp/pip-ephem-wheel-cache-fyn5d5fn/wheels/09/5d/92/4cd2c84803dbd4129257ae3d0359353f58d376e96c4633bda7
+  Created wheel for openstack_requirements: filename=openstack_requirements-1.2.1.dev8756-py3-none-any.whl size=53325 sha256=33d49bdad8c2cd2c45ac53893bf5a84417d74b1a8b36b28e525ea319f063779f
+  Stored in directory: /tmp/pip-ephem-wheel-cache-rdh4x3zm/wheels/09/5d/92/4cd2c84803dbd4129257ae3d0359353f58d376e96c4633bda7
 Successfully built openstack_requirements
 Installing collected packages: urllib3, PyYAML, idna, fixtures, charset_normalizer, certifi, beagle, requests, openstack_requirements
-Successfully installed PyYAML-6.0.3 beagle-0.5.0 certifi-2026.7.22 charset_normalizer-3.5.2 fixtures-4.3.2 idna-3.20 openstack_requirements-1.2.1.dev8748 requests-2.34.2 urllib3-2.8.0
+Successfully installed PyYAML-6.0.3 beagle-0.5.0 certifi-2026.7.22 charset_normalizer-3.5.2 fixtures-4.3.2 idna-3.20 openstack_requirements-1.2.1.dev8756 requests-2.34.2 urllib3-2.8.0
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +inc/python:pip_install:216                result=0
@@ -5465,28 +5465,28 @@ tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2426           name=pip_install
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2427           start_time=1791791240772
++functions-common:time_stop:2427           start_time=1792057539590
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2429           [[ -z 1791791240772 ]]
++functions-common:time_stop:2429           [[ -z 1792057539590 ]]
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++functions-common:time_stop:2432           date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2432           end_time=1791791251143
++functions-common:time_stop:2432           end_time=1792057549295
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2433           elapsed_time=10371
++functions-common:time_stop:2433           elapsed_time=9705
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2434           total=18736
++functions-common:time_stop:2434           total=20241
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2436           _TIME_START[$name]=
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2437           _TIME_TOTAL[$name]=29107
++functions-common:time_stop:2437           _TIME_TOTAL[$name]=29946
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +inc/python:pip_install:219                return 0
@@ -5556,28 +5556,28 @@ tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2426           name=pip_install
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2427           start_time=1791791251393
++functions-common:time_stop:2427           start_time=1792057549524
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2429           [[ -z 1791791251393 ]]
++functions-common:time_stop:2429           [[ -z 1792057549524 ]]
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++functions-common:time_stop:2432           date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2432           end_time=1791791252228
++functions-common:time_stop:2432           end_time=1792057550367
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2433           elapsed_time=835
++functions-common:time_stop:2433           elapsed_time=843
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2434           total=29107
++functions-common:time_stop:2434           total=29946
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2436           _TIME_START[$name]=
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2437           _TIME_TOTAL[$name]=29942
++functions-common:time_stop:2437           _TIME_TOTAL[$name]=30789
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +inc/python:pip_install:219                return 0
@@ -5604,7 +5604,7 @@ Downloading distro-1.9.0-py3-none-any.whl (20 kB)
 Using cached pbr-7.1.3-py2.py3-none-any.whl (136 kB)
 Using cached packaging-26.3-py3-none-any.whl (129 kB)
 Downloading Parsley-1.3-py2.py3-none-any.whl (88 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 88.9/88.9 kB 1.2 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 88.9/88.9 kB 1.3 MB/s eta 0:00:00
 Using cached setuptools-84.0.0-py3-none-any.whl (818 kB)
 Installing collected packages: Parsley, setuptools, packaging, distro, pbr, bindep
 Successfully installed Parsley-1.3 bindep-2.14.0 distro-1.9.0 packaging-26.3 pbr-7.1.3 setuptools-84.0.0
@@ -5765,8 +5765,8 @@ tput: No value for $TERM and no -T specified
 +functions:set_systemd_override:848        iniset -sudo /etc/systemd/system.conf Manager DefaultLimitNOFILE 2048
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
-tput: No value for $TERM and no -T specified
+tput: tput: No value for $TERM and no -T specifiedNo value for $TERM and no -T specified
+
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -5881,7 +5881,7 @@ The following NEW packages will be installed:
   erlang-mnesia erlang-os-mon erlang-parsetools erlang-public-key
   erlang-runtime-tools erlang-snmp erlang-ssl erlang-syntax-tools erlang-tftp
   erlang-tools erlang-xmerl rabbitmq-server
-0 upgraded, 18 newly installed, 0 to remove and 151 not upgraded.
+0 upgraded, 18 newly installed, 0 to remove and 153 not upgraded.
 Need to get 36.1 MB of archives.
 After this operation, 56.4 MB of additional disk space will be used.
 Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 erlang-base amd64 1:25.3.2.8+dfsg-1ubuntu4.8 [10.2 MB]
@@ -5902,7 +5902,7 @@ Get:15 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 erl
 Get:16 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 erlang-tools amd64 1:25.3.2.8+dfsg-1ubuntu4.8 [587 kB]
 Get:17 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 erlang-xmerl amd64 1:25.3.2.8+dfsg-1ubuntu4.8 [1,372 kB]
 Get:18 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 rabbitmq-server all 3.12.1-1ubuntu1.6 [15.9 MB]
-Fetched 36.1 MB in 17s (2,076 kB/s)
+Fetched 36.1 MB in 30s (1,205 kB/s)
 Selecting previously unselected package erlang-base.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 71909 files and directories currently installed.)
 Preparing to unpack .../00-erlang-base_1%3a25.3.2.8+dfsg-1ubuntu4.8_amd64.deb ...
@@ -6002,8 +6002,8 @@ Service restarts being deferred:
 No containers need to be restarted.
 
 User sessions running outdated binaries:
- ubuntu @ session #2: bash[1619], python3[1616], sh[1614,1615,1617], sshd[1321,1414]
- ubuntu @ user manager service: systemd[1326]
+ ubuntu @ session #1: bash[1623], python3[1620], sh[1618,1619,1621], sshd[1302,1393]
+ ubuntu @ user manager service: systemd[1307]
 
 No VM guests are running outdated hypervisor (qemu) binaries on this host.
 tput: No value for $TERM and no -T specified
@@ -6032,28 +6032,28 @@ tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2426           name=apt-get
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2427           start_time=1791791259576
++functions-common:time_stop:2427           start_time=1792057558268
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2429           [[ -z 1791791259576 ]]
++functions-common:time_stop:2429           [[ -z 1792057558268 ]]
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++functions-common:time_stop:2432           date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2432           end_time=1791791289203
++functions-common:time_stop:2432           end_time=1792057601333
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2433           elapsed_time=29627
++functions-common:time_stop:2433           elapsed_time=43065
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2434           total=257397
++functions-common:time_stop:2434           total=207787
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2436           _TIME_START[$name]=
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2437           _TIME_TOTAL[$name]=287024
++functions-common:time_stop:2437           _TIME_TOTAL[$name]=250852
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:apt_get:1215             return 0
@@ -6391,7 +6391,7 @@ Recommended packages:
 The following NEW packages will be installed:
   libevent-pthreads-2.1-7t64 libmecab2 libprotobuf-lite32t64 mysql-client-8.0
   mysql-client-core-8.0 mysql-server mysql-server-8.0 mysql-server-core-8.0
-0 upgraded, 8 newly installed, 0 to remove and 151 not upgraded.
+0 upgraded, 8 newly installed, 0 to remove and 153 not upgraded.
 Need to get 22.2 MB of archives.
 After this operation, 186 MB of additional disk space will be used.
 Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 mysql-client-core-8.0 amd64 8.0.46-0ubuntu0.24.04.4 [2,740 kB]
@@ -6403,7 +6403,7 @@ Get:6 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 mysq
 Get:7 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 mysql-server-8.0 amd64 8.0.46-0ubuntu0.24.04.4 [1,443 kB]
 Get:8 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 mysql-server all 8.0.46-0ubuntu0.24.04.4 [9,524 B]
 Preconfiguring packages ...
-Fetched 22.2 MB in 14s (1,635 kB/s)
+Fetched 22.2 MB in 10s (2,293 kB/s)
 Selecting previously unselected package mysql-client-core-8.0.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 74714 files and directories currently installed.)
 Preparing to unpack .../0-mysql-client-core-8.0_8.0.46-0ubuntu0.24.04.4_amd64.deb ...
@@ -6439,7 +6439,7 @@ Setting up mysql-server-8.0 (8.0.46-0ubuntu0.24.04.4) ...
 update-alternatives: using /etc/mysql/mysql.cnf to provide /etc/mysql/my.cnf (my.cnf) in auto mode
 Renaming removed key_buffer and myisam-recover options (if present)
 mysqld will log errors to /var/log/mysql/error.log
-mysqld is running as pid 28233
+mysqld is running as pid 28227
 Created symlink /etc/systemd/system/multi-user.target.wants/mysql.service → /usr/lib/systemd/system/mysql.service.
 Setting up mysql-server (8.0.46-0ubuntu0.24.04.4) ...
 Processing triggers for man-db (2.12.0-4build2) ...
@@ -6458,8 +6458,8 @@ Service restarts being deferred:
 No containers need to be restarted.
 
 User sessions running outdated binaries:
- ubuntu @ session #2: bash[1619], python3[1616], sh[1614,1615,1617], sshd[1321,1414]
- ubuntu @ user manager service: systemd[1326]
+ ubuntu @ session #1: bash[1623], python3[1620], sh[1618,1619,1621], sshd[1302,1393]
+ ubuntu @ user manager service: systemd[1307]
 
 No VM guests are running outdated hypervisor (qemu) binaries on this host.
 tput: No value for $TERM and no -T specified
@@ -6488,28 +6488,28 @@ tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2426           name=apt-get
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2427           start_time=1791791293459
++functions-common:time_stop:2427           start_time=1792057606564
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2429           [[ -z 1791791293459 ]]
++functions-common:time_stop:2429           [[ -z 1792057606564 ]]
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++functions-common:time_stop:2432           date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2432           end_time=1791791324312
++functions-common:time_stop:2432           end_time=1792057633352
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2433           elapsed_time=30853
++functions-common:time_stop:2433           elapsed_time=26788
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2434           total=287024
++functions-common:time_stop:2434           total=250852
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2436           _TIME_START[$name]=
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2437           _TIME_TOTAL[$name]=317877
++functions-common:time_stop:2437           _TIME_TOTAL[$name]=277640
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:apt_get:1215             return 0
@@ -6543,8 +6543,8 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+++inc/python:get_from_global_requirements:243  cut -d# -f1
 tput: No value for $TERM and no -T specified
++++inc/python:get_from_global_requirements:243  cut -d# -f1
 +++inc/python:get_from_global_requirements:243  grep -i -h '^PyMySQL' /opt/stack/requirements/global-requirements.txt
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -6606,28 +6606,28 @@ tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2426           name=pip_install
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2427           start_time=1791791324597
++functions-common:time_stop:2427           start_time=1792057633588
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2429           [[ -z 1791791324597 ]]
++functions-common:time_stop:2429           [[ -z 1792057633588 ]]
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++functions-common:time_stop:2432           date +%s%3N
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2432           end_time=1791791326216
++functions-common:time_stop:2432           end_time=1792057635399
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2433           elapsed_time=1619
++functions-common:time_stop:2433           elapsed_time=1811
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2434           total=29942
++functions-common:time_stop:2434           total=30789
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +functions-common:time_stop:2436           _TIME_START[$name]=
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+functions-common:time_stop:2437           _TIME_TOTAL[$name]=31561
++functions-common:time_stop:2437           _TIME_TOTAL[$name]=32600
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +inc/python:pip_install:219                return 0
@@ -6648,7 +6648,7 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
@@ -6756,16 +6756,16 @@ tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 ++functions:get_extra_file:75               wget --progress=dot:giga --retry-on-host-error --retry-on-http-error=500,503 -t 2 --waitretry=10 --tries=3 --retry-connrefused -c https://github.com/coreos/etcd/releases/download//v3.5.21/etcd-v3.5.21-linux-amd64.tar.gz -O /opt/stack/devstack/files/etcd-v3.5.21-linux-amd64.tar.gz
---2026-10-12 07:48:46--  https://github.com/coreos/etcd/releases/download//v3.5.21/etcd-v3.5.21-linux-amd64.tar.gz
+--2026-10-15 09:47:15--  https://github.com/coreos/etcd/releases/download//v3.5.21/etcd-v3.5.21-linux-amd64.tar.gz
 Resolving proxy-in.its.hpecorp.net (proxy-in.its.hpecorp.net)... 10.120.125.146
 Connecting to proxy-in.its.hpecorp.net (proxy-in.its.hpecorp.net)|10.120.125.146|:443... connected.
 Proxy request sent, awaiting response... 301 Moved Permanently
 Location: https://github.com/etcd-io/etcd/releases/download/v3.5.21/etcd-v3.5.21-linux-amd64.tar.gz [following]
---2026-10-12 07:48:47--  https://github.com/etcd-io/etcd/releases/download/v3.5.21/etcd-v3.5.21-linux-amd64.tar.gz
+--2026-10-15 09:47:16--  https://github.com/etcd-io/etcd/releases/download/v3.5.21/etcd-v3.5.21-linux-amd64.tar.gz
 Reusing existing connection to github.com:443.
 Proxy request sent, awaiting response... 302 Found
-Location: https://release-assets.githubusercontent.com/github-production-release-asset/11225014/a921b041-0d04-41f7-96b3-8dfd08eb5f41?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-12T08%3A42%3A13Z&rscd=attachment%3B+filename%3Detcd-v3.5.21-linux-amd64.tar.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-12T07%3A41%3A40Z&ske=2026-10-12T08%3A42%3A13Z&sks=b&skv=2018-11-09&sig=%2F%2Bx5Tak7YiirrTc1QhtLAu%2Fp0YLfoqhUtYzjb4FzuOo%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MTc5MzA2MSwibmJmIjoxNzkxNzkxMjYxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.aUCbv6WgbVtiBM5FST-mO24IoNnSurw0i8hGIjlejxo&response-content-disposition=attachment%3B%20filename%3Detcd-v3.5.21-linux-amd64.tar.gz&response-content-type=application%2Foctet-stream [following]
---2026-10-12 07:48:47--  https://release-assets.githubusercontent.com/github-production-release-asset/11225014/a921b041-0d04-41f7-96b3-8dfd08eb5f41?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-12T08%3A42%3A13Z&rscd=attachment%3B+filename%3Detcd-v3.5.21-linux-amd64.tar.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-12T07%3A41%3A40Z&ske=2026-10-12T08%3A42%3A13Z&sks=b&skv=2018-11-09&sig=%2F%2Bx5Tak7YiirrTc1QhtLAu%2Fp0YLfoqhUtYzjb4FzuOo%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MTc5MzA2MSwibmJmIjoxNzkxNzkxMjYxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.aUCbv6WgbVtiBM5FST-mO24IoNnSurw0i8hGIjlejxo&response-content-disposition=attachment%3B%20filename%3Detcd-v3.5.21-linux-amd64.tar.gz&response-content-type=application%2Foctet-stream
+Location: https://release-assets.githubusercontent.com/github-production-release-asset/11225014/a921b041-0d04-41f7-96b3-8dfd08eb5f41?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-15T10%3A31%3A15Z&rscd=attachment%3B+filename%3Detcd-v3.5.21-linux-amd64.tar.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-15T09%3A31%3A07Z&ske=2026-10-15T10%3A31%3A15Z&sks=b&skv=2018-11-09&sig=n8wMnECw%2FioURIkiOW4Hfcl2uZwfc34khoe%2FXFig%2B4o%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MjA1OTM2OSwibmJmIjoxNzkyMDU3NTY5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ._bVRpowbUK0AAZ8-bT0eHz2QhidkLh5abBm02IufoJo&response-content-disposition=attachment%3B%20filename%3Detcd-v3.5.21-linux-amd64.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2026-10-15 09:47:16--  https://release-assets.githubusercontent.com/github-production-release-asset/11225014/a921b041-0d04-41f7-96b3-8dfd08eb5f41?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-10-15T10%3A31%3A15Z&rscd=attachment%3B+filename%3Detcd-v3.5.21-linux-amd64.tar.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-10-15T09%3A31%3A07Z&ske=2026-10-15T10%3A31%3A15Z&sks=b&skv=2018-11-09&sig=n8wMnECw%2FioURIkiOW4Hfcl2uZwfc34khoe%2FXFig%2B4o%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5MjA1OTM2OSwibmJmIjoxNzkyMDU3NTY5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ._bVRpowbUK0AAZ8-bT0eHz2QhidkLh5abBm02IufoJo&response-content-disposition=attachment%3B%20filename%3Detcd-v3.5.21-linux-amd64.tar.gz&response-content-type=application%2Foctet-stream
 Connecting to proxy-in.its.hpecorp.net (proxy-in.its.hpecorp.net)|10.120.125.146|:443... connected.
 Unable to establish SSL connection.
 tput: No value for $TERM and no -T specified
@@ -6822,7 +6822,7 @@ tput: No value for $TERM and no -T specified
 +./stack.sh:exit_trap:545                  type -p generate-subunit
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
-+./stack.sh:exit_trap:546                  generate-subunit 1791790933 440 fail
++./stack.sh:exit_trap:546                  generate-subunit 1792057282 400 fail
 tput: No value for $TERM and no -T specified
 tput: No value for $TERM and no -T specified
 +./stack.sh:exit_trap:548                  [[ -z /tmp/devstack_logs ]]
