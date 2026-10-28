@@ -1,0 +1,621 @@
+2026-10-28 07:19:19.273 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.273 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.273 | +./stack.sh:main:491                       exec
+2026-10-28 07:19:19.273 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.273 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.273 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.273 | +./stack.sh:main:499                       echo_summary 'stack.sh log /tmp/devstack_logs/devstacklog.txt.2026-10-28-071919'
+2026-10-28 07:19:19.274 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.274 | ++./stack.sh:main:491                       /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -o /tmp/devstack_logs/devstacklog.txt.2026-10-28-071919.summary.2026-10-28-071919
+2026-10-28 07:19:19.274 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.274 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.274 | +./stack.sh:echo_summary:444               [[ -t 3 ]]
+2026-10-28 07:19:19.274 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.274 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.274 | +./stack.sh:echo_summary:450               echo -e stack.sh log /tmp/devstack_logs/devstacklog.txt.2026-10-28-071919
+2026-10-28 07:19:19.274 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.274 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.274 | +./stack.sh:main:501                       ln -sf /tmp/devstack_logs/devstacklog.txt.2026-10-28-071919 /tmp/devstack_logs/devstacklog.txt
+2026-10-28 07:19:19.274 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.274 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.274 | +./stack.sh:main:502                       ln -sf /tmp/devstack_logs/devstacklog.txt.2026-10-28-071919.summary.2026-10-28-071919 /tmp/devstack_logs/devstacklog.txt.summary
+2026-10-28 07:19:19.274 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.274 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.274 | +./stack.sh:main:517                       check_path_perm_sanity /opt/stack
+2026-10-28 07:19:19.274 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.274 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.274 | +functions:check_path_perm_sanity:615      local real_path
+2026-10-28 07:19:19.276 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.278 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.279 | ++functions:check_path_perm_sanity:616      readlink -f /opt/stack
+2026-10-28 07:19:19.281 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.284 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.284 | +functions:check_path_perm_sanity:616      real_path=/opt/stack
+2026-10-28 07:19:19.285 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.288 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.288 | +functions:check_path_perm_sanity:617      local rebuilt_path=
+2026-10-28 07:19:19.290 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.290 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.293 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.293 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.293 | ++functions:check_path_perm_sanity:618      echo /opt/stack
+2026-10-28 07:19:19.293 | ++functions:check_path_perm_sanity:618      tr / ' '
+2026-10-28 07:19:19.295 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.298 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.298 | +functions:check_path_perm_sanity:618      for i in $(echo ${real_path} | tr "/" " ")
+2026-10-28 07:19:19.300 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.302 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.303 | +functions:check_path_perm_sanity:619      rebuilt_path=/opt
+2026-10-28 07:19:19.304 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.307 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.307 | ++functions:check_path_perm_sanity:621      stat -c %a /opt
+2026-10-28 07:19:19.309 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.312 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.312 | +functions:check_path_perm_sanity:621      [[ 755 = 700 ]]
+2026-10-28 07:19:19.313 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.316 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.316 | +functions:check_path_perm_sanity:618      for i in $(echo ${real_path} | tr "/" " ")
+2026-10-28 07:19:19.317 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.320 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.321 | +functions:check_path_perm_sanity:619      rebuilt_path=/opt/stack
+2026-10-28 07:19:19.322 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.325 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.325 | ++functions:check_path_perm_sanity:621      stat -c %a /opt/stack
+2026-10-28 07:19:19.328 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.331 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.332 | +functions:check_path_perm_sanity:621      [[ 777 = 700 ]]
+2026-10-28 07:19:19.333 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.336 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.336 | +./stack.sh:main:523                       trap exit_trap EXIT
+2026-10-28 07:19:19.338 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.342 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.342 | +./stack.sh:main:564                       trap err_trap ERR
+2026-10-28 07:19:19.344 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.347 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.347 | +./stack.sh:main:577                       set -o errexit
+2026-10-28 07:19:19.348 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.351 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.351 | +./stack.sh:main:580                       uname -a
+2026-10-28 07:19:19.352 | Linux ubuntu 6.8.0-100-generic #100-Ubuntu SMP PREEMPT_DYNAMIC Tue Jan 13 16:40:06 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+2026-10-28 07:19:19.353 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.356 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.357 | +./stack.sh:main:583                       SSL_BUNDLE_FILE=/opt/stack/data/ca-bundle.pem
+2026-10-28 07:19:19.358 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.361 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.361 | +./stack.sh:main:584                       rm -f /opt/stack/data/ca-bundle.pem
+2026-10-28 07:19:19.364 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.367 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.367 | +./stack.sh:main:587                       source /opt/stack/devstack/lib/database
+2026-10-28 07:19:19.369 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.369 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.372 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.372 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.375 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.378 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.379 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.382 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.401 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.404 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.404 | +./stack.sh:main:588                       source /opt/stack/devstack/lib/rpc_backend
+2026-10-28 07:19:19.407 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.407 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.410 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.410 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.412 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.415 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.417 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.420 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.424 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.427 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.427 | +./stack.sh:main:591                       source /opt/stack/devstack/lib/host
+2026-10-28 07:19:19.429 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.432 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.432 | +++lib/host:source:12                        trueorfalse True ENABLE_KSM
+2026-10-28 07:19:19.433 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.436 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.438 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.438 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.441 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.441 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.443 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.446 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.447 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.450 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.452 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.455 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.455 | ++lib/host:source:12                        ENABLE_KSM=True
+2026-10-28 07:19:19.457 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.460 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.460 | +++lib/host:source:13                        trueorfalse True ENABLE_KSMTUNED
+2026-10-28 07:19:19.461 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.464 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.466 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.466 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.469 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.469 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.472 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.474 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.476 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.478 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.480 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.483 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.483 | ++lib/host:source:13                        ENABLE_KSMTUNED=True
+2026-10-28 07:19:19.485 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.488 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.488 | +++lib/host:source:56                        trueorfalse False ENABLE_ZSWAP
+2026-10-28 07:19:19.489 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.492 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.494 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.494 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.497 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.497 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.500 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.502 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.504 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.507 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.508 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.511 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.511 | ++lib/host:source:56                        ENABLE_ZSWAP=False
+2026-10-28 07:19:19.513 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.516 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.516 | ++lib/host:source:59                        ZSWAP_COMPRESSOR=lz4
+2026-10-28 07:19:19.517 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.520 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.520 | ++lib/host:source:60                        ZSWAP_ZPOOL=zsmalloc
+2026-10-28 07:19:19.522 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.525 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.525 | +++lib/host:source:82                        trueorfalse False ENABLE_SYSCTL_MEM_TUNING
+2026-10-28 07:19:19.526 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.529 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.531 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.531 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.534 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.534 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.537 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.540 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.541 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.544 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.545 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.548 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.548 | ++lib/host:source:82                        ENABLE_SYSCTL_MEM_TUNING=False
+2026-10-28 07:19:19.550 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.553 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.553 | +++lib/host:source:104                       trueorfalse False ENABLE_SYSCTL_NET_TUNING
+2026-10-28 07:19:19.554 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.557 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.559 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.559 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.561 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.562 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.565 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.567 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.569 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.571 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.573 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.576 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.576 | ++lib/host:source:104                       ENABLE_SYSCTL_NET_TUNING=False
+2026-10-28 07:19:19.577 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.580 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.580 | +./stack.sh:main:594                       tune_host
+2026-10-28 07:19:19.581 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.584 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.585 | +lib/host:tune_host:125                    configure_host_mem
+2026-10-28 07:19:19.586 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.589 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.589 | +lib/host:configure_host_mem:99            configure_zswap
+2026-10-28 07:19:19.590 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.595 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.596 | +lib/host:configure_zswap:69               [[ False == \T\r\u\e ]]
+2026-10-28 07:19:19.598 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.602 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.602 | +lib/host:configure_host_mem:100           configure_ksm
+2026-10-28 07:19:19.604 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.607 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.608 | +lib/host:configure_ksm:39                 [[ True == \T\r\u\e ]]
+2026-10-28 07:19:19.609 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.613 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.613 | +lib/host:configure_ksm:40                 install_package ksmtuned
+2026-10-28 07:19:19.614 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.618 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.618 | +functions-common:install_package:1438     update_package_repo
+2026-10-28 07:19:19.620 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.623 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.623 | +functions-common:update_package_repo:1412  NO_UPDATE_REPOS=False
+2026-10-28 07:19:19.625 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.629 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.629 | +functions-common:update_package_repo:1413  REPOS_UPDATED=False
+2026-10-28 07:19:19.630 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.633 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.634 | +functions-common:update_package_repo:1414  RETRY_UPDATE=False
+2026-10-28 07:19:19.635 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.638 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.638 | +functions-common:update_package_repo:1416  [[ False = \T\r\u\e ]]
+2026-10-28 07:19:19.639 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.642 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.643 | +functions-common:update_package_repo:1420  is_ubuntu
+2026-10-28 07:19:19.644 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.647 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.647 | +functions-common:is_ubuntu:546            [[ -z deb ]]
+2026-10-28 07:19:19.649 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.652 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.652 | +functions-common:is_ubuntu:549            '[' deb = deb ']'
+2026-10-28 07:19:19.653 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.656 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.656 | +functions-common:update_package_repo:1421  apt_get_update
+2026-10-28 07:19:19.657 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.660 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.660 | +functions-common:apt_get_update:1166      [[ False == \T\r\u\e ]]
+2026-10-28 07:19:19.661 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.664 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.664 | +functions-common:apt_get_update:1171      [[ False = \T\r\u\e ]]
+2026-10-28 07:19:19.665 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.668 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.668 | +functions-common:apt_get_update:1173      local sudo=sudo
+2026-10-28 07:19:19.670 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.672 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.673 | ++functions-common:apt_get_update:1174      id -u
+2026-10-28 07:19:19.675 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.678 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.678 | +functions-common:apt_get_update:1174      [[ 1000 = \0 ]]
+2026-10-28 07:19:19.679 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.682 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.682 | +functions-common:apt_get_update:1177      time_start apt-get-update
+2026-10-28 07:19:19.683 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.686 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.686 | +functions-common:time_start:2406          local name=apt-get-update
+2026-10-28 07:19:19.687 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.690 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.690 | +functions-common:time_start:2407          local start_time=
+2026-10-28 07:19:19.691 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.694 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.694 | +functions-common:time_start:2408          [[ -n '' ]]
+2026-10-28 07:19:19.696 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.698 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.699 | ++functions-common:time_start:2411          date +%s%3N
+2026-10-28 07:19:19.701 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.704 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.704 | +functions-common:time_start:2411          _TIME_START[$name]=1793171959699
+2026-10-28 07:19:19.705 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.708 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.708 | +functions-common:apt_get_update:1179      local 'proxies=http_proxy=http://proxy-in.its.hpecorp.net:80 https_proxy=http://proxy-in.its.hpecorp.net:443 no_proxy=10.201.5.87,10.201.4.29,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,localhost,127.0.0.1,10.201.4.30,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.3.86,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208 '
+2026-10-28 07:19:19.709 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.712 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.712 | +functions-common:apt_get_update:1180      local 'update_cmd=sudo http_proxy=http://proxy-in.its.hpecorp.net:80 https_proxy=http://proxy-in.its.hpecorp.net:443 no_proxy=10.201.5.87,10.201.4.29,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,localhost,127.0.0.1,10.201.4.30,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.3.86,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208  apt-get update'
+2026-10-28 07:19:19.713 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.716 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:19.716 | +functions-common:apt_get_update:1181      timeout 300 sh -c 'while ! sudo http_proxy=http://proxy-in.its.hpecorp.net:80 https_proxy=http://proxy-in.its.hpecorp.net:443 no_proxy=10.201.5.87,10.201.4.29,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,localhost,127.0.0.1,10.201.4.30,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.3.86,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208  apt-get update; do sleep 30; done'
+2026-10-28 07:19:19.976 | Hit:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble InRelease
+2026-10-28 07:19:20.130 | Hit:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates InRelease
+2026-10-28 07:19:20.185 | Hit:3 http://security.ubuntu.com/ubuntu noble-security InRelease
+2026-10-28 07:19:20.302 | Hit:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports InRelease
+2026-10-28 07:19:23.047 | Reading package lists...
+2026-10-28 07:19:23.071 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.077 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.078 | +functions-common:apt_get_update:1185      REPOS_UPDATED=True
+2026-10-28 07:19:23.080 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.085 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.085 | +functions-common:apt_get_update:1187      time_stop apt-get-update
+2026-10-28 07:19:23.087 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.091 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.091 | +functions-common:time_stop:2420           local name
+2026-10-28 07:19:23.093 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.097 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.097 | +functions-common:time_stop:2421           local end_time
+2026-10-28 07:19:23.098 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.102 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.102 | +functions-common:time_stop:2422           local elapsed_time
+2026-10-28 07:19:23.103 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.107 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.107 | +functions-common:time_stop:2423           local total
+2026-10-28 07:19:23.109 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.112 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.113 | +functions-common:time_stop:2424           local start_time
+2026-10-28 07:19:23.114 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.117 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.117 | +functions-common:time_stop:2426           name=apt-get-update
+2026-10-28 07:19:23.119 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.122 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.122 | +functions-common:time_stop:2427           start_time=1793171959699
+2026-10-28 07:19:23.123 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.126 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.127 | +functions-common:time_stop:2429           [[ -z 1793171959699 ]]
+2026-10-28 07:19:23.128 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.131 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.131 | ++functions-common:time_stop:2432           date +%s%3N
+2026-10-28 07:19:23.134 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.136 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.137 | +functions-common:time_stop:2432           end_time=1793171963132
+2026-10-28 07:19:23.138 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.141 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.141 | +functions-common:time_stop:2433           elapsed_time=3433
+2026-10-28 07:19:23.142 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.145 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.145 | +functions-common:time_stop:2434           total=0
+2026-10-28 07:19:23.146 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.150 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.150 | +functions-common:time_stop:2436           _TIME_START[$name]=
+2026-10-28 07:19:23.151 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.154 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.155 | +functions-common:time_stop:2437           _TIME_TOTAL[$name]=3433
+2026-10-28 07:19:23.156 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.159 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.159 | +functions-common:install_package:1439     real_install_package ksmtuned
+2026-10-28 07:19:23.160 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.163 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.164 | +functions-common:real_install_package:1426  is_ubuntu
+2026-10-28 07:19:23.165 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.168 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.168 | +functions-common:is_ubuntu:546            [[ -z deb ]]
+2026-10-28 07:19:23.169 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.172 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.172 | +functions-common:is_ubuntu:549            '[' deb = deb ']'
+2026-10-28 07:19:23.173 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.176 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.177 | +functions-common:real_install_package:1427  apt_get install ksmtuned
+2026-10-28 07:19:23.178 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.181 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.183 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.183 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.186 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.186 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.189 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.192 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.193 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.196 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.200 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.203 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.204 | +functions-common:apt_get:1207             sudo DEBIAN_FRONTEND=noninteractive http_proxy=http://proxy-in.its.hpecorp.net:80 https_proxy=http://proxy-in.its.hpecorp.net:443 no_proxy=10.201.5.87,10.201.4.29,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,localhost,127.0.0.1,10.201.4.30,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.3.86,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208 apt-get --option Dpkg::Options::=--force-confold --assume-yes install ksmtuned
+2026-10-28 07:19:23.217 | E: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 3739 (unattended-upgr)
+2026-10-28 07:19:23.217 | E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
+2026-10-28 07:19:23.219 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.222 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.223 | +functions-common:apt_get:1211             result=100
+2026-10-28 07:19:23.225 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.227 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.228 | +functions-common:apt_get:1214             time_stop apt-get
+2026-10-28 07:19:23.229 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.232 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.232 | +functions-common:time_stop:2420           local name
+2026-10-28 07:19:23.233 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.236 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.237 | +functions-common:time_stop:2421           local end_time
+2026-10-28 07:19:23.238 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.241 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.241 | +functions-common:time_stop:2422           local elapsed_time
+2026-10-28 07:19:23.242 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.245 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.246 | +functions-common:time_stop:2423           local total
+2026-10-28 07:19:23.247 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.249 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.250 | +functions-common:time_stop:2424           local start_time
+2026-10-28 07:19:23.251 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.254 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.254 | +functions-common:time_stop:2426           name=apt-get
+2026-10-28 07:19:23.255 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.258 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.258 | +functions-common:time_stop:2427           start_time=1793171963199
+2026-10-28 07:19:23.259 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.262 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.262 | +functions-common:time_stop:2429           [[ -z 1793171963199 ]]
+2026-10-28 07:19:23.264 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.267 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.267 | ++functions-common:time_stop:2432           date +%s%3N
+2026-10-28 07:19:23.269 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.272 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.272 | +functions-common:time_stop:2432           end_time=1793171963268
+2026-10-28 07:19:23.273 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.276 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.276 | +functions-common:time_stop:2433           elapsed_time=69
+2026-10-28 07:19:23.278 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.281 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.281 | +functions-common:time_stop:2434           total=80
+2026-10-28 07:19:23.283 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.286 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.286 | +functions-common:time_stop:2436           _TIME_START[$name]=
+2026-10-28 07:19:23.287 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.290 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.291 | +functions-common:time_stop:2437           _TIME_TOTAL[$name]=149
+2026-10-28 07:19:23.292 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.295 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.295 | +functions-common:apt_get:1215             return 100
+2026-10-28 07:19:23.297 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.299 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.300 | +functions-common:install_package:1440     RETRY_UPDATE=True
+2026-10-28 07:19:23.301 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.304 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.305 | +functions-common:install_package:1440     update_package_repo
+2026-10-28 07:19:23.306 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.309 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.309 | +functions-common:update_package_repo:1412  NO_UPDATE_REPOS=False
+2026-10-28 07:19:23.310 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.313 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.313 | +functions-common:update_package_repo:1413  REPOS_UPDATED=True
+2026-10-28 07:19:23.314 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.317 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.318 | +functions-common:update_package_repo:1414  RETRY_UPDATE=True
+2026-10-28 07:19:23.319 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.322 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.322 | +functions-common:update_package_repo:1416  [[ False = \T\r\u\e ]]
+2026-10-28 07:19:23.323 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.326 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.327 | +functions-common:update_package_repo:1420  is_ubuntu
+2026-10-28 07:19:23.328 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.331 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.331 | +functions-common:is_ubuntu:546            [[ -z deb ]]
+2026-10-28 07:19:23.332 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.335 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.335 | +functions-common:is_ubuntu:549            '[' deb = deb ']'
+2026-10-28 07:19:23.336 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.340 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.340 | +functions-common:update_package_repo:1421  apt_get_update
+2026-10-28 07:19:23.341 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.344 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.344 | +functions-common:apt_get_update:1166      [[ True == \T\r\u\e ]]
+2026-10-28 07:19:23.345 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.348 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.349 | +functions-common:apt_get_update:1166      [[ True != \T\r\u\e ]]
+2026-10-28 07:19:23.350 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.352 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.353 | +functions-common:apt_get_update:1171      [[ False = \T\r\u\e ]]
+2026-10-28 07:19:23.354 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.356 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.357 | +functions-common:apt_get_update:1173      local sudo=sudo
+2026-10-28 07:19:23.358 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.361 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.362 | ++functions-common:apt_get_update:1174      id -u
+2026-10-28 07:19:23.364 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.367 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.367 | +functions-common:apt_get_update:1174      [[ 1000 = \0 ]]
+2026-10-28 07:19:23.368 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.371 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.371 | +functions-common:apt_get_update:1177      time_start apt-get-update
+2026-10-28 07:19:23.372 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.375 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.375 | +functions-common:time_start:2406          local name=apt-get-update
+2026-10-28 07:19:23.376 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.379 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.380 | +functions-common:time_start:2407          local start_time=
+2026-10-28 07:19:23.381 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.383 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.384 | +functions-common:time_start:2408          [[ -n '' ]]
+2026-10-28 07:19:23.385 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.388 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.388 | ++functions-common:time_start:2411          date +%s%3N
+2026-10-28 07:19:23.390 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.393 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.393 | +functions-common:time_start:2411          _TIME_START[$name]=1793171963389
+2026-10-28 07:19:23.394 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.397 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.397 | +functions-common:apt_get_update:1179      local 'proxies=http_proxy=http://proxy-in.its.hpecorp.net:80 https_proxy=http://proxy-in.its.hpecorp.net:443 no_proxy=10.201.5.87,10.201.4.29,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,localhost,127.0.0.1,10.201.4.30,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.3.86,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208 '
+2026-10-28 07:19:23.398 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.401 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.401 | +functions-common:apt_get_update:1180      local 'update_cmd=sudo http_proxy=http://proxy-in.its.hpecorp.net:80 https_proxy=http://proxy-in.its.hpecorp.net:443 no_proxy=10.201.5.87,10.201.4.29,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,localhost,127.0.0.1,10.201.4.30,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.3.86,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208  apt-get update'
+2026-10-28 07:19:23.402 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.405 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:23.406 | +functions-common:apt_get_update:1181      timeout 300 sh -c 'while ! sudo http_proxy=http://proxy-in.its.hpecorp.net:80 https_proxy=http://proxy-in.its.hpecorp.net:443 no_proxy=10.201.5.87,10.201.4.29,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,localhost,127.0.0.1,10.201.4.30,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.3.86,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208  apt-get update; do sleep 30; done'
+2026-10-28 07:19:23.657 | Hit:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble InRelease
+2026-10-28 07:19:23.807 | Hit:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates InRelease
+2026-10-28 07:19:23.897 | Hit:3 http://security.ubuntu.com/ubuntu noble-security InRelease
+2026-10-28 07:19:23.973 | Hit:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports InRelease
+2026-10-28 07:19:25.104 | Reading package lists...
+2026-10-28 07:19:25.127 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.135 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.135 | +functions-common:apt_get_update:1185      REPOS_UPDATED=True
+2026-10-28 07:19:25.136 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.142 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.143 | +functions-common:apt_get_update:1187      time_stop apt-get-update
+2026-10-28 07:19:25.144 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.148 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.148 | +functions-common:time_stop:2420           local name
+2026-10-28 07:19:25.149 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.153 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.154 | +functions-common:time_stop:2421           local end_time
+2026-10-28 07:19:25.155 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.158 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.159 | +functions-common:time_stop:2422           local elapsed_time
+2026-10-28 07:19:25.160 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.165 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.165 | +functions-common:time_stop:2423           local total
+2026-10-28 07:19:25.166 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.170 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.170 | +functions-common:time_stop:2424           local start_time
+2026-10-28 07:19:25.172 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.175 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.175 | +functions-common:time_stop:2426           name=apt-get-update
+2026-10-28 07:19:25.176 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.180 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.181 | +functions-common:time_stop:2427           start_time=1793171963389
+2026-10-28 07:19:25.183 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.189 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.189 | +functions-common:time_stop:2429           [[ -z 1793171963389 ]]
+2026-10-28 07:19:25.192 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.196 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.196 | ++functions-common:time_stop:2432           date +%s%3N
+2026-10-28 07:19:25.199 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.202 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.203 | +functions-common:time_stop:2432           end_time=1793171965197
+2026-10-28 07:19:25.204 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.208 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.208 | +functions-common:time_stop:2433           elapsed_time=1808
+2026-10-28 07:19:25.210 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.213 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.213 | +functions-common:time_stop:2434           total=3433
+2026-10-28 07:19:25.214 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.218 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.218 | +functions-common:time_stop:2436           _TIME_START[$name]=
+2026-10-28 07:19:25.219 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.222 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.223 | +functions-common:time_stop:2437           _TIME_TOTAL[$name]=5241
+2026-10-28 07:19:25.224 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.228 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.228 | +functions-common:install_package:1440     real_install_package ksmtuned
+2026-10-28 07:19:25.229 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.232 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.232 | +functions-common:real_install_package:1426  is_ubuntu
+2026-10-28 07:19:25.235 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.238 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.238 | +functions-common:is_ubuntu:546            [[ -z deb ]]
+2026-10-28 07:19:25.239 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.243 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.243 | +functions-common:is_ubuntu:549            '[' deb = deb ']'
+2026-10-28 07:19:25.246 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.250 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.251 | +functions-common:real_install_package:1427  apt_get install ksmtuned
+2026-10-28 07:19:25.252 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.255 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.257 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.258 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.261 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.262 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.264 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.267 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.268 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.271 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.275 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.278 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.279 | +functions-common:apt_get:1207             sudo DEBIAN_FRONTEND=noninteractive http_proxy=http://proxy-in.its.hpecorp.net:80 https_proxy=http://proxy-in.its.hpecorp.net:443 no_proxy=10.201.5.87,10.201.4.29,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,localhost,127.0.0.1,10.201.4.30,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.3.86,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208 apt-get --option Dpkg::Options::=--force-confold --assume-yes install ksmtuned
+2026-10-28 07:19:25.291 | E: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 3739 (unattended-upgr)
+2026-10-28 07:19:25.291 | E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
+2026-10-28 07:19:25.294 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.298 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.298 | +functions-common:apt_get:1                exit_trap
+2026-10-28 07:19:25.300 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.303 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.304 | +./stack.sh:exit_trap:525                  local r=100
+2026-10-28 07:19:25.305 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.310 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.310 | ++./stack.sh:exit_trap:526                  jobs -p
+2026-10-28 07:19:25.312 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.315 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.316 | +./stack.sh:exit_trap:526                  jobs=
+2026-10-28 07:19:25.317 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.321 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.321 | +./stack.sh:exit_trap:529                  [[ -n '' ]]
+2026-10-28 07:19:25.322 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.325 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.326 | +./stack.sh:exit_trap:535                  '[' -f '' ']'
+2026-10-28 07:19:25.327 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.330 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.331 | +./stack.sh:exit_trap:540                  kill_spinner
+2026-10-28 07:19:25.332 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.335 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.336 | +./stack.sh:kill_spinner:435               '[' '!' -z '' ']'
+2026-10-28 07:19:25.337 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.340 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.341 | +./stack.sh:exit_trap:542                  [[ 100 -ne 0 ]]
+2026-10-28 07:19:25.342 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.346 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.347 | +./stack.sh:exit_trap:543                  echo 'Error on exit'
+2026-10-28 07:19:25.347 | Error on exit
+2026-10-28 07:19:25.348 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.351 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.352 | +./stack.sh:exit_trap:545                  type -p generate-subunit
+2026-10-28 07:19:25.354 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.357 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.358 | +./stack.sh:exit_trap:548                  [[ -z /tmp/devstack_logs ]]
+2026-10-28 07:19:25.359 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.363 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.364 | +./stack.sh:exit_trap:551                  /usr/bin/python3.12 /opt/stack/devstack/tools/worlddump.py -d /tmp/devstack_logs
+2026-10-28 07:19:25.649 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.654 | tput: No value for $TERM and no -T specified
+2026-10-28 07:19:25.656 | +./stack.sh:exit_trap:560                  exit 100
