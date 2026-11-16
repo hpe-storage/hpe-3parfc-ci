@@ -1,0 +1,3 @@
+2026-11-16 14:12:12.312 | stack.sh log /tmp/devstack_logs/devstacklog.txt.2026-11-16-141212
+2026-11-16 14:12:31.246 | Installing package prerequisites
+2026-11-16 14:16:44.771 | Starting RabbitMQ
