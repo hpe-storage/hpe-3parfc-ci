@@ -1,0 +1,21 @@
+2026-11-26 13:19:32.216 | stack.sh log /tmp/devstack_logs/devstacklog.txt.2026-11-26-131932
+2026-11-26 13:19:51.237 | Installing package prerequisites
+2026-11-26 13:24:55.906 | Starting RabbitMQ
+2026-11-26 13:25:31.018 | Installing OpenStack project source
+2026-11-26 13:32:20.383 | Installing Tempest
+2026-11-26 13:32:25.261 | Configuring and starting MySQL
+2026-11-26 13:32:40.668 | Starting Keystone
+2026-11-26 13:34:22.903 | Configuring Glance
+2026-11-26 13:34:23.106 | Configuring Neutron
+2026-11-26 13:35:12.820 | Configuring Cinder
+2026-11-26 13:35:13.010 | Configuring placement
+2026-11-26 13:35:40.185 | Configuring Nova
+2026-11-26 13:35:57.580 | Starting Nova API
+2026-11-26 13:36:03.430 | Starting OVN services
+2026-11-26 13:36:17.177 | Starting Neutron
+2026-11-26 13:36:25.526 | Starting Placement
+2026-11-26 13:36:31.630 | Creating initial neutron network elements
+2026-11-26 13:37:03.095 | Starting Nova
+2026-11-26 13:37:20.261 | Starting Cinder
+2026-11-26 13:37:33.934 | Starting Glance
+2026-11-26 13:37:39.080 | Uploading images
